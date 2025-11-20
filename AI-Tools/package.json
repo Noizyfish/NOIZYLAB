@@ -1,0 +1,24 @@
+{
+  "name": "noizylab-email-agent",
+  "version": "1.0.0",
+  "description": "AI agent for NOIZYLAB email system automation",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js",
+    "dev": "node agent.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "email",
+    "agent",
+    "automation",
+    "noizylab"
+  ],
+  "author": "NOIZYLAB",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^7.0.7",
+    "dotenv": "^16.3.1"
+  }
+}
