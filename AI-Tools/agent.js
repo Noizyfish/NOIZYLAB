@@ -161,7 +161,7 @@ app.get('/agent/info', (req, res) => {
 });
 
 // Verify SMTP connection
-app.get('/agent/verify', async (req, res) => {
+app.get('/agent/verify', rateLimitMiddleware, async (req, res) => {
   const result = await verifyConnection();
   res.json(result);
 });
@@ -182,7 +182,7 @@ app.post('/agent/send-email', rateLimitMiddleware, async (req, res) => {
 });
 
 // Generate email template
-app.post('/agent/generate-template', (req, res) => {
+app.post('/agent/generate-template', rateLimitMiddleware, (req, res) => {
   const { type, data } = req.body;
   
   let template = {
