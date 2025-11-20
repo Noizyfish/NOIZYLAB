@@ -90,11 +90,23 @@ function log(level, message, data = null) {
 
 // Agent capabilities
 
+// Email queue for handling multiple emails
+const emailQueue = [];
+let isProcessingQueue = false;
+
 /**
- * Send an email
+ * Validate email address
+ */
+function validateEmail(email) {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+}
+
+/**
+ * Send an email with optional attachments
  */
 async function sendEmail(options) {
-  const { from, to, subject, text, html } = options;
+  const { from, to, subject, text, html, attachments } = options;
   
   try {
     const mailOptions = {
@@ -105,6 +117,11 @@ async function sendEmail(options) {
       html
     };
     
+    // Add attachments if provided
+    if (attachments && attachments.length > 0) {
+      mailOptions.attachments = attachments;
+    }
+    
     const info = await transporter.sendMail(mailOptions);
     log('info', 'Email sent successfully', { messageId: info.messageId, to });
     return { success: true, messageId: info.messageId };
@@ -113,6 +130,79 @@ async function sendEmail(options) {
     return { success: false, error: error.message };
   }
 }
+
+/**
+ * Send bulk emails
+ */
+async function sendBulkEmails(recipients, emailData) {
+  const results = [];
+  
+  for (const recipient of recipients) {
+    const result = await sendEmail({
+      ...emailData,
+      to: recipient
+    });
+    results.push({
+      recipient,
+      ...result
+    });
+    
+    // Small delay between emails to avoid overwhelming the SMTP server
+    await new Promise(resolve => setTimeout(resolve, 100));
+  }
+  
+  return results;
+}
+
+/**
+ * Add email to queue
+ */
+function addToQueue(emailData) {
+  const queueItem = {
+    id: Date.now() + Math.random(),
+    ...emailData,
+    status: 'pending',
+    createdAt: new Date().toISOString()
+  };
+  
+  emailQueue.push(queueItem);
+  log('info', 'Email added to queue', { id: queueItem.id, to: emailData.to });
+  
+  // Start processing queue if not already processing
+  if (!isProcessingQueue) {
+    processQueue();
+  }
+  
+  return queueItem;
+}
+
+/**
+ * Process email queue
+ */
+async function processQueue() {
+  if (isProcessingQueue || emailQueue.length === 0) {
+    return;
+  }
+  
+  isProcessingQueue = true;
+  log('info', 'Starting queue processing', { queueSize: emailQueue.length });
+  
+  while (emailQueue.length > 0) {
+    const item = emailQueue.shift();
+    item.status = 'processing';
+    
+    const result = await sendEmail(item);
+    item.status = result.success ? 'sent' : 'failed';
+    item.result = result;
+    item.completedAt = new Date().toISOString();
+    
+    log('info', 'Queue item processed', { id: item.id, status: item.status });
+  }
+  
+  isProcessingQueue = false;
+  log('info', 'Queue processing completed');
+}
+
 
 /**
  * Verify SMTP connection
