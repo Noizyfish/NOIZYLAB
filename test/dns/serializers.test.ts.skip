@@ -1,0 +1,348 @@
+/**
+ * Tests for serializers module
+ */
+
+import { describe, it, expect } from 'vitest';
+import { toZoneFile, toHumanReadable, toProviderPayload } from '../../infra/dns/serializers.js';
+import type { ZoneConfig } from '../../infra/dns/types.js';
+
+describe('serializers', () => {
+  describe('toZoneFile', () => {
+    it('should generate a valid zone file with SOA header', () => {
+      const config: ZoneConfig = {
+        zone: 'example.com',
+        defaultTtl: 3600,
+        records: [
+          { type: 'A', name: '@', value: '192.0.2.1', ttl: 3600 },
+          { type: 'A', name: 'www', value: '192.0.2.2', ttl: 3600 },
+        ],
+      };
+
+      const zoneFile = toZoneFile(config);
+
+      expect(zoneFile).toContain('$ORIGIN example.com.');
+      expect(zoneFile).toContain('$TTL 3600');
+      expect(zoneFile).toContain('SOA');
+      expect(zoneFile).toContain('serial');
+      expect(zoneFile).toContain('refresh');
+      expect(zoneFile).toContain('retry');
+      expect(zoneFile).toContain('expire');
+      expect(zoneFile).toContain('minimum');
+    });
+
+    it('should format A records correctly', () => {
+      const config: ZoneConfig = {
+        zone: 'example.com',
+        defaultTtl: 3600,
+        records: [{ type: 'A', name: 'www', value: '192.0.2.1', ttl: 3600 }],
+      };
+
+      const zoneFile = toZoneFile(config);
+
+      expect(zoneFile).toContain('www');
+      expect(zoneFile).toContain('IN A');
+      expect(zoneFile).toContain('192.0.2.1');
+    });
+
+    it('should format CNAME records correctly', () => {
+      const config: ZoneConfig = {
+        zone: 'example.com',
+        defaultTtl: 3600,
+        records: [{ type: 'CNAME', name: 'www', target: 'example.com.', ttl: 3600 }],
+      };
+
+      const zoneFile = toZoneFile(config);
+
+      expect(zoneFile).toContain('www');
+      expect(zoneFile).toContain('IN CNAME');
+      expect(zoneFile).toContain('example.com.');
+    });
+
+    it('should format MX records correctly', () => {
+      const config: ZoneConfig = {
+        zone: 'example.com',
+        defaultTtl: 3600,
+        records: [{ type: 'MX', name: '@', priority: 10, target: 'mail.example.com.', ttl: 3600 }],
+      };
+
+      const zoneFile = toZoneFile(config);
+
+      expect(zoneFile).toContain('@');
+      expect(zoneFile).toContain('IN MX');
+      expect(zoneFile).toContain('10');
+      expect(zoneFile).toContain('mail.example.com.');
+    });
+
+    it('should escape TXT records with quotes', () => {
+      const config: ZoneConfig = {
+        zone: 'example.com',
+        defaultTtl: 3600,
+        records: [{ type: 'TXT', name: '@', value: 'v=spf1 include:_spf.google.com ~all', ttl: 3600 }],
+      };
+
+      const zoneFile = toZoneFile(config);
+
+      expect(zoneFile).toContain('IN TXT');
+      expect(zoneFile).toContain('"v=spf1 include:_spf.google.com ~all"');
+    });
+
+    it('should handle multi-string TXT records for long values', () => {
+      const config: ZoneConfig = {
+        zone: 'example.com',
+        defaultTtl: 3600,
+        records: [{ type: 'TXT', name: '@', value: 'a'.repeat(300), ttl: 3600 }],
+      };
+
+      const zoneFile = toZoneFile(config);
+
+      // Should split into multiple quoted strings
+      expect(zoneFile).toContain('IN TXT');
+      const matches = zoneFile.match(/"/g);
+      expect(matches).toBeTruthy();
+      expect(matches!.length).toBeGreaterThanOrEqual(4); // At least 2 pairs of quotes
+    });
+
+    it('should format SRV records correctly', () => {
+      const config: ZoneConfig = {
+        zone: 'example.com',
+        defaultTtl: 3600,
+        records: [
+          {
+            type: 'SRV',
+            name: '_http._tcp',
+            priority: 10,
+            weight: 20,
+            port: 80,
+            target: 'server.example.com.',
+            ttl: 3600,
+          },
+        ],
+      };
+
+      const zoneFile = toZoneFile(config);
+
+      expect(zoneFile).toContain('_http._tcp');
+      expect(zoneFile).toContain('IN SRV');
+      expect(zoneFile).toContain('10 20 80');
+      expect(zoneFile).toContain('server.example.com.');
+    });
+
+    it('should format CAA records correctly', () => {
+      const config: ZoneConfig = {
+        zone: 'example.com',
+        defaultTtl: 3600,
+        records: [{ type: 'CAA', name: '@', flags: 0, tag: 'issue', value: 'letsencrypt.org', ttl: 3600 }],
+      };
+
+      const zoneFile = toZoneFile(config);
+
+      expect(zoneFile).toContain('IN CAA');
+      expect(zoneFile).toContain('0 issue');
+      expect(zoneFile).toContain('"letsencrypt.org"');
+    });
+
+    it('should include comments in zone file', () => {
+      const config: ZoneConfig = {
+        zone: 'example.com',
+        defaultTtl: 3600,
+        records: [{ type: 'A', name: 'www', value: '192.0.2.1', ttl: 3600, comment: 'Web server' }],
+      };
+
+      const zoneFile = toZoneFile(config);
+
+      expect(zoneFile).toContain('; Web server');
+    });
+  });
+
+  describe('toHumanReadable', () => {
+    it('should format configuration in table format', () => {
+      const config: ZoneConfig = {
+        zone: 'example.com',
+        defaultTtl: 3600,
+        records: [
+          { type: 'A', name: 'www', value: '192.0.2.1', ttl: 3600 },
+          { type: 'MX', name: '@', priority: 10, target: 'mail.example.com.', ttl: 3600 },
+        ],
+      };
+
+      const output = toHumanReadable(config);
+
+      expect(output).toContain('example.com');
+      expect(output).toContain('Default TTL');
+      expect(output).toContain('3600');
+      expect(output).toContain('Records');
+      expect(output).toContain('Type');
+      expect(output).toContain('Name');
+      expect(output).toContain('TTL');
+      expect(output).toContain('Value');
+      expect(output).toContain('A');
+      expect(output).toContain('www');
+      expect(output).toContain('192.0.2.1');
+      expect(output).toContain('MX');
+      expect(output).toContain('10 mail.example.com.');
+    });
+
+    it('should include provider hint if specified', () => {
+      const config: ZoneConfig = {
+        zone: 'example.com',
+        defaultTtl: 3600,
+        providerHint: 'cloudflare',
+        records: [],
+      };
+
+      const output = toHumanReadable(config);
+
+      expect(output).toContain('cloudflare');
+    });
+  });
+
+  describe('toProviderPayload', () => {
+    describe('Cloudflare', () => {
+      it('should format A records for Cloudflare', () => {
+        const config: ZoneConfig = {
+          zone: 'example.com',
+          defaultTtl: 3600,
+          records: [{ type: 'A', name: 'www', value: '192.0.2.1', ttl: 3600 }],
+        };
+
+        const payload = toProviderPayload(config, 'cloudflare') as Array<{
+          type: string;
+          name: string;
+          content: string;
+          ttl: number;
+        }>;
+
+        expect(payload).toHaveLength(1);
+        expect(payload[0].type).toBe('A');
+        expect(payload[0].name).toBe('www.example.com');
+        expect(payload[0].content).toBe('192.0.2.1');
+        expect(payload[0].ttl).toBe(3600);
+      });
+
+      it('should format apex records with zone name', () => {
+        const config: ZoneConfig = {
+          zone: 'example.com',
+          defaultTtl: 3600,
+          records: [{ type: 'A', name: '@', value: '192.0.2.1', ttl: 3600 }],
+        };
+
+        const payload = toProviderPayload(config, 'cloudflare') as Array<{
+          type: string;
+          name: string;
+          content: string;
+          ttl: number;
+        }>;
+
+        expect(payload[0].name).toBe('example.com');
+      });
+
+      it('should format MX records with priority', () => {
+        const config: ZoneConfig = {
+          zone: 'example.com',
+          defaultTtl: 3600,
+          records: [{ type: 'MX', name: '@', priority: 10, target: 'mail.example.com.', ttl: 3600 }],
+        };
+
+        const payload = toProviderPayload(config, 'cloudflare') as Array<{
+          type: string;
+          name: string;
+          content: string;
+          ttl: number;
+          priority?: number;
+        }>;
+
+        expect(payload[0].type).toBe('MX');
+        expect(payload[0].priority).toBe(10);
+        expect(payload[0].content).toBe('mail.example.com.');
+      });
+    });
+
+    describe('GoDaddy', () => {
+      it('should format A records for GoDaddy', () => {
+        const config: ZoneConfig = {
+          zone: 'example.com',
+          defaultTtl: 3600,
+          records: [{ type: 'A', name: 'www', value: '192.0.2.1', ttl: 3600 }],
+        };
+
+        const payload = toProviderPayload(config, 'godaddy') as Array<{
+          type: string;
+          name: string;
+          data: string;
+          ttl: number;
+        }>;
+
+        expect(payload).toHaveLength(1);
+        expect(payload[0].type).toBe('A');
+        expect(payload[0].name).toBe('www');
+        expect(payload[0].data).toBe('192.0.2.1');
+        expect(payload[0].ttl).toBe(3600);
+      });
+
+      it('should use @ for apex records', () => {
+        const config: ZoneConfig = {
+          zone: 'example.com',
+          defaultTtl: 3600,
+          records: [{ type: 'A', name: '@', value: '192.0.2.1', ttl: 3600 }],
+        };
+
+        const payload = toProviderPayload(config, 'godaddy') as Array<{
+          type: string;
+          name: string;
+          data: string;
+          ttl: number;
+        }>;
+
+        expect(payload[0].name).toBe('@');
+      });
+
+      it('should format SRV records with separate fields', () => {
+        const config: ZoneConfig = {
+          zone: 'example.com',
+          defaultTtl: 3600,
+          records: [
+            {
+              type: 'SRV',
+              name: '_http._tcp',
+              priority: 10,
+              weight: 20,
+              port: 80,
+              target: 'server.example.com.',
+              ttl: 3600,
+            },
+          ],
+        };
+
+        const payload = toProviderPayload(config, 'godaddy') as Array<{
+          type: string;
+          name: string;
+          data: string;
+          ttl: number;
+          priority?: number;
+          weight?: number;
+          port?: number;
+        }>;
+
+        expect(payload[0].type).toBe('SRV');
+        expect(payload[0].priority).toBe(10);
+        expect(payload[0].weight).toBe(20);
+        expect(payload[0].port).toBe(80);
+        expect(payload[0].data).toBe('server.example.com.');
+      });
+    });
+
+    describe('Generic', () => {
+      it('should return records as-is for unknown provider', () => {
+        const config: ZoneConfig = {
+          zone: 'example.com',
+          defaultTtl: 3600,
+          records: [{ type: 'A', name: 'www', value: '192.0.2.1', ttl: 3600 }],
+        };
+
+        const payload = toProviderPayload(config, 'other');
+
+        expect(payload).toEqual(config.records);
+      });
+    });
+  });
+});
