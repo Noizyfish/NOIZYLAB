@@ -1,0 +1,35 @@
+{
+  "name": "@noizylab/dns-config",
+  "version": "1.0.0",
+  "description": "Production-grade DNS configuration management for NOIZYLAB",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"**/*.ts\"",
+    "dns": "tsx cli/dns.ts"
+  },
+  "keywords": ["dns", "configuration", "cloudflare", "godaddy"],
+  "author": "NOIZYLAB",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^5.3.0",
+    "ora": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "eslint": "^8.55.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "prettier": "^3.1.0",
+    "tsx": "^4.7.0",
+    "msw": "^2.0.0"
+  }
+}
