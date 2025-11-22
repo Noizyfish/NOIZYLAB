@@ -2,13 +2,26 @@
 
 **AI-Powered Email System Automation at Warp Speed!**
 
+## 🎯 NEW USER? Start Here!
+
+### Complete Setup in 3 Commands:
+```bash
+bash setup_wizard.sh    # Configure your email
+bash test_email.sh      # Test everything works
+npm start               # Start sending emails!
+```
+
+**📚 Full Setup Guide:** [SETUP_GUIDE.md](SETUP_GUIDE.md)
+
+---
+
 ## 🔥 Quick Start (HYPER-DRIVE MODE)
 
 ```bash
 bash deploy_agent.sh && npm install && npm start
 ```
 
-That's it! Agent launches on http://localhost:3000
+Agent launches on http://localhost:3000
 
 ## ⚡ Super Features
 
@@ -78,6 +91,14 @@ POST /agent/generate-template
 
 ## 🔧 Setup
 
+**First Time?** → [Complete Setup Guide](SETUP_GUIDE.md)
+
+**Quick Setup:**
+1. Run wizard: `bash setup_wizard.sh`
+2. Test config: `bash test_email.sh`
+3. Start agent: `npm start`
+
+**Manual Setup:**
 1. Copy config: `cp config/.env.example config/.env`
 2. Add SMTP credentials to `config/.env`
 3. Run: `npm start`
