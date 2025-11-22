@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment files
+.env
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+.DS_Store
+
+# Database
+data/
+*.db
+*.db-shm
+*.db-wal
