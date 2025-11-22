@@ -1,22 +1,39 @@
 #!/usr/bin/env node
 
 /**
- * NOIZYLAB Email Agent
- * AI-powered email system automation agent
+ * NOIZYLAB Email Agent v3.0 - ULTRA MODE
+ * AI-powered email system with analytics, scheduling, and persistence
  */
 
 require('dotenv').config({ path: './config/.env' });
 const express = require('express');
 const nodemailer = require('nodemailer');
+const cors = require('cors');
+const helmet = require('helmet');
+const compression = require('compression');
+const cron = require('node-cron');
+const EmailDatabase = require('./database');
 
 const app = express();
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+
+// Security and performance middleware
+app.use(helmet());
+app.use(cors());
+app.use(compression());
+app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ extended: true, limit: '10mb' }));
+
+// Initialize database
+const db = new EmailDatabase();
+
+// Email cache for performance
+const emailCache = new Map();
+const CACHE_TTL = 300000; // 5 minutes
 
 // Simple in-memory rate limiter
 const rateLimiter = new Map();
 const RATE_LIMIT_WINDOW = 60000; // 1 minute
-const RATE_LIMIT_MAX_REQUESTS = 10; // 10 requests per minute
+const RATE_LIMIT_MAX_REQUESTS = 20; // Increased to 20 requests per minute
 
 function checkRateLimit(ip) {
   const now = Date.now();
@@ -47,6 +64,23 @@ function rateLimitMiddleware(req, res, next) {
   
   next();
 }
+
+// API Key authentication middleware (optional)
+function apiKeyAuth(req, res, next) {
+  const apiKey = req.headers['x-api-key'] || req.query.api_key;
+  
+  if (process.env.REQUIRE_API_KEY === 'true') {
+    if (!apiKey || !db.validateApiKey(apiKey)) {
+      return res.status(401).json({
+        success: false,
+        error: 'Invalid or missing API key'
+      });
+    }
+  }
+  
+  next();
+}
+
 
 
 // Configuration from environment variables
@@ -103,10 +137,19 @@ function validateEmail(email) {
 }
 
 /**
- * Send an email with optional attachments
+ * Send an email with optional attachments and retry logic
  */
-async function sendEmail(options) {
-  const { from, to, subject, text, html, attachments } = options;
+async function sendEmail(options, retryCount = 0) {
+  const { from, to, subject, text, html, attachments, template } = options;
+  const MAX_RETRIES = 3;
+  
+  // Log to database
+  const logEntry = db.logEmail({
+    recipient: to,
+    subject,
+    status: 'pending',
+    template
+  });
   
   try {
     const mailOptions = {
@@ -123,11 +166,28 @@ async function sendEmail(options) {
     }
     
     const info = await transporter.sendMail(mailOptions);
+    
+    // Update database
+    db.updateEmailStatus(logEntry.lastInsertRowid, 'sent', info.messageId);
+    db.updateStats(new Date().toISOString().split('T')[0], 1, 0, 0);
+    
     log('info', 'Email sent successfully', { messageId: info.messageId, to });
-    return { success: true, messageId: info.messageId };
+    return { success: true, messageId: info.messageId, id: logEntry.lastInsertRowid };
   } catch (error) {
-    log('error', 'Failed to send email', { error: error.message, to });
-    return { success: false, error: error.message };
+    log('error', 'Failed to send email', { error: error.message, to, retryCount });
+    
+    // Retry logic
+    if (retryCount < MAX_RETRIES) {
+      log('info', `Retrying email (attempt ${retryCount + 1}/${MAX_RETRIES})`, { to });
+      await new Promise(resolve => setTimeout(resolve, 1000 * (retryCount + 1))); // Exponential backoff
+      return sendEmail(options, retryCount + 1);
+    }
+    
+    // Update database with failure
+    db.updateEmailStatus(logEntry.lastInsertRowid, 'failed', null, error.message);
+    db.updateStats(new Date().toISOString().split('T')[0], 0, 1, 0);
+    
+    return { success: false, error: error.message, id: logEntry.lastInsertRowid };
   }
 }
 
@@ -203,6 +263,41 @@ async function processQueue() {
   log('info', 'Queue processing completed');
 }
 
+/**
+ * Process scheduled emails (runs every minute)
+ */
+async function processScheduledEmails() {
+  try {
+    const pending = db.getPendingScheduledEmails();
+    
+    if (pending.length > 0) {
+      log('info', `Processing ${pending.length} scheduled emails`);
+      
+      for (const scheduled of pending) {
+        const result = await sendEmail({
+          to: scheduled.recipient,
+          subject: scheduled.subject,
+          text: scheduled.body,
+          html: scheduled.html
+        });
+        
+        db.updateScheduledEmail(scheduled.id, result.success ? 'sent' : 'failed');
+      }
+    }
+  } catch (error) {
+    log('error', 'Error processing scheduled emails', { error: error.message });
+  }
+}
+
+// Schedule cron job to process scheduled emails every minute
+cron.schedule('* * * * *', processScheduledEmails);
+log('info', 'Scheduled email processor started (runs every minute)');
+
+  
+  isProcessingQueue = false;
+  log('info', 'Queue processing completed');
+}
+
 
 /**
  * Verify SMTP connection
@@ -222,12 +317,19 @@ async function verifyConnection() {
 
 // Health check
 app.get('/health', (req, res) => {
+  const stats = db.getTotalStats();
   res.json({
     status: 'ok',
     agent: 'noizylab-email-agent',
-    version: '2.0.0',
-    mode: 'HYPER-DRIVE',
-    timestamp: new Date().toISOString()
+    version: '3.0.0',
+    mode: 'ULTRA',
+    timestamp: new Date().toISOString(),
+    stats: {
+      totalSent: stats?.total_sent || 0,
+      totalFailed: stats?.total_failed || 0,
+      queueSize: emailQueue.length
+    },
+    uptime: process.uptime()
   });
 });
 
@@ -235,17 +337,23 @@ app.get('/health', (req, res) => {
 app.get('/agent/info', (req, res) => {
   res.json({
     name: 'noizylab-email-agent',
-    version: '2.0.0',
-    description: 'AI agent for NOIZYLAB email system automation - HYPER-DRIVE MODE',
+    version: '3.0.0',
+    description: 'AI agent for NOIZYLAB email system automation - ULTRA MODE with analytics, scheduling & persistence',
     capabilities: [
-      'email_sending_with_attachments',
+      'email_sending_with_attachments_and_retry',
       'bulk_email_sending',
       'email_queue_system',
+      'scheduled_emails',
       'email_validation',
       'template_generation',
+      'email_analytics',
+      'email_history_tracking',
+      'api_key_authentication',
       'smtp_configuration',
       'nodemailer_integration',
-      'rate_limiting'
+      'rate_limiting',
+      'cluster_mode',
+      'database_persistence'
     ],
     config: {
       smtp_host: config.smtp.host,
@@ -387,6 +495,105 @@ app.get('/agent/queue-status', (req, res) => {
       status: item.status,
       createdAt: item.createdAt
     }))
+  });
+});
+
+// NEW: Analytics endpoint
+app.get('/agent/analytics', apiKeyAuth, (req, res) => {
+  const days = parseInt(req.query.days) || 7;
+  const stats = db.getStats(days);
+  const totalStats = db.getTotalStats();
+  
+  res.json({
+    success: true,
+    period: `${days} days`,
+    daily: stats,
+    totals: totalStats
+  });
+});
+
+// NEW: Email history endpoint
+app.get('/agent/history', apiKeyAuth, (req, res) => {
+  const limit = Math.min(parseInt(req.query.limit) || 100, 1000);
+  const offset = parseInt(req.query.offset) || 0;
+  const status = req.query.status;
+  
+  const history = db.getEmailHistory(limit, offset, status);
+  
+  res.json({
+    success: true,
+    count: history.length,
+    limit,
+    offset,
+    data: history
+  });
+});
+
+// NEW: Schedule email endpoint
+app.post('/agent/schedule-email', rateLimitMiddleware, apiKeyAuth, async (req, res) => {
+  const { to, subject, text, html, scheduleTime } = req.body;
+  
+  if (!to || !subject || (!text && !html) || !scheduleTime) {
+    return res.status(400).json({
+      success: false,
+      error: 'Missing required fields: to, subject, text/html, and scheduleTime'
+    });
+  }
+  
+  if (!validateEmail(to)) {
+    return res.status(400).json({
+      success: false,
+      error: 'Invalid email address'
+    });
+  }
+  
+  // Validate schedule time is in the future
+  const scheduleDate = new Date(scheduleTime);
+  if (scheduleDate <= new Date()) {
+    return res.status(400).json({
+      success: false,
+      error: 'Schedule time must be in the future'
+    });
+  }
+  
+  const result = db.scheduleEmail({
+    recipient: to,
+    subject,
+    text,
+    html,
+    scheduleTime
+  });
+  
+  res.json({
+    success: true,
+    message: 'Email scheduled successfully',
+    scheduleId: result.lastInsertRowid,
+    scheduledFor: scheduleTime
+  });
+});
+
+// NEW: Create API key endpoint
+app.post('/agent/create-api-key', (req, res) => {
+  const { name, masterKey } = req.body;
+  
+  // Require master key for creating API keys
+  if (masterKey !== process.env.MASTER_KEY) {
+    return res.status(401).json({
+      success: false,
+      error: 'Invalid master key'
+    });
+  }
+  
+  const crypto = require('crypto');
+  const apiKey = 'nlk_' + crypto.randomBytes(32).toString('hex');
+  
+  db.createApiKey(apiKey, name || 'Unnamed Key');
+  
+  res.json({
+    success: true,
+    apiKey,
+    name: name || 'Unnamed Key',
+    message: 'Store this key securely - it won\'t be shown again'
   });
 });
 

@@ -1,12 +1,13 @@
 {
   "name": "noizylab-email-agent",
-  "version": "2.0.0",
-  "description": "AI agent for NOIZYLAB email system automation - HYPER-DRIVE MODE",
+  "version": "3.0.0",
+  "description": "AI agent for NOIZYLAB email system automation - ULTRA MODE with analytics, scheduling, and persistence",
   "main": "agent.js",
   "scripts": {
     "start": "node agent.js",
-    "dev": "node agent.js",
-    "test": "echo \"No tests specified\" && exit 0"
+    "dev": "nodemon agent.js",
+    "test": "echo \"No tests specified\" && exit 0",
+    "cluster": "node cluster.js"
   },
   "keywords": [
     "email",
@@ -15,6 +16,8 @@
     "noizylab",
     "bulk-email",
     "queue",
+    "analytics",
+    "scheduling",
     "fast"
   ],
   "author": "NOIZYLAB",
@@ -22,6 +25,14 @@
   "dependencies": {
     "express": "^4.18.2",
     "nodemailer": "^7.0.7",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "better-sqlite3": "^9.2.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }

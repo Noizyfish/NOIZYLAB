@@ -13,3 +13,9 @@ logs/
 tmp/
 temp/
 .DS_Store
+
+# Database
+data/
+*.db
+*.db-shm
+*.db-wal
