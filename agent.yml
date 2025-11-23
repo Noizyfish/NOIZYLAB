@@ -1,0 +1,40 @@
+# NOIZYLAB AI Agent Configuration
+# This agent assists with email system development and deployment
+
+name: noizylab-email-agent
+version: 1.0.0
+description: AI agent for NOIZYLAB email system automation
+
+# Agent capabilities
+capabilities:
+  - email_template_generation
+  - smtp_configuration
+  - nodemailer_integration
+  - express_server_setup
+
+# Configuration
+config:
+  runtime: node
+  framework: express
+  email_library: nodemailer
+  
+# Dependencies
+dependencies:
+  - express
+  - nodemailer
+  - dotenv
+
+# Agent behavior settings
+settings:
+  auto_deploy: false
+  validate_config: true
+  logging_level: info
+  
+# Templates directory
+templates_dir: ./templates
+
+# Deployment settings
+deployment:
+  target: production
+  port: 3000
+  host: 0.0.0.0
