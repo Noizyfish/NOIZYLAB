@@ -1,10 +1,40 @@
-# NOIZYLAB Email System
+# NOIZYLAB
 
-Production-ready email system built for Cloudflare Workers with comprehensive test coverage.
+```
+    ███╗   ██╗ ██████╗ ██╗███████╗██╗   ██╗██╗      █████╗ ██████╗
+    ████╗  ██║██╔═══██╗██║╚══███╔╝╚██╗ ██╔╝██║     ██╔══██╗██╔══██╗
+    ██╔██╗ ██║██║   ██║██║  ███╔╝  ╚████╔╝ ██║     ███████║██████╔╝
+    ██║╚██╗██║██║   ██║██║ ███╔╝    ╚██╔╝  ██║     ██╔══██║██╔══██╗
+    ██║ ╚████║╚██████╔╝██║███████╗   ██║   ███████╗██║  ██║██████╔╝
+    ╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═════╝
+
+         COMPLETE DEVELOPMENT PLATFORM v2.0
+```
 
 [![CI](https://github.com/noizyfish/NOIZYLAB/actions/workflows/ci.yml/badge.svg)](https://github.com/noizyfish/NOIZYLAB/actions/workflows/ci.yml)
 [![Deploy](https://github.com/noizyfish/NOIZYLAB/actions/workflows/deploy.yml/badge.svg)](https://github.com/noizyfish/NOIZYLAB/actions/workflows/deploy.yml)
 [![codecov](https://codecov.io/gh/noizyfish/NOIZYLAB/branch/main/graph/badge.svg)](https://codecov.io/gh/noizyfish/NOIZYLAB)
+
+NOIZYLAB is a comprehensive development platform combining:
+
+1. **Production Email System** - Cloudflare Workers email service with 80%+ test coverage
+2. **Code Management Toolkit** - Scripts for managing, backing up, and securing your entire codebase
+
+---
+
+## Table of Contents
+
+- [Email System](#email-system)
+- [Code Management Toolkit](#code-management-toolkit)
+- [Quick Start](#quick-start)
+- [API Reference](#api-reference)
+- [Toolkit Commands](#toolkit-commands)
+
+---
+
+# Email System
+
+Production-ready email system built for Cloudflare Workers with comprehensive test coverage.
 
 ## Features
 
@@ -19,7 +49,7 @@ Production-ready email system built for Cloudflare Workers with comprehensive te
 - **TypeScript**: Full type safety with strict mode
 - **80%+ Test Coverage**: Unit and integration tests
 
-## Quick Start
+## Email Quick Start
 
 ### Prerequisites
 
@@ -137,48 +167,23 @@ Content-Type: application/json
 }
 ```
 
-### Get Email Status
+### Template Syntax
 
-```bash
-GET /emails/{messageId}
+```html
+{{name}}              <!-- Simple variable -->
+{{user.name}}         <!-- Nested property -->
+{{name|Guest}}        <!-- Default value -->
+
+{{#if premium}}
+  <p>Premium feature!</p>
+{{/if}}
+
+{{#each items}}
+  <li>{{@index}}: {{name}}</li>
+{{/each}}
 ```
 
-### List Emails
-
-```bash
-GET /emails?limit=50&offset=0&status=sent
-```
-
-### Create Template
-
-```bash
-POST /templates
-Content-Type: application/json
-
-{
-  "id": "welcome-email",
-  "name": "Welcome Email",
-  "subject": "Welcome to {{company}}, {{name}}!",
-  "html": "<h1>Hello {{name}}!</h1><p>Welcome to {{company}}.</p>",
-  "text": "Hello {{name}}! Welcome to {{company}}."
-}
-```
-
-### Preview Template
-
-```bash
-POST /templates/{id}/preview
-Content-Type: application/json
-
-{
-  "data": {
-    "name": "John",
-    "company": "Acme Inc"
-  }
-}
-```
-
-### Health Check
+### Health Checks
 
 ```bash
 GET /health          # Simple health check
@@ -187,86 +192,205 @@ GET /health/live     # Liveness probe
 GET /health/ready    # Readiness probe
 ```
 
-## Template Syntax
+---
 
-### Variables
+# Code Management Toolkit
 
-```html
-{{name}}              <!-- Simple variable -->
-{{user.name}}         <!-- Nested property -->
-{{name|Guest}}        <!-- Default value -->
-```
+A comprehensive toolkit for managing, backing up, analyzing, and securing your entire codebase across multiple drives and cloud storage.
 
-### Conditionals
+## Toolkit Features
 
-```html
-{{#if premium}}
-  <p>Premium feature!</p>
-{{/if}}
-```
+- **Code Extraction** - Extract and organize code from external drives
+- **Backup & Sync** - Incremental backups with rsync, mirror mode, watch mode
+- **Permission Repair** - Fix file permissions, ACLs, extended attributes
+- **File Integrity** - SHA256/MD5 checksums and verification
+- **Duplicate Detection** - Find and clean duplicate files
+- **Git Management** - Batch operations across all repositories
+- **Code Statistics** - Lines of code, language breakdown, complexity
+- **Security Scanning** - Detect secrets, API keys, vulnerabilities
+- **Project Analysis** - Smart detection of frameworks and technologies
+- **Dependency Scanning** - Find outdated packages and vulnerabilities
+- **Cloud Sync** - Sync to S3, Google Drive, Dropbox, Backblaze
+- **Automation** - Scheduled tasks via LaunchAgents/cron
+- **Notifications** - macOS notifications with sounds
+- **Real-time Dashboard** - Monitor system status
+- **HTML Reports** - Beautiful visual reports
 
-### Loops
+## Toolkit Quick Start
 
-```html
-<ul>
-{{#each items}}
-  <li>{{@index}}: {{name}}</li>
-{{/each}}
-</ul>
-```
-
-Loop variables:
-- `{{@index}}` - Current index (0-based)
-- `{{@first}}` - True if first item
-- `{{@last}}` - True if last item
-
-## Email Providers
-
-### MailChannels (Default)
-
-Free email sending for Cloudflare Workers. No API key required.
-
-```javascript
-// Automatically used when no other provider is configured
-```
-
-### Resend
+### One-Command Installation
 
 ```bash
-wrangler secret put RESEND_API_KEY
-# Enter your API key starting with "re_"
+cd NOIZYLAB
+./scripts/install.sh
 ```
 
-### SendGrid
+This will:
+1. Create `~/.noizylab` directory structure
+2. Set proper permissions on all scripts
+3. Create the global `noizylab` command
+4. Set up shell completion
+5. Install automation agents
+
+### Interactive Menu
 
 ```bash
-wrangler secret put SENDGRID_API_KEY
-# Enter your API key starting with "SG."
+./scripts/menu.sh
+# or after installation:
+noizylab menu
 ```
 
-## Rate Limiting
+## Toolkit Commands
 
-Default: 100 requests per hour per client.
-
-Configure in `wrangler.toml`:
-
-```toml
-[vars]
-RATE_LIMIT_MAX_REQUESTS = "100"
-RATE_LIMIT_WINDOW_SECONDS = "3600"
-```
-
-Rate limit headers:
-- `X-RateLimit-Limit` - Maximum requests
-- `X-RateLimit-Remaining` - Remaining requests
-- `X-RateLimit-Reset` - Reset timestamp
-- `Retry-After` - Seconds until reset (when limited)
-
-## Development
-
-### Commands
+### Master CLI
 
 ```bash
+# System health check
+noizylab doctor
+
+# Real-time dashboard
+noizylab dashboard
+
+# Extract code from external drive
+noizylab extract /Volumes/MyDrive
+
+# Backup with sync
+noizylab backup sync
+
+# Fix permissions
+noizylab permissions /path/to/fix
+
+# Verify file integrity
+noizylab integrity verify
+
+# Find duplicates
+noizylab duplicates scan
+
+# Git operations
+noizylab git list
+noizylab git fetch
+noizylab git dirty
+
+# Code statistics
+noizylab stats
+
+# Security scan
+noizylab security scan
+
+# Analyze projects
+noizylab analyze
+
+# Scan dependencies
+noizylab dependencies
+
+# Cloud sync
+noizylab cloud sync
+
+# Generate report
+noizylab report
+```
+
+### Individual Scripts
+
+| Script | Description |
+|--------|-------------|
+| `extract-and-move-code.sh` | Extract code from external drives |
+| `backup-sync.sh` | Backup and synchronization |
+| `repair-permissions.sh` | Fix file permissions |
+| `integrity-checker.sh` | File integrity verification |
+| `duplicate-cleaner.sh` | Find/remove duplicates |
+| `git-manager.sh` | Git repository management |
+| `code-stats.sh` | Code statistics |
+| `security-scanner.sh` | Security scanning |
+| `project-analyzer.sh` | Project type detection |
+| `dependency-scanner.sh` | Dependency vulnerability scanning |
+| `cloud-sync.sh` | Cloud storage sync |
+| `dashboard.sh` | Real-time monitoring |
+| `generate-report.sh` | HTML report generation |
+| `notify.sh` | macOS notifications |
+| `setup-automation.sh` | Scheduled task setup |
+| `menu.sh` | Interactive TUI |
+| `install.sh` | One-command installer |
+
+### Automation Schedule
+
+When automation is installed, these tasks run automatically:
+
+| Task | Schedule |
+|------|----------|
+| Daily backup | 2:00 AM |
+| Hourly sync | Every hour |
+| Weekly integrity check | Sunday 3:00 AM |
+| Weekly security scan | Saturday 4:00 AM |
+| Weekly git fetch | Monday 6:00 AM |
+| Monthly cleanup report | 1st of month 5:00 AM |
+
+### Cloud Sync Support
+
+```bash
+# Configure providers
+./scripts/cloud-sync.sh config s3
+./scripts/cloud-sync.sh config gdrive
+./scripts/cloud-sync.sh config dropbox
+
+# Sync
+./scripts/cloud-sync.sh sync ~/code
+```
+
+Supported: AWS S3, Google Drive, Dropbox, Backblaze B2, any rclone remote
+
+---
+
+## Project Structure
+
+```
+NOIZYLAB/
+├── src/                      # Email system source
+│   ├── index.ts              # Main entry point
+│   ├── types/                # TypeScript types & Zod schemas
+│   ├── errors/               # Custom error classes
+│   ├── utils/                # Utility functions
+│   ├── services/             # Business logic
+│   │   ├── email-service.ts
+│   │   ├── rate-limiter.ts
+│   │   ├── template-engine.ts
+│   │   └── providers/        # Email providers
+│   ├── routes/               # API routes
+│   └── middleware/           # Hono middleware
+├── tests/                    # Test suites
+│   ├── unit/                 # Unit tests
+│   └── integration/          # Integration tests
+├── scripts/                  # Code management toolkit
+│   ├── noizylab             # Master CLI
+│   ├── menu.sh              # Interactive TUI
+│   ├── install.sh           # Installer
+│   ├── extract-*.sh         # Code extraction
+│   ├── backup-sync.sh       # Backup & sync
+│   ├── repair-permissions.sh # Permission repair
+│   ├── integrity-checker.sh # Integrity checks
+│   ├── duplicate-cleaner.sh # Duplicate management
+│   ├── git-manager.sh       # Git management
+│   ├── code-stats.sh        # Statistics
+│   ├── security-scanner.sh  # Security scanning
+│   ├── project-analyzer.sh  # Project analysis
+│   ├── dependency-scanner.sh # Dependency scanning
+│   ├── cloud-sync.sh        # Cloud sync
+│   ├── dashboard.sh         # Dashboard
+│   ├── generate-report.sh   # Report generation
+│   ├── notify.sh            # Notifications
+│   └── setup-automation.sh  # Automation setup
+├── migrations/               # D1 database migrations
+├── .github/workflows/        # CI/CD pipelines
+├── CODE_MASTER/              # Documentation
+├── wrangler.toml             # Cloudflare config
+├── vitest.config.ts          # Test config
+└── package.json
+```
+
+## Development Commands
+
+```bash
+# Email system
 npm run dev           # Start development server
 npm run test          # Run tests
 npm run test:watch    # Run tests in watch mode
@@ -276,37 +400,16 @@ npm run lint:fix      # Fix ESLint issues
 npm run typecheck     # Run TypeScript check
 npm run format        # Format code with Prettier
 npm run validate      # Run all checks
-```
 
-### Project Structure
-
-```
-NOIZYLAB/
-├── src/
-│   ├── index.ts           # Main entry point
-│   ├── types/             # TypeScript types & Zod schemas
-│   ├── errors/            # Custom error classes
-│   ├── utils/             # Utility functions
-│   ├── services/          # Business logic
-│   │   ├── email-service.ts
-│   │   ├── rate-limiter.ts
-│   │   ├── template-engine.ts
-│   │   └── providers/     # Email providers
-│   ├── routes/            # API routes
-│   └── middleware/        # Hono middleware
-├── tests/
-│   ├── unit/              # Unit tests
-│   └── integration/       # Integration tests
-├── migrations/            # D1 database migrations
-├── .github/workflows/     # CI/CD pipelines
-├── wrangler.toml          # Cloudflare config
-├── vitest.config.ts       # Test config
-└── package.json
+# Toolkit
+./scripts/noizylab doctor    # Health check
+./scripts/noizylab dashboard # Monitoring
+./scripts/menu.sh            # Interactive menu
 ```
 
 ## Deployment
 
-### Manual Deployment
+### Email System
 
 ```bash
 # Deploy to staging
@@ -316,16 +419,27 @@ npm run deploy -- --env staging
 npm run deploy -- --env production
 ```
 
-### Automated Deployment
+### Toolkit Installation
 
-Push to `main` branch triggers:
-1. CI checks (lint, typecheck, test)
-2. Deploy to staging
-3. Health check
-4. Deploy to production
-5. Create release
+```bash
+./scripts/install.sh           # Install
+./scripts/install.sh --uninstall  # Uninstall
+```
 
-## Error Codes
+## Requirements
+
+### Email System
+- Node.js 18+
+- Cloudflare account
+- Wrangler CLI
+
+### Toolkit
+- macOS or Linux
+- Bash 4.0+
+- Python 3.6+ (for some scripts)
+- Optional: rsync, rclone, jq, aws-cli
+
+## Error Codes (Email System)
 
 | Code | Description |
 |------|-------------|
@@ -355,4 +469,3 @@ MIT License - see [LICENSE](LICENSE) for details.
 ## Support
 
 - [GitHub Issues](https://github.com/noizyfish/NOIZYLAB/issues)
-- [Documentation](https://docs.noizylab.com)
