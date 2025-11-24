@@ -1,0 +1,26 @@
+{
+  "name": "NOIZYLAB Cockpit",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "postCreateCommand": "pip install -U pip && pip install transformers accelerate safetensors peft datasets sentencepiece fastapi uvicorn paho-mqtt requests faiss-cpu sentence-transformers && npm i -g wrangler @github/copilot && npm i",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true,
+        "files.trimTrailingWhitespace": true
+      },
+      "extensions": [
+        "cursor.cursor",
+        "ms-python.python",
+        "ms-python.black-formatter",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "mounts": [
+    "source=${localEnv:HOME}/mc96,target=/workspaces/mc96,type=bind"
+  ]
+}
