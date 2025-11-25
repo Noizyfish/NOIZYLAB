@@ -1,0 +1,304 @@
+# ==============================================================================
+# THE LIBRARIAN - Home Assistant Integration
+# ==============================================================================
+# Sensors and automations for Audio Canon monitoring
+# Fish Music Inc. / MissionControl96 / NOIZYLAB
+# ==============================================================================
+
+# Add to configuration.yaml or as separate package
+
+# ==============================================================================
+# REST SENSORS - Pull data from Audio Registry
+# ==============================================================================
+sensor:
+  # Main catalog sensors
+  - platform: rest
+    name: Audio Catalog Total Items
+    resource: "http://localhost:8080/Audio_Registry/data/index.json"
+    value_template: "{{ value_json.meta.itemCount }}"
+    unit_of_measurement: "items"
+    scan_interval: 300
+    json_attributes_path: "$.meta"
+    json_attributes:
+      - catalogName
+      - version
+      - generatedAt
+
+  - platform: rest
+    name: Audio Catalog DAWs
+    resource: "http://localhost:8080/Audio_Registry/data/index.json"
+    value_template: "{{ value_json.stats.byType.daw }}"
+    unit_of_measurement: "DAWs"
+    scan_interval: 300
+
+  - platform: rest
+    name: Audio Catalog Plugins
+    resource: "http://localhost:8080/Audio_Registry/data/index.json"
+    value_template: "{{ value_json.stats.byType.plugin }}"
+    unit_of_measurement: "plugins"
+    scan_interval: 300
+
+  - platform: rest
+    name: Audio Catalog Instruments
+    resource: "http://localhost:8080/Audio_Registry/data/index.json"
+    value_template: "{{ value_json.stats.byType.instrument }}"
+    unit_of_measurement: "instruments"
+    scan_interval: 300
+
+  # Health score sensor
+  - platform: rest
+    name: Audio Catalog Health Score
+    resource: "http://localhost:8080/Audio_Registry/data/audit.json"
+    value_template: "{{ value_json.health.health_score | default(0) }}"
+    unit_of_measurement: "%"
+    scan_interval: 600
+    json_attributes_path: "$.health"
+    json_attributes:
+      - total_items
+      - active
+      - legacy
+      - has_url
+      - has_year
+
+  # OS Coverage sensors
+  - platform: rest
+    name: Audio Catalog macOS Coverage
+    resource: "http://localhost:8080/Audio_Registry/data/index.json"
+    value_template: "{{ value_json.stats.byOS.macOS }}"
+    unit_of_measurement: "items"
+    scan_interval: 300
+
+  - platform: rest
+    name: Audio Catalog Windows Coverage
+    resource: "http://localhost:8080/Audio_Registry/data/index.json"
+    value_template: "{{ value_json.stats.byOS.Windows }}"
+    unit_of_measurement: "items"
+    scan_interval: 300
+
+  - platform: rest
+    name: Audio Catalog Linux Coverage
+    resource: "http://localhost:8080/Audio_Registry/data/index.json"
+    value_template: "{{ value_json.stats.byOS.Linux }}"
+    unit_of_measurement: "items"
+    scan_interval: 300
+
+  # Template sensors for calculated values
+  - platform: template
+    sensors:
+      audio_catalog_coverage_percentage:
+        friendly_name: "Catalog Coverage %"
+        unit_of_measurement: "%"
+        value_template: >
+          {% set total = states('sensor.audio_catalog_total_items') | int(0) %}
+          {% set has_url = state_attr('sensor.audio_catalog_health_score', 'has_url') | int(0) %}
+          {% if total > 0 %}
+            {{ ((has_url / total) * 100) | round(1) }}
+          {% else %}
+            0
+          {% endif %}
+
+      audio_catalog_active_ratio:
+        friendly_name: "Active Items Ratio"
+        unit_of_measurement: "%"
+        value_template: >
+          {% set total = states('sensor.audio_catalog_total_items') | int(0) %}
+          {% set active = state_attr('sensor.audio_catalog_health_score', 'active') | int(0) %}
+          {% if total > 0 %}
+            {{ ((active / total) * 100) | round(1) }}
+          {% else %}
+            0
+          {% endif %}
+
+      audio_catalog_status:
+        friendly_name: "Catalog Status"
+        value_template: >
+          {% set score = states('sensor.audio_catalog_health_score') | int(0) %}
+          {% if score >= 80 %}
+            Healthy
+          {% elif score >= 60 %}
+            Needs Attention
+          {% else %}
+            Critical
+          {% endif %}
+        icon_template: >
+          {% set score = states('sensor.audio_catalog_health_score') | int(0) %}
+          {% if score >= 80 %}
+            mdi:check-circle
+          {% elif score >= 60 %}
+            mdi:alert-circle
+          {% else %}
+            mdi:close-circle
+          {% endif %}
+
+# ==============================================================================
+# COMMAND LINE SENSORS - Run audit scripts
+# ==============================================================================
+  - platform: command_line
+    name: Audio Catalog Last Audit
+    command: "cat /path/to/Audio_Registry/data/audit.json | jq -r '.timestamp'"
+    scan_interval: 3600
+
+# ==============================================================================
+# BINARY SENSORS
+# ==============================================================================
+binary_sensor:
+  - platform: template
+    sensors:
+      audio_catalog_healthy:
+        friendly_name: "Catalog Healthy"
+        value_template: "{{ states('sensor.audio_catalog_health_score') | int(0) >= 80 }}"
+        device_class: problem
+        delay_off:
+          minutes: 5
+
+      audio_catalog_needs_audit:
+        friendly_name: "Catalog Needs Audit"
+        value_template: >
+          {% set last_audit = states('sensor.audio_catalog_last_audit') %}
+          {% if last_audit not in ['unknown', 'unavailable'] %}
+            {{ (as_timestamp(now()) - as_timestamp(last_audit)) > 2592000 }}
+          {% else %}
+            true
+          {% endif %}
+
+# ==============================================================================
+# INPUT HELPERS
+# ==============================================================================
+input_boolean:
+  audio_catalog_auto_audit:
+    name: Auto Audit Enabled
+    icon: mdi:clipboard-check-outline
+
+input_datetime:
+  audio_catalog_next_audit:
+    name: Next Scheduled Audit
+    has_date: true
+    has_time: true
+
+# ==============================================================================
+# SHELL COMMANDS
+# ==============================================================================
+shell_command:
+  run_audio_catalog_audit: >
+    cd /path/to/Audio_Registry &&
+    python3 tools/audit/run_audit.py --json data/audit.json
+
+  export_audio_catalog: >
+    cd /path/to/Audio_Registry &&
+    python3 tools/export/export_index.py --format all
+
+  backup_audio_catalog: >
+    cd /path/to/Audio_Registry &&
+    tar -czf /backups/audio_catalog_$(date +%Y%m%d).tar.gz data/
+
+# ==============================================================================
+# AUTOMATIONS
+# ==============================================================================
+automation:
+  - id: audio_catalog_monthly_audit
+    alias: "Audio Catalog - Monthly Audit"
+    description: "Run catalog audit on the first of each month"
+    trigger:
+      - platform: time
+        at: "03:00:00"
+    condition:
+      - condition: template
+        value_template: "{{ now().day == 1 }}"
+      - condition: state
+        entity_id: input_boolean.audio_catalog_auto_audit
+        state: "on"
+    action:
+      - service: shell_command.run_audio_catalog_audit
+      - service: notify.mobile_app
+        data:
+          title: "Audio Catalog Audit Complete"
+          message: "Monthly audit finished. Health score: {{ states('sensor.audio_catalog_health_score') }}%"
+
+  - id: audio_catalog_health_alert
+    alias: "Audio Catalog - Health Alert"
+    description: "Alert when catalog health drops below threshold"
+    trigger:
+      - platform: numeric_state
+        entity_id: sensor.audio_catalog_health_score
+        below: 60
+        for:
+          hours: 1
+    action:
+      - service: notify.mobile_app
+        data:
+          title: "Audio Catalog Health Warning"
+          message: "Catalog health score is {{ states('sensor.audio_catalog_health_score') }}%. Review recommended."
+          data:
+            tag: audio_catalog_health
+            importance: high
+
+  - id: audio_catalog_backup_weekly
+    alias: "Audio Catalog - Weekly Backup"
+    trigger:
+      - platform: time
+        at: "02:00:00"
+    condition:
+      - condition: time
+        weekday:
+          - sun
+    action:
+      - service: shell_command.backup_audio_catalog
+      - service: persistent_notification.create
+        data:
+          title: "Audio Catalog Backup"
+          message: "Weekly backup completed at {{ now() }}"
+
+# ==============================================================================
+# SCRIPTS
+# ==============================================================================
+script:
+  run_audio_catalog_audit:
+    alias: "Run Audio Catalog Audit"
+    sequence:
+      - service: shell_command.run_audio_catalog_audit
+      - delay:
+          seconds: 30
+      - service: homeassistant.update_entity
+        target:
+          entity_id: sensor.audio_catalog_health_score
+
+  export_audio_catalog:
+    alias: "Export Audio Catalog"
+    sequence:
+      - service: shell_command.export_audio_catalog
+      - service: homeassistant.update_entity
+        target:
+          entity_id: sensor.audio_catalog_total_items
+
+# ==============================================================================
+# LOVELACE DASHBOARD CARD EXAMPLES
+# ==============================================================================
+# Add these cards to your Lovelace dashboard:
+#
+# entities:
+#   - entity: sensor.audio_catalog_total_items
+#   - entity: sensor.audio_catalog_daws
+#   - entity: sensor.audio_catalog_plugins
+#   - entity: sensor.audio_catalog_instruments
+#   - entity: sensor.audio_catalog_health_score
+#   - entity: sensor.audio_catalog_status
+#
+# Example gauge card:
+# type: gauge
+# entity: sensor.audio_catalog_health_score
+# name: Catalog Health
+# min: 0
+# max: 100
+# severity:
+#   green: 80
+#   yellow: 60
+#   red: 0
+#
+# Example button card:
+# type: button
+# entity: script.run_audio_catalog_audit
+# name: Run Audit
+# icon: mdi:clipboard-check
+# tap_action:
+#   action: call-service
+#   service: script.run_audio_catalog_audit

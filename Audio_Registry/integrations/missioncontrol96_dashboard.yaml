@@ -1,0 +1,399 @@
+# ==============================================================================
+# THE LIBRARIAN - MissionControl96 Dashboard Configuration
+# ==============================================================================
+# Dashboard layout and widget configuration for Audio Canon display
+# Fish Music Inc. / MissionControl96 / NOIZYLAB
+# ==============================================================================
+
+meta:
+  dashboardName: Audio Canon Command Center
+  version: 1.0.0
+  theme: dark
+  accessibility:
+    largeText: true
+    highContrast: true
+    touchFriendly: true
+    voiceControl: true
+    gazeControl: true
+    switchControl: true
+
+# ==============================================================================
+# LAYOUT CONFIGURATION
+# ==============================================================================
+layout:
+  type: grid
+  columns: 12
+  rows: auto
+  gap: 16px
+  padding: 24px
+
+# ==============================================================================
+# PAGES
+# ==============================================================================
+pages:
+  - id: overview
+    name: Overview
+    icon: dashboard
+    default: true
+    widgets:
+      - id: total-count
+        type: stat-card
+        title: Total Items
+        dataSource: "index.json#meta.itemCount"
+        position: { col: 1, row: 1, width: 3, height: 2 }
+        style:
+          background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+          fontSize: 4rem
+
+      - id: daw-count
+        type: stat-card
+        title: DAWs
+        dataSource: "index.json#stats.byType.daw"
+        position: { col: 4, row: 1, width: 3, height: 2 }
+        style:
+          background: "#1DB954"
+          icon: workstation
+
+      - id: plugin-count
+        type: stat-card
+        title: Plugins
+        dataSource: "index.json#stats.byType.plugin"
+        position: { col: 7, row: 1, width: 3, height: 2 }
+        style:
+          background: "#FF6B6B"
+          icon: plugin
+
+      - id: instrument-count
+        type: stat-card
+        title: Instruments
+        dataSource: "index.json#stats.byType.instrument"
+        position: { col: 10, row: 1, width: 3, height: 2 }
+        style:
+          background: "#4ECDC4"
+          icon: keyboard
+
+      - id: category-chart
+        type: donut-chart
+        title: By Category
+        dataSource: "index.json#stats.byCategory"
+        position: { col: 1, row: 3, width: 6, height: 4 }
+        options:
+          showLegend: true
+          interactive: true
+
+      - id: decade-timeline
+        type: bar-chart
+        title: By Decade
+        dataSource: "index.json#stats.byDecade"
+        position: { col: 7, row: 3, width: 6, height: 4 }
+        options:
+          horizontal: true
+          showValues: true
+          colors: ["#667eea", "#764ba2", "#f093fb", "#f5576c"]
+
+      - id: health-gauge
+        type: gauge
+        title: Catalog Health
+        dataSource: audit.json#health.health_score
+        position: { col: 1, row: 7, width: 4, height: 3 }
+        options:
+          min: 0
+          max: 100
+          thresholds:
+            - value: 60
+              color: red
+            - value: 80
+              color: yellow
+            - value: 100
+              color: green
+
+      - id: os-coverage
+        type: progress-bars
+        title: OS Coverage
+        dataSource: "index.json#stats.byOS"
+        position: { col: 5, row: 7, width: 4, height: 3 }
+        options:
+          showPercentage: true
+
+      - id: format-coverage
+        type: tag-cloud
+        title: Formats
+        dataSource: "index.json#stats.byFormat"
+        position: { col: 9, row: 7, width: 4, height: 3 }
+
+  - id: catalog
+    name: Catalog
+    icon: list
+    widgets:
+      - id: search-bar
+        type: search
+        position: { col: 1, row: 1, width: 12, height: 1 }
+        options:
+          placeholder: "Search DAWs, plugins, instruments..."
+          fields: [name, developer, category, tags]
+
+      - id: filters
+        type: filter-panel
+        position: { col: 1, row: 2, width: 3, height: 8 }
+        filters:
+          - id: type-filter
+            label: Type
+            field: type
+            type: checkbox
+            options: [daw, plugin, instrument]
+          - id: category-filter
+            label: Category
+            field: category
+            type: checkbox
+            dataSource: "index.json#filterOptions.categories"
+          - id: os-filter
+            label: Platform
+            field: os
+            type: checkbox
+            options: [macOS, Windows, Linux]
+          - id: status-filter
+            label: Status
+            field: status
+            type: checkbox
+            options: [active, legacy, discontinued]
+
+      - id: item-grid
+        type: card-grid
+        position: { col: 4, row: 2, width: 9, height: 8 }
+        dataSource: "index.json#items"
+        cardTemplate:
+          title: "{{name}}"
+          subtitle: "{{developer}}"
+          badge: "{{type}}"
+          tags: "{{tags}}"
+          footer: "{{year}} | {{category}}"
+          onClick: openDetail
+        options:
+          columns: 3
+          pagination: true
+          itemsPerPage: 12
+
+  - id: developers
+    name: Developers
+    icon: business
+    widgets:
+      - id: dev-constellation
+        type: constellation
+        title: Developer Universe
+        dataSource: "developers.json"
+        position: { col: 1, row: 1, width: 12, height: 8 }
+        options:
+          nodeSize: itemCount
+          nodeColor: byCategory
+          interactive: true
+          zoom: true
+          tooltip: true
+          clusters:
+            - name: Instruments
+              filter: "type == 'instruments'"
+              color: "#4ECDC4"
+            - name: Effects
+              filter: "type == 'effects'"
+              color: "#FF6B6B"
+            - name: DAWs
+              filter: "type == 'daws'"
+              color: "#667eea"
+
+  - id: timeline
+    name: Timeline
+    icon: timeline
+    widgets:
+      - id: decade-selector
+        type: tabs
+        position: { col: 1, row: 1, width: 12, height: 1 }
+        options:
+          tabs: [1980s, 1990s, 2000s, 2010s, 2020s]
+
+      - id: timeline-view
+        type: timeline
+        position: { col: 1, row: 2, width: 12, height: 7 }
+        dataSource: "catalog.yaml#timeline"
+        options:
+          showHighlights: true
+          showDAWs: true
+          showLandmarks: true
+          animation: true
+
+  - id: repair
+    name: AI Repair
+    icon: healing
+    widgets:
+      - id: workflow-selector
+        type: workflow-cards
+        title: Repair Workflows
+        position: { col: 1, row: 1, width: 12, height: 3 }
+        dataSource: "REPAIR_AI_MANIFEST.yaml#repair_workflows"
+        cardTemplate:
+          title: "{{name}}"
+          description: "{{description}}"
+          badge: "{{difficulty}}"
+          time: "{{estimated_time}}"
+          onClick: startWorkflow
+
+      - id: ai-tools
+        type: tool-grid
+        title: AI Tools
+        position: { col: 1, row: 4, width: 6, height: 4 }
+        dataSource: "AI_MODELS_MANIFEST.yaml"
+        filters:
+          - local_capable
+          - open_source
+          - cloud_service
+
+      - id: workflow-guide
+        type: step-guide
+        title: Active Workflow
+        position: { col: 7, row: 4, width: 6, height: 4 }
+        options:
+          showProgress: true
+          showTools: true
+          showParameters: true
+
+  - id: audit
+    name: Audit
+    icon: fact_check
+    widgets:
+      - id: last-audit
+        type: stat-card
+        title: Last Audit
+        dataSource: "audit.json#timestamp"
+        position: { col: 1, row: 1, width: 4, height: 2 }
+
+      - id: missing-fields
+        type: alert-list
+        title: Missing Fields
+        dataSource: "audit.json#issues.missing_required"
+        position: { col: 5, row: 1, width: 4, height: 4 }
+        style:
+          severity: warning
+
+      - id: run-audit-btn
+        type: action-button
+        title: Run Audit
+        position: { col: 9, row: 1, width: 4, height: 2 }
+        action:
+          type: script
+          script: "tools/audit/run_audit.py"
+          refreshOn: complete
+
+      - id: audit-history
+        type: chart
+        title: Audit History
+        position: { col: 1, row: 5, width: 12, height: 4 }
+        options:
+          type: line
+          showTrend: true
+
+# ==============================================================================
+# THEMES
+# ==============================================================================
+themes:
+  dark:
+    background: "#1a1a2e"
+    surface: "#16213e"
+    primary: "#667eea"
+    secondary: "#764ba2"
+    text: "#ffffff"
+    textSecondary: "#a0a0a0"
+    success: "#4ECDC4"
+    warning: "#f5576c"
+    error: "#FF6B6B"
+
+  light:
+    background: "#f5f5f5"
+    surface: "#ffffff"
+    primary: "#667eea"
+    secondary: "#764ba2"
+    text: "#1a1a2e"
+    textSecondary: "#666666"
+    success: "#2ecc71"
+    warning: "#f39c12"
+    error: "#e74c3c"
+
+# ==============================================================================
+# ACCESSIBILITY
+# ==============================================================================
+accessibility:
+  screenReader:
+    enabled: true
+    announceChanges: true
+    labelAllElements: true
+
+  keyboard:
+    enabled: true
+    shortcuts:
+      - key: "/"
+        action: focusSearch
+      - key: "g o"
+        action: goToOverview
+      - key: "g c"
+        action: goToCatalog
+      - key: "g d"
+        action: goToDevelopers
+      - key: "g t"
+        action: goToTimeline
+      - key: "g r"
+        action: goToRepair
+      - key: "g a"
+        action: goToAudit
+
+  touch:
+    enabled: true
+    minTargetSize: 48px
+    gestureSupport: true
+
+  voice:
+    enabled: true
+    commands:
+      - phrase: "show overview"
+        action: goToOverview
+      - phrase: "search for [query]"
+        action: search
+      - phrase: "filter by [type]"
+        action: filter
+      - phrase: "run audit"
+        action: runAudit
+
+  gaze:
+    enabled: true
+    dwellTime: 1000ms
+
+  switch:
+    enabled: true
+    scanMode: true
+    scanSpeed: 2000ms
+
+# ==============================================================================
+# DATA REFRESH
+# ==============================================================================
+dataRefresh:
+  default: 300000  # 5 minutes
+  sources:
+    "index.json": 60000      # 1 minute
+    "audit.json": 300000     # 5 minutes
+    "developers.json": 3600000  # 1 hour
+
+# ==============================================================================
+# NOTIFICATIONS
+# ==============================================================================
+notifications:
+  channels:
+    - type: toast
+      position: bottom-right
+      duration: 5000
+    - type: badge
+      target: audit-tab
+      condition: "issues.missing_required.length > 0"
+
+  events:
+    - trigger: "health_score < 60"
+      message: "Catalog health is low. Run audit for details."
+      severity: warning
+    - trigger: "new_items_added"
+      message: "{{count}} new items added to catalog"
+      severity: info

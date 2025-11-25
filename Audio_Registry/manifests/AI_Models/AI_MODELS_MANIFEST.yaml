@@ -1,0 +1,745 @@
+# ==============================================================================
+# THE LIBRARIAN - AI MODELS MASTER MANIFEST
+# ==============================================================================
+# Complete registry of AI models for audio/video processing
+# Fish Music Inc. / MissionControl96 / NOIZYLAB
+# ==============================================================================
+
+meta:
+  manifestName: AI Models for Audio/Video Processing
+  version: 1.0.0
+  generatedAt: 2025-11-25
+  totalModels: 50+
+
+# ==============================================================================
+# SPEECH & TRANSCRIPTION
+# ==============================================================================
+speech_transcription:
+  - id: ai-trans-001
+    name: OpenAI Whisper
+    developer: OpenAI
+    type: transcription
+    open_source: true
+    local_capable: true
+    models:
+      - name: whisper-tiny
+        params: 39M
+        speed: fastest
+        quality: basic
+      - name: whisper-base
+        params: 74M
+        speed: fast
+        quality: good
+      - name: whisper-small
+        params: 244M
+        speed: medium
+        quality: better
+      - name: whisper-medium
+        params: 769M
+        speed: slow
+        quality: great
+      - name: whisper-large-v3
+        params: 1.5B
+        speed: slowest
+        quality: best
+    languages: 99
+    features:
+      - Multilingual transcription
+      - Translation to English
+      - Timestamp generation
+      - Language detection
+      - Word-level timestamps (v3)
+    api: "https://platform.openai.com/docs/guides/speech-to-text"
+    github: "https://github.com/openai/whisper"
+    implementations:
+      - name: whisper.cpp
+        url: "https://github.com/ggerganov/whisper.cpp"
+        notes: "C++ port, runs on CPU efficiently"
+      - name: faster-whisper
+        url: "https://github.com/guillaumekln/faster-whisper"
+        notes: "CTranslate2, 4x faster"
+      - name: whisperX
+        url: "https://github.com/m-bain/whisperX"
+        notes: "Word-level timestamps, speaker diarization"
+
+  - id: ai-trans-002
+    name: AssemblyAI
+    developer: AssemblyAI
+    type: transcription
+    open_source: false
+    cloud_only: true
+    features:
+      - Real-time transcription
+      - Speaker diarization
+      - Sentiment analysis
+      - Entity detection
+      - PII redaction
+      - Custom vocabulary
+      - Summarization
+    api: "https://assemblyai.com/docs"
+    pricing: per_minute
+
+  - id: ai-trans-003
+    name: Deepgram
+    developer: Deepgram
+    type: transcription
+    open_source: false
+    cloud_only: true
+    models:
+      - nova-2 (latest)
+      - nova
+      - enhanced
+      - base
+    features:
+      - Real-time streaming
+      - Pre-recorded files
+      - Speaker diarization
+      - Sentiment analysis
+      - Topic detection
+      - Language detection
+    api: "https://developers.deepgram.com"
+    pricing: per_minute
+
+  - id: ai-trans-004
+    name: Vosk
+    developer: Alpha Cephei
+    type: transcription
+    open_source: true
+    local_capable: true
+    features:
+      - Offline speech recognition
+      - Lightweight models
+      - 20+ languages
+      - Streaming support
+      - Speaker identification
+    github: "https://github.com/alphacep/vosk-api"
+    notes: "Excellent for embedded/mobile"
+
+  - id: ai-trans-005
+    name: SpeechBrain
+    developer: SpeechBrain Team
+    type: toolkit
+    open_source: true
+    local_capable: true
+    features:
+      - Speech recognition
+      - Speaker recognition
+      - Speech enhancement
+      - Speech separation
+      - Text-to-speech
+    github: "https://github.com/speechbrain/speechbrain"
+
+# ==============================================================================
+# STEM SEPARATION / SOURCE SEPARATION
+# ==============================================================================
+stem_separation:
+  - id: ai-sep-001
+    name: Demucs
+    developer: Meta AI Research
+    type: source_separation
+    open_source: true
+    local_capable: true
+    models:
+      - name: htdemucs
+        description: "Hybrid Transformer Demucs"
+        quality: excellent
+        stems: [vocals, drums, bass, other]
+      - name: htdemucs_ft
+        description: "Fine-tuned version"
+        quality: best
+      - name: htdemucs_6s
+        description: "6 stem version"
+        stems: [vocals, drums, bass, guitar, piano, other]
+      - name: mdx_extra
+        description: "MDX challenge winner"
+        quality: excellent
+    github: "https://github.com/facebookresearch/demucs"
+    requirements: "Python, PyTorch, GPU recommended"
+
+  - id: ai-sep-002
+    name: Spleeter
+    developer: Deezer Research
+    type: source_separation
+    open_source: true
+    local_capable: true
+    models:
+      - 2stems (vocals + accompaniment)
+      - 4stems (vocals + drums + bass + other)
+      - 5stems (vocals + drums + bass + piano + other)
+    github: "https://github.com/deezer/spleeter"
+    notes: "Pioneer in open-source separation. Fast but slightly dated."
+
+  - id: ai-sep-003
+    name: LALAL.AI
+    developer: LALAL.AI
+    type: source_separation
+    open_source: false
+    cloud_service: true
+    models:
+      - name: Orion
+        description: "Latest, best quality"
+        quality: excellent
+      - name: Phoenix
+        description: "Balanced speed/quality"
+        quality: great
+      - name: Cassiopeia
+        description: "Fast processing"
+        quality: good
+    stems:
+      - vocals
+      - instrumental
+      - drums
+      - bass
+      - guitar
+      - piano
+      - synthesizer
+      - strings
+      - wind_instruments
+      - voice
+      - noise
+    api: "https://www.lalal.ai/api"
+    pricing: credits
+
+  - id: ai-sep-004
+    name: iZotope Music Rebalance
+    developer: iZotope
+    type: source_separation
+    integrated_in: "RX 11"
+    stems: [vocals, bass, percussion, other]
+    features:
+      - Real-time preview
+      - Boost or attenuate stems
+      - Spectral editing integration
+    notes: "Part of RX suite, not standalone"
+
+  - id: ai-sep-005
+    name: AudioShake
+    developer: AudioShake
+    type: source_separation
+    open_source: false
+    cloud_service: true
+    enterprise: true
+    features:
+      - High-quality stem separation
+      - Dialogue isolation for film
+      - Lyric transcription
+      - Sync licensing prep
+    api: true
+    url: "https://audioshake.ai"
+
+  - id: ai-sep-006
+    name: Moises
+    developer: Moises Systems
+    type: source_separation
+    platforms: [Web, iOS, Android]
+    features:
+      - Stem separation
+      - Pitch shifting
+      - Tempo change
+      - Chord detection
+      - Metronome
+    pricing: subscription
+    url: "https://moises.ai"
+
+# ==============================================================================
+# NOISE REDUCTION & ENHANCEMENT
+# ==============================================================================
+noise_enhancement:
+  - id: ai-noise-001
+    name: iZotope RX Voice De-noise
+    developer: iZotope
+    type: noise_reduction
+    ai_powered: true
+    integrated_in: "RX 11"
+    features:
+      - Trained on voice recordings
+      - Adaptive processing
+      - Real-time capable
+      - Multiple quality modes
+
+  - id: ai-noise-002
+    name: NVIDIA RTX Voice / Broadcast
+    developer: NVIDIA
+    type: noise_reduction
+    ai_powered: true
+    local_capable: true
+    requirements: "NVIDIA RTX GPU"
+    features:
+      - Real-time noise suppression
+      - Background blur (video)
+      - Auto-frame (video)
+      - Virtual background
+    pricing: free
+    url: "https://nvidia.com/broadcast"
+
+  - id: ai-noise-003
+    name: Waves Clarity Vx
+    developer: Waves
+    type: voice_isolation
+    ai_powered: true
+    format: [VST3, AU, AAX]
+    features:
+      - Real-time voice isolation
+      - Neural network processing
+      - Low latency mode
+      - Background noise removal
+    url: "https://waves.com/clarity-vx"
+
+  - id: ai-noise-004
+    name: Adobe Podcast Enhance
+    developer: Adobe
+    type: enhancement
+    ai_powered: true
+    cloud_only: true
+    features:
+      - One-click enhancement
+      - Noise reduction
+      - Reverb removal
+      - Leveling
+    pricing: free
+    url: "https://podcast.adobe.com/enhance"
+
+  - id: ai-noise-005
+    name: Auphonic
+    developer: Auphonic
+    type: enhancement
+    ai_powered: true
+    cloud_service: true
+    features:
+      - Automatic leveling
+      - Noise reduction
+      - Loudness normalization
+      - Multitrack processing
+      - Podcast production
+    api: true
+    url: "https://auphonic.com"
+
+  - id: ai-noise-006
+    name: Krisp
+    developer: Krisp
+    type: noise_cancellation
+    ai_powered: true
+    platforms: [macOS, Windows, iOS, Android]
+    features:
+      - Real-time noise cancellation
+      - Echo cancellation
+      - Voice activity detection
+      - System-wide audio
+    pricing: subscription
+    url: "https://krisp.ai"
+
+# ==============================================================================
+# VIDEO AI
+# ==============================================================================
+video_ai:
+  - id: ai-vid-001
+    name: Topaz Video AI
+    developer: Topaz Labs
+    type: video_enhancement
+    local_capable: true
+    platforms: [macOS, Windows]
+    models:
+      - name: Proteus
+        use: "General enhancement"
+        features: [upscaling, denoising, sharpening]
+      - name: Gaia
+        use: "CG and animation"
+      - name: Artemis
+        use: "Low quality footage"
+        features: [heavy denoising, artifact removal]
+      - name: Iris
+        use: "Face enhancement"
+      - name: Chronos
+        use: "Frame interpolation"
+        features: [slow motion, frame rate conversion]
+      - name: Apollo
+        use: "Motion interpolation"
+        features: [high quality slow motion]
+      - name: Nyx
+        use: "Low light enhancement"
+    capabilities:
+      - Upscaling up to 16K
+      - Frame interpolation
+      - Stabilization
+      - Deinterlacing
+      - Grain removal
+      - Motion deblur
+    pricing: perpetual
+    url: "https://topazlabs.com/video-ai"
+
+  - id: ai-vid-002
+    name: DaVinci Resolve Neural Engine
+    developer: Blackmagic Design
+    type: video_enhancement
+    integrated_in: "DaVinci Resolve Studio"
+    features:
+      - Super Scale (upscaling)
+      - Speed Warp (frame interpolation)
+      - Face Refinement
+      - Object Removal
+      - Magic Mask
+      - Voice Isolation
+    platforms: [macOS, Windows, Linux]
+    pricing: "Free (limited) / $295 (Studio)"
+    url: "https://blackmagicdesign.com/davinci-resolve"
+
+  - id: ai-vid-003
+    name: Runway ML
+    developer: Runway
+    type: generative_video
+    cloud_service: true
+    models:
+      - Gen-3 Alpha (latest)
+      - Gen-2
+      - Gen-1
+    capabilities:
+      - Text-to-video generation
+      - Image-to-video
+      - Video-to-video
+      - Inpainting (remove objects)
+      - Background removal
+      - Motion tracking
+      - Frame interpolation
+    api: true
+    url: "https://runwayml.com"
+
+  - id: ai-vid-004
+    name: Pika Labs
+    developer: Pika Labs
+    type: generative_video
+    cloud_service: true
+    capabilities:
+      - Text-to-video
+      - Image-to-video
+      - Video editing with AI
+    url: "https://pika.art"
+
+  - id: ai-vid-005
+    name: Kling AI
+    developer: Kuaishou
+    type: generative_video
+    cloud_service: true
+    capabilities:
+      - High quality video generation
+      - Long form video
+      - Motion control
+    url: "https://kling.kuaishou.com"
+
+  - id: ai-vid-006
+    name: HeyGen
+    developer: HeyGen
+    type: avatar_video
+    cloud_service: true
+    capabilities:
+      - AI avatar video creation
+      - Voice cloning
+      - Lip sync
+      - Video translation
+    url: "https://heygen.com"
+
+# ==============================================================================
+# VOICE / TTS / VOICE CLONING
+# ==============================================================================
+voice_synthesis:
+  - id: ai-voice-001
+    name: ElevenLabs
+    developer: ElevenLabs
+    type: text_to_speech
+    cloud_service: true
+    features:
+      - Voice cloning
+      - Multilingual
+      - Emotion control
+      - Voice design
+      - Long-form audio
+    api: true
+    url: "https://elevenlabs.io"
+
+  - id: ai-voice-002
+    name: Descript Overdub
+    developer: Descript
+    type: voice_cloning
+    integrated_in: "Descript"
+    features:
+      - Train on your voice
+      - Text-based voice editing
+      - Regenerate spoken audio
+    url: "https://descript.com"
+
+  - id: ai-voice-003
+    name: Resemble AI
+    developer: Resemble AI
+    type: voice_cloning
+    features:
+      - Voice cloning
+      - Real-time voice conversion
+      - Emotion control
+      - Localization
+    api: true
+    url: "https://resemble.ai"
+
+  - id: ai-voice-004
+    name: Tortoise TTS
+    developer: James Betker
+    type: text_to_speech
+    open_source: true
+    local_capable: true
+    features:
+      - High quality synthesis
+      - Voice cloning from samples
+      - Emotion/style control
+    github: "https://github.com/neonbjb/tortoise-tts"
+
+  - id: ai-voice-005
+    name: Bark
+    developer: Suno AI
+    type: text_to_speech
+    open_source: true
+    local_capable: true
+    features:
+      - Voice cloning
+      - Music generation
+      - Sound effects
+      - Multilingual
+    github: "https://github.com/suno-ai/bark"
+
+  - id: ai-voice-006
+    name: XTTS
+    developer: Coqui
+    type: text_to_speech
+    open_source: true
+    local_capable: true
+    features:
+      - Voice cloning from 6 seconds
+      - 17 languages
+      - Streaming
+    github: "https://github.com/coqui-ai/TTS"
+
+# ==============================================================================
+# MUSIC GENERATION
+# ==============================================================================
+music_generation:
+  - id: ai-music-001
+    name: Suno AI
+    developer: Suno
+    type: music_generation
+    cloud_service: true
+    capabilities:
+      - Text-to-music
+      - Full song generation
+      - Vocals included
+      - Style control
+    url: "https://suno.ai"
+
+  - id: ai-music-002
+    name: Udio
+    developer: Udio
+    type: music_generation
+    cloud_service: true
+    capabilities:
+      - Text-to-music
+      - High fidelity output
+      - Genre control
+      - Lyrics generation
+    url: "https://udio.com"
+
+  - id: ai-music-003
+    name: Stable Audio
+    developer: Stability AI
+    type: music_generation
+    capabilities:
+      - Text-to-music
+      - Sound effect generation
+      - Variable length
+    url: "https://stability.ai/stable-audio"
+
+  - id: ai-music-004
+    name: MusicGen
+    developer: Meta AI
+    type: music_generation
+    open_source: true
+    local_capable: true
+    capabilities:
+      - Text-to-music
+      - Melody conditioning
+      - Multiple models
+    github: "https://github.com/facebookresearch/audiocraft"
+
+  - id: ai-music-005
+    name: AudioLDM
+    developer: Research
+    type: audio_generation
+    open_source: true
+    local_capable: true
+    capabilities:
+      - Text-to-audio
+      - Audio inpainting
+      - Style transfer
+    github: "https://github.com/haoheliu/AudioLDM"
+
+# ==============================================================================
+# ANALYSIS & DETECTION
+# ==============================================================================
+analysis:
+  - id: ai-analysis-001
+    name: Silero VAD
+    developer: Silero
+    type: voice_activity_detection
+    open_source: true
+    local_capable: true
+    features:
+      - Voice activity detection
+      - Silence detection
+      - Real-time capable
+      - Low resource
+    github: "https://github.com/snakers4/silero-vad"
+
+  - id: ai-analysis-002
+    name: pyannote-audio
+    developer: pyannote
+    type: speaker_diarization
+    open_source: true
+    local_capable: true
+    features:
+      - Speaker diarization
+      - Voice activity detection
+      - Overlapped speech detection
+      - Speaker embedding
+    github: "https://github.com/pyannote/pyannote-audio"
+
+  - id: ai-analysis-003
+    name: Resemblyzer
+    developer: Resemble AI
+    type: speaker_recognition
+    open_source: true
+    features:
+      - Speaker embedding
+      - Speaker verification
+      - Speaker diarization
+    github: "https://github.com/resemble-ai/Resemblyzer"
+
+  - id: ai-analysis-004
+    name: Essentia
+    developer: MTG Barcelona
+    type: music_analysis
+    open_source: true
+    features:
+      - Audio feature extraction
+      - Music classification
+      - Tempo/key detection
+      - Mood analysis
+    github: "https://github.com/MTG/essentia"
+
+# ==============================================================================
+# RECOMMENDED STACKS
+# ==============================================================================
+recommended_stacks:
+  dialogue_repair:
+    name: "Dialogue Repair Stack"
+    tools:
+      - iZotope RX 11 (primary)
+      - Waves Clarity Vx (real-time)
+      - Adobe Podcast (quick fixes)
+    ai_models:
+      - RX Dialogue Isolate
+      - RX Voice De-noise
+      - Whisper (transcription)
+
+  stem_separation:
+    name: "Stem Separation Stack"
+    tools:
+      - LALAL.AI (best quality)
+      - Demucs (local/free)
+      - SpectraLayers (spectral editing)
+    recommended_workflow:
+      - "Use LALAL.AI Orion for critical work"
+      - "Use Demucs htdemucs_ft for local batch processing"
+      - "Clean stems with RX if needed"
+
+  video_restoration:
+    name: "Video Restoration Stack"
+    tools:
+      - Topaz Video AI (upscaling)
+      - DaVinci Resolve (editing/color)
+    models:
+      - Proteus (general)
+      - Artemis (low quality source)
+      - Chronos (frame interpolation)
+
+  podcast_production:
+    name: "Podcast Production Stack"
+    tools:
+      - Descript (editing)
+      - Auphonic (mastering)
+      - Whisper (transcription)
+    workflow:
+      - "Record/import to Descript"
+      - "Text-based editing"
+      - "Export to Auphonic for mastering"
+      - "Generate transcript with Whisper"
+
+  music_production:
+    name: "AI-Assisted Music Production Stack"
+    tools:
+      - Suno/Udio (generation)
+      - LALAL.AI (sampling/stems)
+      - iZotope (mastering)
+    creative_uses:
+      - "Generate ideas with Suno"
+      - "Extract elements with stem separation"
+      - "Master with Ozone"
+
+# ==============================================================================
+# API INTEGRATION GUIDE
+# ==============================================================================
+api_guide:
+  cloud_apis:
+    - service: LALAL.AI
+      endpoint: "https://www.lalal.ai/api/"
+      auth: API key
+      rate_limit: "Varies by plan"
+
+    - service: AssemblyAI
+      endpoint: "https://api.assemblyai.com/v2/"
+      auth: API key
+      rate_limit: "Based on plan"
+
+    - service: Deepgram
+      endpoint: "https://api.deepgram.com/v1/"
+      auth: API key
+
+    - service: ElevenLabs
+      endpoint: "https://api.elevenlabs.io/v1/"
+      auth: API key
+
+    - service: OpenAI Whisper
+      endpoint: "https://api.openai.com/v1/audio/"
+      auth: API key
+
+    - service: Runway
+      endpoint: "https://api.runwayml.com/"
+      auth: API key
+
+  local_models:
+    - name: Whisper
+      installation: "pip install openai-whisper"
+      usage: "whisper audio.mp3 --model large-v3"
+
+    - name: Demucs
+      installation: "pip install demucs"
+      usage: "demucs --two-stems vocals track.mp3"
+
+    - name: faster-whisper
+      installation: "pip install faster-whisper"
+      notes: "4x faster than original Whisper"
+
+# ==============================================================================
+# NOTES
+# ==============================================================================
+notes:
+  - "Open source models can run locally for privacy and no per-use costs"
+  - "Cloud services offer convenience but have ongoing costs"
+  - "GPU significantly accelerates most AI models"
+  - "Quality vs speed tradeoff exists in most models"
+  - "Combine multiple tools for best results"
+  - "Always keep original files - AI processing is destructive"
