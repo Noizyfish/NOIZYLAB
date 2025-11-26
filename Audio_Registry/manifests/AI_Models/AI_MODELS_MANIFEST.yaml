@@ -734,6 +734,479 @@ api_guide:
       notes: "4x faster than original Whisper"
 
 # ==============================================================================
+# AI-POWERED PLUGINS
+# ==============================================================================
+ai_plugins:
+
+  mixing_mastering:
+    - id: ai-plug-001
+      name: iZotope Ozone 11
+      developer: iZotope
+      type: mastering_suite
+      ai_features:
+        - Master Assistant (AI chain suggestion)
+        - Stabilizer (AI limiting)
+        - Low End Focus (AI bass management)
+        - Impact (AI transient processing)
+      format: [VST3, AU, AAX]
+      url: "https://izotope.com/ozone"
+
+    - id: ai-plug-002
+      name: iZotope Neutron 4
+      developer: iZotope
+      type: channel_strip
+      ai_features:
+        - Mix Assistant
+        - Target Library
+        - Visual Mixer
+        - Unmask
+        - Assistant View
+      format: [VST3, AU, AAX]
+      url: "https://izotope.com/neutron"
+
+    - id: ai-plug-003
+      name: LANDR Mastering Plugin
+      developer: LANDR
+      type: mastering
+      ai_features:
+        - AI-powered mastering
+        - Genre detection
+        - Style matching
+      format: [VST3, AU, AAX]
+      url: "https://landr.com/plugin"
+
+    - id: ai-plug-004
+      name: Sonible smart:EQ 4
+      developer: Sonible
+      type: eq
+      ai_features:
+        - AI-powered frequency balancing
+        - Cross-channel communication
+        - Profile matching
+      format: [VST3, AU, AAX]
+      url: "https://sonible.com/smarteq4"
+
+    - id: ai-plug-005
+      name: Sonible smart:comp 2
+      developer: Sonible
+      type: compressor
+      ai_features:
+        - AI-powered compression
+        - Spectral compression
+        - Auto attack/release
+      format: [VST3, AU, AAX]
+      url: "https://sonible.com/smartcomp2"
+
+    - id: ai-plug-006
+      name: Sonible smart:reverb
+      developer: Sonible
+      type: reverb
+      ai_features:
+        - AI room analysis
+        - Content-aware processing
+        - Auto parameter setting
+      format: [VST3, AU, AAX]
+      url: "https://sonible.com/smartreverb"
+
+    - id: ai-plug-007
+      name: Sonible smart:limit
+      developer: Sonible
+      type: limiter
+      ai_features:
+        - AI-powered limiting
+        - Spectral limiting
+        - Genre-aware processing
+      format: [VST3, AU, AAX]
+      url: "https://sonible.com/smartlimit"
+
+    - id: ai-plug-008
+      name: BandLab Mastering
+      developer: BandLab
+      type: mastering
+      ai_features:
+        - One-click AI mastering
+        - Style presets
+        - Reference matching
+      cloud_service: true
+      url: "https://bandlab.com/mastering"
+
+  restoration_repair:
+    - id: ai-plug-020
+      name: iZotope RX 11
+      developer: iZotope
+      type: repair_suite
+      ai_modules:
+        - Repair Assistant
+        - Dialogue Isolate
+        - Voice De-noise
+        - Music Rebalance
+        - De-hum
+        - De-rustle
+        - Spectral Recovery
+        - De-reverb
+        - De-clip
+      format: [VST3, AU, AAX, Standalone]
+      url: "https://izotope.com/rx"
+
+    - id: ai-plug-021
+      name: Acon Digital Restoration Suite
+      developer: Acon Digital
+      type: restoration
+      ai_features:
+        - Spectral analysis
+        - Adaptive processing
+        - DeNoise, DeClick, DeClip, DeHum
+      format: [VST3, AU, AAX]
+      url: "https://acondigital.com"
+
+    - id: ai-plug-022
+      name: Waves Clarity Vx Pro
+      developer: Waves
+      type: voice_isolation
+      ai_features:
+        - Neural network voice isolation
+        - Real-time processing
+        - Ambience extraction
+      format: [VST3, AU, AAX]
+      url: "https://waves.com/clarity-vx-pro"
+
+    - id: ai-plug-023
+      name: Accusonus ERA Bundle
+      developer: Accusonus
+      type: restoration
+      ai_modules:
+        - Noise Remover
+        - Reverb Remover
+        - De-Esser
+        - Voice Leveler
+        - Voice Deepener
+        - Plosive Remover
+      format: [VST3, AU, AAX]
+      url: "https://accusonus.com"
+
+  vocal_processing:
+    - id: ai-plug-030
+      name: iZotope Nectar 4
+      developer: iZotope
+      type: vocal_suite
+      ai_features:
+        - Vocal Assistant
+        - Unmask
+        - Auto Level Mode
+        - Backer (AI harmony)
+      format: [VST3, AU, AAX]
+      url: "https://izotope.com/nectar"
+
+    - id: ai-plug-031
+      name: Antares Auto-Tune Pro X
+      developer: Antares
+      type: pitch_correction
+      ai_features:
+        - Auto-Key (key detection)
+        - Natural Vibrato
+        - Throat Modeling
+      format: [VST3, AU, AAX]
+      url: "https://antarestech.com"
+
+    - id: ai-plug-032
+      name: Celemony Melodyne 5
+      developer: Celemony
+      type: pitch_correction
+      ai_features:
+        - DNA (Direct Note Access)
+        - Polyphonic pitch editing
+        - Sibilant detection
+      format: [VST3, AU, AAX, Standalone]
+      url: "https://celemony.com/melodyne"
+
+    - id: ai-plug-033
+      name: Soundtheory Gullfoss
+      developer: Soundtheory
+      type: intelligent_eq
+      ai_features:
+        - Computational auditory perception
+        - Automatic tonal balance
+        - Real-time adaptation
+      format: [VST3, AU, AAX]
+      url: "https://soundtheory.com/gullfoss"
+
+    - id: ai-plug-034
+      name: Oeksound Soothe2
+      developer: Oeksound
+      type: dynamic_resonance
+      ai_features:
+        - Automatic resonance detection
+        - Content-aware processing
+        - Spectral dynamics
+      format: [VST3, AU, AAX]
+      url: "https://oeksound.com/soothe2"
+
+# ==============================================================================
+# CONTENT CREATION AI
+# ==============================================================================
+content_creation:
+
+  lyric_generation:
+    - id: ai-content-001
+      name: LyricStudio
+      developer: LyricStudio
+      type: lyric_generation
+      features:
+        - AI-powered lyric writing
+        - Rhyme suggestions
+        - Theme-based generation
+      url: "https://lyricstudio.net"
+
+    - id: ai-content-002
+      name: Rytr
+      developer: Rytr
+      type: writing_assistant
+      features:
+        - Song lyric generation
+        - Creative writing
+        - Multiple tones
+      url: "https://rytr.me"
+
+  melody_generation:
+    - id: ai-content-010
+      name: Hookpad
+      developer: Hooktheory
+      type: melody_composition
+      features:
+        - Chord progression suggestions
+        - Melody AI assistant
+        - Music theory guidance
+      url: "https://hooktheory.com/hookpad"
+
+    - id: ai-content-011
+      name: Amper Music
+      developer: Shutterstock
+      type: music_composition
+      features:
+        - AI music composition
+        - Style customization
+        - Royalty-free output
+      url: "https://ampermusic.com"
+
+    - id: ai-content-012
+      name: AIVA
+      developer: AIVA Technologies
+      type: music_composition
+      features:
+        - Classical/cinematic composition
+        - Emotional AI
+        - MIDI export
+      url: "https://aiva.ai"
+
+  sample_generation:
+    - id: ai-content-020
+      name: Splice Create
+      developer: Splice
+      type: sample_generation
+      features:
+        - AI-generated samples
+        - Style matching
+        - Infinite variations
+      url: "https://splice.com/create"
+
+    - id: ai-content-021
+      name: Output Arcade
+      developer: Output
+      type: sample_manipulation
+      features:
+        - AI-powered loop manipulation
+        - Key/tempo detection
+        - Infinite variations
+      format: [VST3, AU, AAX]
+      url: "https://output.com/arcade"
+
+# ==============================================================================
+# REAL-TIME PROCESSING
+# ==============================================================================
+real_time:
+
+  live_performance:
+    - id: ai-rt-001
+      name: VoiceMod Pro
+      developer: VoiceMod
+      type: voice_changer
+      features:
+        - Real-time voice changing
+        - Custom voice creation
+        - Streaming integration
+      platforms: [Windows]
+      url: "https://voicemod.net"
+
+    - id: ai-rt-002
+      name: Accusonus Voice Changer
+      developer: Accusonus
+      type: voice_processing
+      features:
+        - Real-time voice transformation
+        - Pitch/formant shifting
+        - Character voices
+      format: [VST3, AU, AAX]
+      url: "https://accusonus.com"
+
+  live_mixing:
+    - id: ai-rt-010
+      name: NVIDIA Audio Effects SDK
+      developer: NVIDIA
+      type: sdk
+      features:
+        - Real-time noise removal
+        - Room echo cancellation
+        - Automatic gain control
+      requirements: "NVIDIA RTX GPU"
+      url: "https://developer.nvidia.com/maxine"
+
+    - id: ai-rt-011
+      name: Dolby.io Media APIs
+      developer: Dolby
+      type: api
+      features:
+        - Real-time enhancement
+        - Noise suppression
+        - Loudness correction
+      api: true
+      url: "https://dolby.io/products/media-apis"
+
+# ==============================================================================
+# EMERGING AI MODELS (2024-2025)
+# ==============================================================================
+emerging:
+
+  latest_models:
+    - id: ai-new-001
+      name: OpenAI Whisper v3 Turbo
+      developer: OpenAI
+      type: transcription
+      notes: "Faster inference, improved accuracy"
+      status: released
+
+    - id: ai-new-002
+      name: Meta MusicGen Large
+      developer: Meta AI
+      type: music_generation
+      notes: "Improved quality, longer outputs"
+      github: "https://github.com/facebookresearch/audiocraft"
+
+    - id: ai-new-003
+      name: Stable Audio Open
+      developer: Stability AI
+      type: audio_generation
+      notes: "Open weights for audio generation"
+      status: released
+
+    - id: ai-new-004
+      name: Luma Dream Machine
+      developer: Luma AI
+      type: video_generation
+      notes: "High quality video from text/image"
+      url: "https://lumalabs.ai/dream-machine"
+
+    - id: ai-new-005
+      name: Veo
+      developer: Google DeepMind
+      type: video_generation
+      notes: "Google's video generation model"
+      status: limited_access
+
+    - id: ai-new-006
+      name: OpenAI Sora
+      developer: OpenAI
+      type: video_generation
+      notes: "Text-to-video, minute-long clips"
+      status: limited_access
+
+    - id: ai-new-007
+      name: ACE Studio
+      developer: ACE Studio
+      type: ai_vocalist
+      features:
+        - AI singing synthesis
+        - Expression control
+        - Multiple voice banks
+      url: "https://acestudio.ai"
+
+    - id: ai-new-008
+      name: Synthesizer V
+      developer: Dreamtonics
+      type: ai_vocalist
+      features:
+        - Neural network singing synthesis
+        - Realistic vocals
+        - Expression/style control
+      format: [VST3, AU, Standalone]
+      url: "https://dreamtonics.com/synthesizerv"
+
+# ==============================================================================
+# HARDWARE AI ACCELERATION
+# ==============================================================================
+hardware_acceleration:
+
+  gpu_requirements:
+    nvidia:
+      recommended:
+        - "RTX 4090 (24GB VRAM) - Best for all models"
+        - "RTX 4080 (16GB VRAM) - Most models"
+        - "RTX 3090 (24GB VRAM) - Large models"
+        - "RTX 3080 (10GB VRAM) - Medium models"
+        - "RTX 3060 (12GB VRAM) - Good budget option"
+      minimum:
+        - "GTX 1080 Ti (11GB VRAM)"
+        - "RTX 2060 (6GB VRAM)"
+
+    amd:
+      compatible:
+        - "RX 7900 XTX (24GB)"
+        - "RX 6900 XT (16GB)"
+      notes: "ROCm support varies by model"
+
+    apple_silicon:
+      supported:
+        - "M1/M2/M3 (8GB+)"
+        - "M1/M2/M3 Pro (16GB+)"
+        - "M1/M2/M3 Max (32GB+)"
+        - "M1/M2 Ultra (64GB+)"
+      notes: "Unified memory helps with large models"
+
+  dedicated_ai_hardware:
+    - name: "NVIDIA A100"
+      type: "Data center GPU"
+      vram: "40GB/80GB"
+      use: "Enterprise/research"
+
+    - name: "Neural DSP Quad Cortex"
+      type: "Guitar processor"
+      ai_features: "Neural network amp modeling"
+      local: true
+
+    - name: "iZotope RX Post Production Suite"
+      optimization: "Metal/CUDA acceleration"
+
+# ==============================================================================
+# COMPLETE MODEL COUNT
+# ==============================================================================
+model_summary:
+  total_models: 75+
+  categories:
+    speech_transcription: 5
+    stem_separation: 6
+    noise_enhancement: 6
+    video_ai: 6
+    voice_synthesis: 6
+    music_generation: 5
+    analysis: 4
+    ai_plugins: 15+
+    content_creation: 7
+    real_time: 4
+    emerging: 8
+  open_source_count: 20+
+  cloud_only_count: 25+
+  local_capable: 30+
+
+# ==============================================================================
 # NOTES
 # ==============================================================================
 notes:
@@ -743,3 +1216,6 @@ notes:
   - "Quality vs speed tradeoff exists in most models"
   - "Combine multiple tools for best results"
   - "Always keep original files - AI processing is destructive"
+  - "Apple Silicon provides excellent local AI performance"
+  - "Consider VRAM requirements when choosing GPU"
+  - "New models are released frequently - check for updates"

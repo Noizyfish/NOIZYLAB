@@ -1,0 +1,796 @@
+# ==============================================================================
+# METABEAST_CC - Studio Setup Guide
+# ==============================================================================
+# Complete studio setup reference for all production levels
+# Fish Music Inc. / MissionControl96 / NOIZYLAB
+# ==============================================================================
+
+metadata:
+  manifest_type: studio_setup_guide
+  version: "1.0.0"
+  created: "2024"
+  organization: "Fish Music Inc. / MissionControl96 / NOIZYLAB"
+  description: "Comprehensive studio setup guide from bedroom to professional"
+
+# ==============================================================================
+# STUDIO TIERS
+# ==============================================================================
+
+studio_tiers:
+
+  bedroom_studio:
+    id: studio-001
+    budget_range: "$500 - $2,000"
+    space: "10x10 ft or larger"
+    description: "Entry-level production setup for beginners"
+
+    essential_gear:
+      audio_interface:
+        recommended:
+          - name: "Focusrite Scarlett 2i2"
+            price: "$180"
+            why: "Reliable, great preamps, universal drivers"
+          - name: "PreSonus AudioBox USB 96"
+            price: "$100"
+            why: "Budget-friendly with Studio One Artist"
+          - name: "Native Instruments Komplete Audio 2"
+            price: "$140"
+            why: "Includes Maschine Essentials"
+
+      headphones:
+        recommended:
+          - name: "Audio-Technica ATH-M50x"
+            price: "$150"
+            why: "Industry standard, accurate bass"
+          - name: "Sony MDR-7506"
+            price: "$100"
+            why: "Flat response, durable"
+          - name: "Beyerdynamic DT 770 Pro"
+            price: "$160"
+            why: "Comfortable for long sessions"
+
+      microphone:
+        recommended:
+          - name: "Audio-Technica AT2020"
+            price: "$100"
+            why: "Clean condenser, versatile"
+          - name: "Rode NT1-A"
+            price: "$230"
+            why: "Ultra-low noise floor"
+          - name: "Shure SM58"
+            price: "$100"
+            why: "Indestructible, great for vocals"
+
+      monitors_optional:
+        recommended:
+          - name: "PreSonus Eris E3.5"
+            price: "$100/pair"
+            why: "Affordable, accurate for size"
+          - name: "KRK Rokit 5 G4"
+            price: "$300/pair"
+            why: "Popular, built-in room correction app"
+
+      midi_controller:
+        recommended:
+          - name: "Akai MPK Mini MK3"
+            price: "$100"
+            why: "Compact, keys + pads + knobs"
+          - name: "Arturia MiniLab 3"
+            price: "$100"
+            why: "Great software bundle"
+
+    software_essentials:
+      daw:
+        - "Reaper ($60 license, full-featured)"
+        - "Logic Pro ($200, Mac only, incredible value)"
+        - "FL Studio Producer ($200)"
+        - "Ableton Live Intro ($99)"
+
+      free_plugins:
+        - "Vital (synth)"
+        - "TDR Nova (EQ)"
+        - "Valhalla Supermassive (reverb/delay)"
+        - "Spitfire LABS (instruments)"
+
+    room_treatment:
+      minimal:
+        - "Corner bass traps (foam or DIY)"
+        - "Reflection filter behind mic"
+        - "Heavy curtains on windows"
+        - "Rug on floor"
+      notes:
+        - "Avoid parallel walls if possible"
+        - "Mix at low volumes to compensate for room"
+        - "Use headphones for critical decisions"
+
+  home_studio:
+    id: studio-002
+    budget_range: "$2,000 - $10,000"
+    space: "12x12 ft minimum, dedicated room ideal"
+    description: "Semi-professional setup for serious producers"
+
+    essential_gear:
+      audio_interface:
+        recommended:
+          - name: "Universal Audio Volt 476"
+            price: "$400"
+            why: "76 compressor built-in, UAD plugins"
+          - name: "Audient iD14 MkII"
+            price: "$300"
+            why: "Class-A preamps, dual headphone outs"
+          - name: "MOTU M4"
+            price: "$250"
+            why: "Best-in-class converters at price"
+          - name: "Focusrite Scarlett 4i4"
+            price: "$230"
+            why: "More I/O, Air mode preamps"
+
+      monitors:
+        recommended:
+          - name: "Adam Audio T7V"
+            price: "$500/pair"
+            why: "Ribbon tweeters, detailed highs"
+          - name: "Yamaha HS7"
+            price: "$400/pair"
+            why: "Flat response, translation legend"
+          - name: "JBL 305P MkII"
+            price: "$300/pair"
+            why: "Image control waveguide"
+          - name: "Kali LP-6 V2"
+            price: "$300/pair"
+            why: "3D imaging, great value"
+
+      microphones:
+        large_diaphragm:
+          - name: "Rode NT1 5th Gen"
+            price: "$270"
+            why: "Dual XLR/USB, revolutionary noise floor"
+          - name: "Warm Audio WA-87"
+            price: "$600"
+            why: "U87 sound at fraction of price"
+          - name: "Aston Spirit"
+            price: "$400"
+            why: "Switchable patterns, unique sound"
+
+        dynamic:
+          - name: "Shure SM7B"
+            price: "$400"
+            why: "Broadcast standard, flattering on any voice"
+          - name: "Electro-Voice RE20"
+            price: "$450"
+            why: "Variable-D technology, no proximity effect"
+
+      headphones:
+        mixing:
+          - name: "Sennheiser HD 650"
+            price: "$350"
+            why: "Open-back, natural midrange"
+          - name: "Beyerdynamic DT 1990 Pro"
+            price: "$500"
+            why: "Detailed, two tuning options"
+
+        tracking:
+          - name: "Beyerdynamic DT 770 Pro (250 ohm)"
+            price: "$160"
+            why: "Closed-back, minimal bleed"
+
+      midi_controllers:
+        keys:
+          - name: "Native Instruments Komplete Kontrol A61"
+            price: "$500"
+            why: "NKS integration, semi-weighted"
+          - name: "Arturia KeyLab Essential 61"
+            price: "$300"
+            why: "DAW integration, Analog Lab"
+
+        pads:
+          - name: "Akai MPC One"
+            price: "$700"
+            why: "Standalone capability, WiFi"
+          - name: "Native Instruments Maschine MK3"
+            price: "$650"
+            why: "Deep NI integration"
+
+    room_treatment:
+      recommended:
+        bass_traps:
+          - "4x corner traps (floor to ceiling)"
+          - "Rockwool 4\" thick minimum"
+          - "Or commercial: Primacoustic FullTrap"
+        absorption:
+          - "First reflection points (2x panels per side wall)"
+          - "Behind monitors (diffusion or absorption)"
+          - "Above listening position"
+        isolation:
+          - "Door seal kit"
+          - "Outlet gaskets"
+          - "Window plugs if needed"
+
+    power_and_cables:
+      power:
+        - "Furman M-8x2 power conditioner"
+        - "Dedicated circuit recommended"
+      cables:
+        - "Mogami or Canare for critical paths"
+        - "TRS balanced connections where possible"
+        - "Quality USB cable for interface"
+
+  project_studio:
+    id: studio-003
+    budget_range: "$10,000 - $50,000"
+    space: "200+ sq ft, acoustically treated"
+    description: "Professional-grade home studio for commercial work"
+
+    essential_gear:
+      audio_interface:
+        recommended:
+          - name: "Universal Audio Apollo x6"
+            price: "$2,500"
+            why: "Elite converters, UAD processing"
+          - name: "RME Fireface UFX III"
+            price: "$3,000"
+            why: "Rock-solid drivers, TotalMix"
+          - name: "Antelope Orion Studio HD"
+            price: "$3,500"
+            why: "Pristine conversion, FPGA FX"
+          - name: "Apogee Symphony Desktop"
+            price: "$1,300"
+            why: "Apogee quality, compact"
+
+      monitors:
+        mains:
+          - name: "Genelec 8341A (The Ones)"
+            price: "$4,400/pair"
+            why: "Point-source coaxial, GLM calibration"
+          - name: "Focal Trio6 Be"
+            price: "$3,500 each"
+            why: "3-way, focus mode"
+          - name: "Neumann KH 310"
+            price: "$3,000/pair"
+            why: "Mathematically perfect"
+          - name: "Adam S3H"
+            price: "$5,000/pair"
+            why: "X-ART tweeter, extended bass"
+
+        subwoofer:
+          - name: "Genelec 7360A"
+            price: "$2,500"
+            why: "Integrates with SAM monitors"
+          - name: "Neumann KH 750"
+            price: "$1,500"
+            why: "Compact, accurate"
+
+      microphones:
+        flagship_condensers:
+          - name: "Neumann U87 Ai"
+            price: "$3,600"
+            why: "The industry standard"
+          - name: "AKG C414 XLII"
+            price: "$1,100"
+            why: "5 polar patterns, versatile"
+          - name: "Telefunken U47"
+            price: "$10,000+"
+            why: "The ultimate vocal mic"
+
+        ribbon:
+          - name: "Royer R-121"
+            price: "$1,500"
+            why: "Guitar amp standard"
+          - name: "AEA R84"
+            price: "$1,000"
+            why: "Vintage ribbon character"
+
+        specialty:
+          - name: "Earthworks QTC50"
+            price: "$1,500"
+            why: "Reference measurement mic"
+          - name: "DPA 4011"
+            price: "$2,000"
+            why: "Clinical accuracy"
+
+      outboard:
+        preamps:
+          - name: "Neve 1073 (clone or original)"
+            price: "$1,000-$3,500"
+            why: "Legendary warmth"
+          - name: "API 512c"
+            price: "$1,200"
+            why: "Punchy, aggressive"
+          - name: "Universal Audio LA-610 MkII"
+            price: "$2,500"
+            why: "Preamp + compressor"
+
+        compressors:
+          - name: "Universal Audio 1176LN"
+            price: "$2,500"
+            why: "Fast attack, character"
+          - name: "Teletronix LA-2A"
+            price: "$4,000"
+            why: "Optical smoothness"
+          - name: "SSL Bus Compressor"
+            price: "$2,500"
+            why: "The glue"
+
+        eq:
+          - name: "Pultec EQP-1A"
+            price: "$3,000+"
+            why: "Air and weight"
+          - name: "Neve 1073 EQ"
+            price: "$1,500"
+            why: "Musical frequencies"
+
+    room_treatment:
+      professional:
+        bass_management:
+          - "Membrane/plate bass traps"
+          - "Corner superchunks (24\"+ thick)"
+          - "Soffit-mounted monitors if possible"
+        broadband:
+          - "6\" panels at first reflections"
+          - "Cloud above mixing position"
+          - "Rear wall diffusion"
+        diffusion:
+          - "QRD diffusers for rear wall"
+          - "Skyline/poly diffusers"
+        isolation:
+          - "Room within room construction"
+          - "Isolated floor"
+          - "Double-wall construction"
+
+  commercial_studio:
+    id: studio-004
+    budget_range: "$50,000 - $500,000+"
+    space: "500+ sq ft control room, separate live room"
+    description: "Full commercial recording facility"
+
+    essential_gear:
+      console:
+        options:
+          - name: "SSL AWS 948"
+            price: "$80,000+"
+            why: "Hybrid analog/digital, SSL sound"
+          - name: "Neve 5088"
+            price: "$50,000+"
+            why: "Pure Neve analog"
+          - name: "API 1608"
+            price: "$40,000+"
+            why: "API punch"
+          - name: "Audient ASP8024"
+            price: "$20,000+"
+            why: "Value large-format"
+
+      converters:
+        - name: "Burl B80 Mothership"
+          why: "Transformer-coupled character"
+        - name: "Lynx Aurora(n)"
+          why: "Transparent, flexible"
+        - name: "Prism Atlas"
+          why: "Legendary conversion"
+
+      monitoring:
+        main:
+          - "Genelec 8361A + 7380A sub"
+          - "ATC SCM45A Pro"
+          - "PMC twotwo.8"
+        nearfield:
+          - "Yamaha NS-10 (reference)"
+          - "Auratone 5C (mono check)"
+          - "Genelec 8030C"
+
+      microphone_locker:
+        condensers:
+          - "Neumann U47 (tube)"
+          - "Neumann U87 Ai (x2)"
+          - "AKG C12 VR"
+          - "Sony C-800G"
+          - "Telefunken ELA M 251E"
+        dynamics:
+          - "Shure SM57 (x4)"
+          - "Shure SM7B (x2)"
+          - "Sennheiser MD 421 (x4)"
+          - "Electro-Voice RE20"
+        ribbons:
+          - "Royer R-121 (x2)"
+          - "Coles 4038 (x2)"
+          - "RCA 77DX"
+        small_diaphragm:
+          - "Neumann KM 184 (matched pair)"
+          - "DPA 4011 (matched pair)"
+          - "Schoeps CMC6/MK4"
+
+      outboard_racks:
+        preamps:
+          - "Neve 1073 (x4)"
+          - "API 512c (x4)"
+          - "Universal Audio 610 (x2)"
+          - "Chandler REDD.47"
+          - "Millennia HV-3D"
+        compressors:
+          - "Universal Audio 1176 (x2)"
+          - "Teletronix LA-2A (x2)"
+          - "SSL Bus Comp"
+          - "Distressor (x2)"
+          - "Manley Vari-Mu"
+        eq:
+          - "Pultec EQP-1A"
+          - "Pultec MEQ-5"
+          - "API 550B (x2)"
+          - "GML 8200"
+
+# ==============================================================================
+# ROOM ACOUSTICS GUIDE
+# ==============================================================================
+
+room_acoustics:
+
+  fundamentals:
+    golden_ratios:
+      description: "Ideal room dimension ratios to minimize standing waves"
+      ratios:
+        - name: "IEC Ratio"
+          ratio: "1 : 1.14 : 1.39"
+        - name: "Sepmeyer"
+          ratio: "1 : 1.28 : 1.54"
+        - name: "Bolt"
+          ratio: "1 : 1.26 : 1.59"
+
+    critical_frequencies:
+      formula: "f = 1130 / (2 × room_dimension_ft)"
+      example: "10ft room = 56.5 Hz fundamental mode"
+
+    rt60_targets:
+      control_room: "0.3 - 0.4 seconds"
+      live_room: "0.5 - 1.0 seconds"
+      voice_over_booth: "0.2 - 0.3 seconds"
+
+  treatment_types:
+
+    absorption:
+      description: "Reduces sound energy, controls reflections"
+      materials:
+        - name: "Rockwool/Mineral Wool"
+          nrc: "0.8 - 1.0"
+          best_for: "Broadband absorption"
+          thickness: "2-6 inches"
+        - name: "Acoustic Foam"
+          nrc: "0.6 - 0.8"
+          best_for: "High frequencies"
+          thickness: "1-3 inches"
+        - name: "Fiberglass (703)"
+          nrc: "0.85 - 1.0"
+          best_for: "Professional panels"
+          thickness: "2-4 inches"
+
+    bass_traps:
+      description: "Controls low frequency buildup"
+      types:
+        - name: "Porous Absorbers"
+          description: "Thick panels in corners"
+          minimum_depth: "4 inches"
+          ideal_depth: "12+ inches"
+        - name: "Membrane/Panel Traps"
+          description: "Tuned to specific frequencies"
+          effective_range: "40-200 Hz"
+        - name: "Helmholtz Resonators"
+          description: "Tuned cavity absorbers"
+          use_case: "Targeting specific problem frequencies"
+
+    diffusion:
+      description: "Scatters sound energy, maintains liveliness"
+      types:
+        - name: "QRD (Quadratic Residue)"
+          description: "Mathematical sequence wells"
+          effective_above: "400 Hz+"
+        - name: "Skyline/Poly"
+          description: "Random depth blocks"
+          benefit: "Broadband scattering"
+        - name: "Binary Amplitude"
+          description: "Flat/angled surfaces"
+
+  placement_guide:
+
+    first_reflections:
+      description: "Most critical treatment locations"
+      mirror_trick: "Sit in mix position, have someone move mirror on wall. Where you see speaker = treat"
+      locations:
+        - "Side walls at ear level"
+        - "Ceiling above mix position"
+        - "Wall behind speakers"
+
+    bass_trap_placement:
+      priority_order:
+        - "Front corners (floor to ceiling)"
+        - "Rear corners"
+        - "Wall-ceiling corners"
+        - "Wall-floor junctions"
+
+    diffuser_placement:
+      - "Rear wall (primary)"
+      - "Ceiling (optional)"
+      - "NEVER at first reflection points"
+
+  monitor_placement:
+
+    equilateral_triangle:
+      description: "Speakers and head form equilateral triangle"
+      angle: "60 degrees between speakers"
+      toe_in: "Aimed slightly behind head"
+
+    distance_from_walls:
+      front_wall: "Minimum 1-2 feet or flush-mount"
+      side_walls: "Asymmetric = bass problems"
+      behind_listener: "Minimum 3 feet"
+
+    height:
+      tweeter_position: "Ear level when seated"
+      angle: "Tilted down if above ear level"
+
+    subwoofer:
+      common_positions:
+        - "Front wall center (between mains)"
+        - "Corner (most output, least accurate)"
+        - "1/4 room length from front wall"
+      calibration: "Use REW + UMIK-1 for measurement"
+
+# ==============================================================================
+# CABLE AND SIGNAL FLOW
+# ==============================================================================
+
+cable_guide:
+
+  cable_types:
+
+    xlr_balanced:
+      use_for:
+        - "Microphones"
+        - "Monitor connections"
+        - "Long cable runs"
+      max_length: "200+ feet"
+      connectors: "XLR male to female"
+
+    trs_balanced:
+      use_for:
+        - "Insert points"
+        - "Balanced line level"
+        - "Headphone extensions"
+      max_length: "50 feet"
+      connectors: "1/4\" TRS"
+
+    ts_unbalanced:
+      use_for:
+        - "Guitar/bass"
+        - "Unbalanced line level"
+        - "Short patch cables"
+      max_length: "15-25 feet"
+      connectors: "1/4\" TS"
+
+    rca_unbalanced:
+      use_for:
+        - "Consumer equipment"
+        - "DJ gear"
+        - "Turntables"
+      max_length: "15 feet"
+
+    spdif_digital:
+      types:
+        - "Coaxial (RCA, 75 ohm)"
+        - "Optical (TOSLINK)"
+      max_length: "15 feet (coax), 30 feet (optical)"
+
+    aes_ebu:
+      use_for: "Professional digital audio"
+      connector: "XLR"
+      max_length: "300 feet"
+
+  signal_flow:
+    typical_chain: |
+      Microphone
+         ↓
+      Preamp (gain staging to -18 dBFS average)
+         ↓
+      A/D Converter (interface)
+         ↓
+      DAW
+         ↓
+      D/A Converter (interface)
+         ↓
+      Monitor Controller
+         ↓
+      Power Amp / Active Monitors
+         ↓
+      Speakers
+
+    gain_staging:
+      input_target: "-18 dBFS average, -6 dBFS peak"
+      plugin_headroom: "Keep peaks below -6 dBFS"
+      output: "Master at -1 dBFS true peak"
+
+# ==============================================================================
+# POWER AND GROUNDING
+# ==============================================================================
+
+power_guide:
+
+  clean_power:
+    importance: "Prevents ground loops, reduces noise floor"
+
+    solutions:
+      surge_protection:
+        - name: "Furman M-8x2"
+          price: "$100"
+          features: "Surge/spike protection, 8 outlets"
+        - name: "Furman PL-Plus DMC"
+          price: "$350"
+          features: "Voltmeter, lights, linear filtering"
+
+      power_conditioning:
+        - name: "Furman P-1800 AR"
+          price: "$600"
+          features: "Automatic voltage regulation"
+        - name: "Furman IT-REF 15i"
+          price: "$2,500"
+          features: "Balanced power isolation"
+
+      isolation_transformers:
+        - name: "Equi=Tech Son of Q"
+          price: "$2,000"
+          features: "Balanced power"
+
+  ground_loops:
+    symptoms:
+      - "60 Hz hum (50 Hz in Europe)"
+      - "Buzz that changes with gear"
+      - "Noise when touching metal"
+
+    solutions:
+      - "Use balanced connections"
+      - "Power everything from same circuit"
+      - "Ground lift on DI boxes"
+      - "Isolation transformer"
+      - "Hum eliminator (last resort)"
+
+# ==============================================================================
+# STUDIO ERGONOMICS
+# ==============================================================================
+
+ergonomics:
+
+  desk_setup:
+    monitor_height: "Top of screen at eye level"
+    keyboard_position: "Elbows at 90 degrees"
+    mouse_position: "Same level as keyboard"
+    desk_height: "28-30 inches standard"
+
+  chair:
+    recommendations:
+      - name: "Herman Miller Aeron"
+        price: "$1,400"
+        why: "Gold standard ergonomic chair"
+      - name: "Secretlab Titan"
+        price: "$500"
+        why: "Gaming chair with lumbar support"
+      - name: "Branch Ergonomic Chair"
+        price: "$350"
+        why: "Budget ergonomic option"
+
+  listening_position:
+    ear_height: "Aligned with tweeters"
+    head_position: "38% from front wall (optimal)"
+    distance_from_monitors: "Equal to speaker spread"
+
+  fatigue_prevention:
+    - "Take breaks every 45-60 minutes"
+    - "Monitor at conversation level (85 dB max)"
+    - "Use reference tracks frequently"
+    - "Check mixes on multiple systems"
+
+# ==============================================================================
+# COMPUTER OPTIMIZATION
+# ==============================================================================
+
+computer_setup:
+
+  mac_optimization:
+    - "Disable Spotlight indexing on audio drives"
+    - "Turn off Time Machine during sessions"
+    - "Close unnecessary apps"
+    - "Disable notifications"
+    - "Energy Saver: Never sleep when on power"
+    - "Use Audio MIDI Setup to verify sample rate"
+
+  windows_optimization:
+    - "Use High Performance power plan"
+    - "Disable USB selective suspend"
+    - "Disable C-states in BIOS"
+    - "Set processor scheduling to 'Background services'"
+    - "Disable Wi-Fi/Bluetooth if not needed"
+    - "Use LatencyMon to check DPC latency"
+
+  storage:
+    system_drive:
+      type: "NVMe SSD"
+      minimum: "500 GB"
+      recommended: "1 TB"
+
+    sample_drive:
+      type: "NVMe or SATA SSD"
+      minimum: "1 TB"
+      recommended: "2+ TB"
+      note: "Separate from system drive"
+
+    project_drive:
+      type: "SSD or fast HDD"
+      minimum: "2 TB"
+      organization: |
+        Projects/
+        ├── Active/
+        ├── Archive/
+        └── Backups/
+
+    backup_drive:
+      type: "External HDD or NAS"
+      rule: "3-2-1 backup strategy"
+
+  ram_requirements:
+    minimum: "16 GB"
+    recommended: "32 GB"
+    orchestral_production: "64+ GB"
+
+# ==============================================================================
+# METABEAST_CC QUICK REFERENCE
+# ==============================================================================
+
+quick_reference:
+
+  budget_builds:
+    $500:
+      - "Focusrite Scarlett Solo"
+      - "Audio-Technica ATH-M20x"
+      - "Reaper DAW"
+      - "Free plugins (Vital, TDR, LABS)"
+
+    $1000:
+      - "Focusrite Scarlett 2i2"
+      - "Audio-Technica ATH-M50x"
+      - "Audio-Technica AT2020"
+      - "Akai MPK Mini"
+      - "Basic acoustic treatment"
+
+    $2500:
+      - "Audient iD14 MkII"
+      - "Yamaha HS5 monitors"
+      - "Rode NT1"
+      - "Sennheiser HD 650"
+      - "Arturia KeyLab Essential"
+      - "Room treatment panels"
+
+    $5000:
+      - "Universal Audio Volt 476"
+      - "Adam T7V monitors"
+      - "Shure SM7B"
+      - "Warm Audio WA-87"
+      - "Native Instruments Komplete Kontrol S61"
+      - "Full room treatment"
+
+    $10000:
+      - "Universal Audio Apollo Twin X"
+      - "Genelec 8030C monitors"
+      - "Neumann TLM 103"
+      - "Telefunken M80"
+      - "Outboard preamp (Neve clone)"
+      - "Professional room treatment"
+      - "Ergonomic desk setup"
+
+  checklist:
+    before_session:
+      - "[ ] Backup current projects"
+      - "[ ] Check interface sample rate"
+      - "[ ] Test monitoring chain"
+      - "[ ] Close unnecessary apps"
+      - "[ ] Set phone to DND"
+
+    after_session:
+      - "[ ] Save and backup project"
+      - "[ ] Export stems if needed"
+      - "[ ] Note any issues"
+      - "[ ] Power down properly"

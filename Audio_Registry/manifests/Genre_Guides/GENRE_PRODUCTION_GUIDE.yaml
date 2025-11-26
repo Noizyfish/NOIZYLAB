@@ -1,0 +1,870 @@
+# ==============================================================================
+# METABEAST_CC - Genre Production Guide
+# ==============================================================================
+# Comprehensive production techniques by genre
+# Fish Music Inc. / MissionControl96 / NOIZYLAB
+# ==============================================================================
+
+metadata:
+  manifest_type: genre_production_guide
+  version: "1.0.0"
+  created: "2024"
+  organization: "Fish Music Inc. / MissionControl96 / NOIZYLAB"
+  description: "Genre-specific production techniques, tools, and workflows"
+
+# ==============================================================================
+# ELECTRONIC MUSIC GENRES
+# ==============================================================================
+
+electronic:
+
+  house:
+    id: genre-001
+    bpm_range: "120-130"
+    time_signature: "4/4"
+    key_characteristics:
+      - "Four-on-the-floor kick pattern"
+      - "Offbeat hi-hats"
+      - "Rolling basslines"
+      - "Chord stabs"
+      - "Vocal samples/chops"
+
+    production_elements:
+      kick:
+        character: "Punchy, present but not overpowering"
+        frequency_focus: "50-60 Hz fundamental, 2-4 kHz click"
+        sidechain: "Light to moderate pumping"
+        recommended_tools:
+          - "Kick 2"
+          - "Sample from Vengeance/Splice"
+        tips:
+          - "Layer a low thud with a mid-range punch"
+          - "Use subtle saturation for warmth"
+
+      bass:
+        types: ["Rolling 16th note patterns", "Sustained sub", "Plucky stabs"]
+        frequency_range: "40-200 Hz"
+        processing:
+          - "Sidechain to kick (-3 to -6 dB)"
+          - "Saturation for upper harmonics"
+          - "High-pass around 30 Hz"
+        recommended_synths:
+          - "Serum"
+          - "Diva"
+          - "TAL-Bassline"
+
+      drums:
+        hi_hats: "Offbeat 8ths or 16ths with variation"
+        claps: "2 and 4, layered"
+        percussion: "Congas, shakers, tambourines"
+        processing: "Parallel compression, tape saturation"
+
+      chords:
+        voicing: "Open voicings, 7ths and 9ths"
+        rhythm: "Offbeat stabs or sustained pads"
+        effects: "Filtered reverb, delay throws"
+        recommended:
+          - "Diva"
+          - "Juno-106 emulations"
+          - "Piano samples"
+
+    mixing_tips:
+      - "Keep mids clean - house is about the groove"
+      - "Use sends for reverb to maintain punch"
+      - "Reference tracks: Disclosure, Duke Dumont, MK"
+      - "Master loudness: -7 to -9 LUFS"
+
+    subgenres:
+      deep_house:
+        bpm: "118-125"
+        vibe: "Soulful, jazzy chords, muted kicks"
+        artists: ["Maya Jane Coles", "Kerri Chandler"]
+      tech_house:
+        bpm: "124-128"
+        vibe: "Driving, minimal, repetitive"
+        artists: ["Fisher", "Green Velvet"]
+      progressive_house:
+        bpm: "126-132"
+        vibe: "Building, melodic, emotional"
+        artists: ["Deadmau5", "Eric Prydz"]
+
+  techno:
+    id: genre-002
+    bpm_range: "125-150"
+    time_signature: "4/4"
+    key_characteristics:
+      - "Industrial/mechanical sounds"
+      - "Hypnotic repetition"
+      - "Heavy use of effects automation"
+      - "Dark atmosphere"
+      - "Driving kick and bass"
+
+    production_elements:
+      kick:
+        character: "Punchy, distorted, industrial"
+        frequency_focus: "45-55 Hz fundamental, aggressive mids"
+        processing:
+          - "Parallel distortion"
+          - "Tight compression"
+          - "EQ sculpting around 200 Hz"
+        tips:
+          - "Shorter, punchier kicks work better"
+          - "Use transient shapers for more attack"
+
+      bass:
+        types: ["Distorted sub", "Acid 303 lines", "Reese bass"]
+        processing:
+          - "Heavy saturation/distortion"
+          - "Bandpass filter automation"
+          - "Parallel processing"
+        recommended:
+          - "ABL3 (303 emulation)"
+          - "Serum"
+          - "Monark"
+
+      atmosphere:
+        textures: "Noise, reverb tails, industrial sounds"
+        modulation: "Constant filter movement"
+        effects:
+          - "Long reverbs (100% wet sends)"
+          - "Delay feedback automation"
+          - "Granular processing"
+
+    mixing_tips:
+      - "Embrace distortion and saturation"
+      - "Automate everything - filters, sends, parameters"
+      - "Reference: Charlotte de Witte, Amelie Lens, Kobosil"
+      - "Master loudness: -6 to -8 LUFS"
+
+    subgenres:
+      melodic_techno:
+        bpm: "120-130"
+        vibe: "Emotional, pads, arpeggios"
+        artists: ["Tale Of Us", "Maceo Plex"]
+      hard_techno:
+        bpm: "140-160"
+        vibe: "Aggressive, distorted, intense"
+        artists: ["999999999", "Dax J"]
+      minimal_techno:
+        bpm: "125-135"
+        vibe: "Stripped back, hypnotic"
+        artists: ["Richie Hawtin", "Ricardo Villalobos"]
+
+  drum_and_bass:
+    id: genre-003
+    bpm_range: "160-180"
+    time_signature: "4/4"
+    key_characteristics:
+      - "Breakbeats at high tempo"
+      - "Heavy sub bass"
+      - "Complex drum programming"
+      - "Reese bass / neuro bass"
+
+    production_elements:
+      drums:
+        pattern: "Two-step breakbeat pattern"
+        kick: "Hits on 1 and the 'and' of 2"
+        snare: "Hits on 2 and 4"
+        hats: "Fast 16th note variations"
+        processing:
+          - "Parallel compression"
+          - "Saturation on breaks"
+          - "Time-stretching for texture"
+        sample_sources:
+          - "Classic breaks: Amen, Think, Apache"
+          - "Sample packs: Loopmasters, Sample Magic"
+
+      bass:
+        types:
+          - name: "Reese Bass"
+            description: "Detuned saws with phasing"
+            processing: "Heavy distortion, filter automation"
+          - name: "Neuro Bass"
+            description: "Complex FM/wavetable sounds"
+            processing: "Multiband distortion, formant shifting"
+          - name: "Sub Bass"
+            description: "Clean sine underneath"
+            frequency: "40-80 Hz"
+
+        layering:
+          - "Sub layer: Clean sine, heavily sidechained"
+          - "Mid layer: Reese/neuro, filtered"
+          - "Top layer: Distorted harmonics"
+
+        recommended_synths:
+          - "Serum"
+          - "Massive X"
+          - "Phase Plant"
+
+    mixing_tips:
+      - "Sidechain sub to kick aggressively"
+      - "Use multiband compression on bass"
+      - "Reference: Noisia, Mefjus, Current Value"
+      - "Master loudness: -5 to -7 LUFS"
+
+    subgenres:
+      liquid:
+        vibe: "Smooth, musical, soulful"
+        artists: ["Calibre", "London Elektricity"]
+      jump_up:
+        vibe: "Aggressive, simple, crowd-focused"
+        artists: ["DJ Hazard", "Macky Gee"]
+      neurofunk:
+        vibe: "Complex, sound design heavy"
+        artists: ["Noisia", "Black Sun Empire"]
+
+  dubstep:
+    id: genre-004
+    bpm_range: "140-150"
+    time_signature: "4/4"
+    key_characteristics:
+      - "Half-time drums"
+      - "Heavy bass drops"
+      - "LFO modulated bass (wobble)"
+      - "Sparse arrangements"
+
+    production_elements:
+      bass:
+        types:
+          - name: "Wobble Bass"
+            description: "LFO on filter cutoff"
+            rate: "Synced to tempo (1/4, 1/8, 1/16)"
+          - name: "Growl Bass"
+            description: "FM modulation, distortion"
+            processing: "Multiband saturation, formant shifter"
+          - name: "Yoi Bass"
+            description: "Vocal-like formant movement"
+            technique: "Formant filter automation"
+
+        sound_design:
+          - "Start with wavetable or FM"
+          - "Layer multiple sounds"
+          - "Automate LFO rate and filter"
+          - "Use multiband processing"
+
+      drums:
+        pattern: "Half-time feel"
+        snare: "Heavy, processed, often with reverb"
+        kick: "Punchy, not too low"
+        processing:
+          - "Snare: Layered, crushed"
+          - "Heavy parallel compression"
+
+    mixing_tips:
+      - "Leave space for bass - sparse mids"
+      - "Build tension before drops"
+      - "Reference: Skrillex, Virtual Riot, Excision"
+      - "Master loudness: -4 to -6 LUFS"
+
+  trance:
+    id: genre-005
+    bpm_range: "128-150"
+    time_signature: "4/4"
+    key_characteristics:
+      - "Building energy"
+      - "Euphoric melodies"
+      - "Long breakdowns"
+      - "Gate trance leads"
+      - "Supersaw pads"
+
+    production_elements:
+      leads:
+        types:
+          - "Supersaw: 7+ detuned saws"
+          - "Pluck: Short envelope, filter sweep"
+          - "Gate trance: Rhythmic volume chopping"
+        processing:
+          - "Reverb (large hall)"
+          - "Delay (tempo-synced)"
+          - "EQ boost around 3-5 kHz"
+        recommended:
+          - "Sylenth1"
+          - "Spire"
+          - "Diva"
+
+      pads:
+        character: "Lush, evolving, wide"
+        layers: "Multiple octaves, rich harmonics"
+        processing:
+          - "Long reverb tails"
+          - "Slow filter movement"
+          - "Stereo widening"
+
+      bass:
+        types: ["Rolling basslines", "Sustained sub"]
+        frequency: "45-100 Hz"
+        sidechain: "Moderate pumping"
+
+      arrangement:
+        intro: "32-64 bars, building"
+        breakdown: "32-64 bars, melodic"
+        drop: "Full energy, all elements"
+        structure: "ABAB or ABABCB"
+
+    mixing_tips:
+      - "Build continuously - energy management"
+      - "Use risers and downlifters"
+      - "Reference: Armin van Buuren, Above & Beyond"
+      - "Master loudness: -6 to -8 LUFS"
+
+# ==============================================================================
+# HIP HOP & RAP
+# ==============================================================================
+
+hip_hop:
+
+  trap:
+    id: genre-010
+    bpm_range: "130-170"
+    time_signature: "4/4"
+    key_characteristics:
+      - "808 bass"
+      - "Hi-hat rolls"
+      - "Snare on 3"
+      - "Dark, sparse melodies"
+
+    production_elements:
+      808_bass:
+        character: "Long, sustained, often distorted"
+        tuning: "CRITICAL - tune to key of song"
+        frequency: "30-80 Hz fundamental"
+        processing:
+          - "Saturation for presence"
+          - "Soft clipping on peaks"
+          - "EQ boost around 60-80 Hz"
+        tips:
+          - "Layer with clean sub if needed"
+          - "Use glide/portamento"
+          - "Sidechain to kick (subtle)"
+        recommended_samples:
+          - "Spinz 808"
+          - "Zaytoven 808"
+          - "Metro Boomin packs"
+
+      drums:
+        kick: "Short, punchy (not the 808)"
+        snare: "Snappy, clap layered"
+        hi_hats:
+          pattern: "Rolling 16ths-32nds"
+          variations: "Triplets, velocity changes"
+          processing: "Light saturation, EQ high shelf"
+        techniques:
+          - "Hi-hat rolls with velocity automation"
+          - "Snare rolls for transitions"
+          - "Percs: rim shots, snaps, clicks"
+
+      melodies:
+        style: "Dark, minor keys, simple"
+        instruments:
+          - "Bells/chimes"
+          - "Flutes"
+          - "Piano (dark)"
+          - "Strings"
+        processing:
+          - "Gross Beat/Half-time effect"
+          - "Reverb throws"
+          - "Panning automation"
+
+    mixing_tips:
+      - "808 is king - mix around it"
+      - "Keep it sparse - less is more"
+      - "Reference: Metro Boomin, Southside, London On Da Track"
+      - "Master loudness: -6 to -9 LUFS"
+
+  boom_bap:
+    id: genre-011
+    bpm_range: "85-100"
+    time_signature: "4/4"
+    key_characteristics:
+      - "Sample-based production"
+      - "Chopped breaks"
+      - "Vinyl texture"
+      - "Head-nodding groove"
+
+    production_elements:
+      drums:
+        source: "Sampled breaks or one-shots"
+        kick: "Punchy, mid-heavy"
+        snare: "Cracking, present"
+        hats: "Simple patterns, open hats"
+        processing:
+          - "MPC-style swing"
+          - "Tape saturation"
+          - "Vinyl noise"
+        techniques:
+          - "Chop and re-arrange breaks"
+          - "Layer kicks and snares"
+          - "Use swing/groove templates"
+
+      samples:
+        sources:
+          - "Soul, funk, jazz records"
+          - "70s-80s vinyl"
+        chopping:
+          - "Time-stretch vs pitch-shift"
+          - "Creative chop placement"
+          - "Layering multiple samples"
+        processing:
+          - "Vinyl crackle"
+          - "Tape warble"
+          - "Bit crushing (subtle)"
+
+      bass:
+        types: ["Sampled bass", "Live bass", "Simple synth"]
+        character: "Warm, round, supportive"
+
+    mixing_tips:
+      - "Embrace lo-fi character"
+      - "Sample clearance if commercial"
+      - "Reference: DJ Premier, Pete Rock, J Dilla"
+      - "Master loudness: -9 to -11 LUFS"
+
+  modern_hip_hop:
+    id: genre-012
+    bpm_range: "70-160"
+    time_signature: "4/4"
+    key_characteristics:
+      - "Melodic elements"
+      - "Vocal effects (Auto-Tune)"
+      - "808 variations"
+      - "Genre-blending"
+
+    production_elements:
+      vocals:
+        auto_tune: "Essential for melodic rap"
+        settings:
+          - "Retune Speed: 0-20 (hard) or 30-50 (subtle)"
+          - "Key and scale: Match song key"
+        recommended:
+          - "Auto-Tune Pro"
+          - "Melodyne"
+          - "Waves Tune Real-Time"
+        processing:
+          - "Compression (2-4:1)"
+          - "De-essing"
+          - "Reverb/delay throws"
+          - "Doubles and ad-libs"
+
+      production:
+        elements:
+          - "Guitar loops"
+          - "Piano/keys"
+          - "Synth pads"
+          - "Bells and plucks"
+        vibe: "Emotional, atmospheric"
+
+    mixing_tips:
+      - "Vocal is everything - get it right"
+      - "Reference: current charts"
+      - "Master loudness: -7 to -9 LUFS"
+
+# ==============================================================================
+# ROCK & ALTERNATIVE
+# ==============================================================================
+
+rock:
+
+  rock_general:
+    id: genre-020
+    bpm_range: "100-140"
+    time_signature: "4/4"
+    key_characteristics:
+      - "Live instruments"
+      - "Guitar-driven"
+      - "Drums as foundation"
+      - "Dynamic range"
+
+    production_elements:
+      guitars:
+        recording:
+          - "Mic placement: SM57 on cone edge"
+          - "Room mic for ambience"
+          - "DI for re-amping flexibility"
+        tones:
+          rhythm: "Mid-heavy, not too much gain"
+          lead: "More mids, slight boost 2-4 kHz"
+        double_tracking:
+          - "Record twice, pan L/R"
+          - "Different guitars/amps each side"
+          - "Tighten timing but keep human"
+        processing:
+          - "High-pass around 80-100 Hz"
+          - "Cut muddy frequencies (200-400 Hz)"
+          - "Parallel compression for sustain"
+
+      drums:
+        recording:
+          - "Overhead pair (spaced or ORTF)"
+          - "Close mics: kick, snare top/bottom, toms"
+          - "Room mics for ambience"
+        processing:
+          - "Gate toms to reduce bleed"
+          - "Parallel compression (smash it)"
+          - "Snare: top mic for crack, bottom for wires"
+        tuning: "Tune drums to song key if possible"
+
+      bass:
+        recording:
+          - "DI essential"
+          - "Mic amp for color"
+          - "Blend to taste"
+        processing:
+          - "Compression (4:1, slow attack)"
+          - "Saturation for harmonics"
+          - "High-pass around 30-40 Hz"
+
+      vocals:
+        recording:
+          - "Dynamic mic for aggressive (SM7B)"
+          - "Condenser for cleaner (U87)"
+          - "Pop filter, reflection filter"
+        processing:
+          - "Compression (start 4:1)"
+          - "EQ: presence boost 3-5 kHz"
+          - "De-essing"
+          - "Plate reverb"
+
+    mixing_tips:
+      - "Guitars: cut where vocals live (2-4 kHz)"
+      - "Bass and kick: complementary EQ"
+      - "Use automation for energy"
+      - "Reference: genre-appropriate artists"
+      - "Master loudness: -9 to -12 LUFS"
+
+  metal:
+    id: genre-021
+    bpm_range: "100-240"
+    time_signature: "4/4"
+    key_characteristics:
+      - "High gain guitars"
+      - "Fast, precise drums"
+      - "Drop tunings"
+      - "Powerful low end"
+
+    production_elements:
+      guitars:
+        tone:
+          - "Tight low end"
+          - "Scooped mids or mid-forward (style dependent)"
+          - "Sharp highs for clarity"
+        recording:
+          - "SM57 + ribbon mic blend"
+          - "Close and room mics"
+        quad_tracking:
+          - "4 rhythm takes: 2 hard L/R, 2 slightly in"
+          - "Different amps/tones per pair"
+        processing:
+          - "High-pass 80-120 Hz"
+          - "Tight low mids (150-300 Hz)"
+          - "Multiband compression for tightness"
+
+      drums:
+        kick: "Click around 3-6 kHz, thud 50-60 Hz"
+        snare: "Crack and body, often triggered/replaced"
+        triggers_samples:
+          - "Layer samples for consistency"
+          - "Keep original transient"
+        processing:
+          - "Gate everything"
+          - "Parallel compression (extreme)"
+          - "Drum replacement/augmentation"
+
+      bass:
+        tone: "Defined, aggressive, present"
+        processing:
+          - "Split: clean low, dirty high"
+          - "Distortion for mids/highs"
+          - "Tight compression"
+
+    mixing_tips:
+      - "Tightness is key"
+      - "Edit drums and guitars to grid if needed"
+      - "Reference: genre leaders"
+      - "Master loudness: -6 to -9 LUFS"
+
+# ==============================================================================
+# POP & MAINSTREAM
+# ==============================================================================
+
+pop:
+
+  modern_pop:
+    id: genre-030
+    bpm_range: "90-130"
+    time_signature: "4/4"
+    key_characteristics:
+      - "Vocal-focused"
+      - "Catchy hooks"
+      - "Polished production"
+      - "Wide, full mixes"
+
+    production_elements:
+      vocals:
+        priority: "ALWAYS #1 - mix around vocals"
+        recording:
+          - "High-end condenser (U87, C800G)"
+          - "Treated room or booth"
+          - "Multiple takes for comping"
+        editing:
+          - "Perfect tuning (Melodyne)"
+          - "Tight timing"
+          - "Breath control"
+        processing:
+          - "Compression: 3-4 stages (light each)"
+          - "EQ: clarity boost, de-mud"
+          - "De-essing (multiple)"
+          - "Saturation (subtle)"
+          - "Stereo widening on doubles"
+        layers:
+          - "Lead vocal: centered, present"
+          - "Doubles: slightly off, panned"
+          - "Harmonies: support, wider"
+          - "Ad-libs: effects, background"
+
+      production:
+        elements:
+          - "Synths (Serum, Omnisphere)"
+          - "Sampled drums + live feel"
+          - "Guitar textures"
+          - "Piano/keys"
+        arrangement:
+          - "Clear verse/chorus contrast"
+          - "Pre-chorus builds"
+          - "Strategic drops"
+
+    mixing_tips:
+      - "Reference current hits constantly"
+      - "Everything supports the vocal"
+      - "Master loudness: -8 to -10 LUFS"
+      - "Leave headroom for mastering"
+
+  edm_pop:
+    id: genre-031
+    bpm_range: "120-130"
+    time_signature: "4/4"
+    key_characteristics:
+      - "Dance-oriented"
+      - "Big drops"
+      - "Vocal hooks"
+      - "Festival-ready energy"
+
+    production_elements:
+      drops:
+        build:
+          - "Risers, noise sweeps"
+          - "Snare rolls"
+          - "Filter automation"
+          - "Volume swells"
+        impact:
+          - "Sub drop"
+          - "Punchy kick"
+          - "Wide synths"
+        techniques:
+          - "Remove elements before drop"
+          - "Use silence/breath"
+          - "Layer impacts"
+
+      synths:
+        leads: "Big, wide, present"
+        chords: "Supersaws, plucks"
+        bass: "Sidechain heavily"
+
+    mixing_tips:
+      - "Energy management is everything"
+      - "Reference: Calvin Harris, The Chainsmokers"
+      - "Master loudness: -6 to -8 LUFS"
+
+# ==============================================================================
+# CINEMATIC & ORCHESTRAL
+# ==============================================================================
+
+cinematic:
+
+  epic_orchestral:
+    id: genre-040
+    bpm_range: "80-140"
+    time_signature: "Various"
+    key_characteristics:
+      - "Full orchestra"
+      - "Hybrid elements"
+      - "Dynamic range"
+      - "Emotional arc"
+
+    production_elements:
+      orchestration:
+        strings:
+          - "Violins: melody, high emotion"
+          - "Violas: inner harmony"
+          - "Cellos: warmth, power"
+          - "Basses: foundation"
+        brass:
+          - "Horns: warmth, power"
+          - "Trumpets: fanfares, accents"
+          - "Trombones: weight"
+          - "Tuba: low foundation"
+        woodwinds:
+          - "Flutes: lightness"
+          - "Clarinets: warmth"
+          - "Oboe: melody, emotion"
+        percussion:
+          - "Timpani: power hits"
+          - "Snare: military feel"
+          - "Cymbals: swells, crashes"
+          - "Taikos: epic impacts"
+
+      hybrid_elements:
+        synths: "Pads, textures, risers"
+        drums: "Processed acoustic, electronic"
+        effects: "Whooshes, hits, impacts"
+        recommended:
+          - "Damage 2"
+          - "Gravity"
+          - "Hybrid Tools"
+
+      arrangement:
+        structure:
+          - "Theme introduction"
+          - "Development/building"
+          - "Climax"
+          - "Resolution"
+        dynamics:
+          - "Use full dynamic range"
+          - "Crescendos and decrescendos"
+          - "Strategic silence"
+
+    mixing_tips:
+      - "Maintain dynamic range"
+      - "Use reverb for depth (halls)"
+      - "Reference: Hans Zimmer, John Williams"
+      - "Master loudness: -12 to -16 LUFS"
+
+    recommended_libraries:
+      - "Spitfire BBC Symphony"
+      - "Orchestral Tools Berlin"
+      - "Vienna Symphonic Library"
+      - "EastWest Hollywood Orchestra"
+      - "8Dio Century Series"
+
+  trailer_music:
+    id: genre-041
+    bpm_range: "80-160"
+    characteristics:
+      - "Big impacts"
+      - "Building tension"
+      - "Hybrid orchestra"
+      - "Massive sound"
+
+    production_elements:
+      structure:
+        act_1: "Mysterious, building"
+        act_2: "Intensity increase"
+        act_3: "Full climax, resolution"
+
+      impacts:
+        types: ["Sub drops", "Orchestra hits", "Hybrid slams"]
+        processing:
+          - "Layering (low, mid, high)"
+          - "Reverb for space"
+          - "Saturation for presence"
+
+      risers:
+        types: ["Noise sweeps", "Orchestra swells", "Synth builds"]
+        duration: "4-16 bars typically"
+
+    mixing_tips:
+      - "Impacts need space - use silence"
+      - "Build tension expertly"
+      - "Reference: Two Steps From Hell, Audiomachine"
+      - "Master loudness: -10 to -14 LUFS"
+
+# ==============================================================================
+# AMBIENT & EXPERIMENTAL
+# ==============================================================================
+
+ambient:
+
+  ambient_general:
+    id: genre-050
+    bpm_range: "60-120 (or none)"
+    characteristics:
+      - "Texture over melody"
+      - "Slow evolution"
+      - "Space and atmosphere"
+      - "Minimalism"
+
+    production_elements:
+      sound_design:
+        sources:
+          - "Field recordings"
+          - "Granular synthesis"
+          - "Processed instruments"
+          - "Found sounds"
+        processing:
+          - "Long reverbs (100% wet)"
+          - "Delay (feedback emphasis)"
+          - "Granular processing"
+          - "Time stretching"
+        recommended:
+          - "Valhalla Shimmer"
+          - "Portal (Output)"
+          - "Granulator II"
+          - "Paulstretch"
+
+      arrangement:
+        approach:
+          - "Slow introduction of elements"
+          - "Gradual evolution"
+          - "Repetition with variation"
+          - "Strategic silence"
+
+    mixing_tips:
+      - "Wide stereo field"
+      - "Embrace imperfection"
+      - "Reference: Brian Eno, Stars of the Lid"
+      - "Master loudness: -14 to -20 LUFS"
+
+# ==============================================================================
+# GENRE QUICK REFERENCE
+# ==============================================================================
+
+quick_reference:
+
+  tempo_guide:
+    ambient: "60-90"
+    downtempo: "70-100"
+    hip_hop: "85-115"
+    house: "120-130"
+    techno: "125-150"
+    trance: "128-145"
+    drum_and_bass: "160-180"
+    dubstep: "140-150"
+
+  key_signatures:
+    emotional: ["A minor", "D minor", "E minor"]
+    uplifting: ["C major", "G major", "D major"]
+    dark: ["B minor", "F# minor", "C# minor"]
+    epic: ["D major", "Bb major", "Eb major"]
+
+  loudness_targets:
+    streaming_optimized: "-14 LUFS (Spotify normalized)"
+    club_ready: "-6 to -8 LUFS"
+    cinematic: "-12 to -16 LUFS"
+    hip_hop: "-7 to -9 LUFS"
+    rock: "-9 to -12 LUFS"
+    ambient: "-14 to -20 LUFS"
+
+  sidechain_settings:
+    house: "3-6 dB reduction, medium release"
+    techno: "4-8 dB reduction, faster release"
+    drum_and_bass: "6-10 dB reduction, very fast"
+    dubstep: "4-6 dB reduction, medium"
+    trap: "2-4 dB reduction, slow release"
+
+  reverb_guide:
+    dry_genres: ["Hip hop", "Trap", "Metal"]
+    wet_genres: ["Trance", "Ambient", "Orchestral"]
+    reverb_types:
+      plate: "Vocals, snare"
+      hall: "Orchestra, pads"
+      room: "Drums, guitars"
+      chamber: "Strings, classical"

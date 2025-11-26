@@ -1541,6 +1541,1036 @@ items:
       home: "https://soundtoys.com/tremolator"
     notes: "Rhythmic tremolo and gating. Groove-locked."
 
+  # ============================================================================
+  # ADDITIONAL SYNTHS & INSTRUMENTS
+  # ============================================================================
+  - itemId: inst-040
+    name: Hive
+    type: instrument
+    category: synth
+    developer: U-He
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows, Linux]
+    releaseYear: 2015
+    status: active
+    tags: [wavetable, CPU-efficient, modern]
+    urls:
+      home: "https://u-he.com/hive"
+    notes: "CPU-efficient modern synth. Sleek workflow."
+
+  - itemId: inst-041
+    name: Repro
+    type: instrument
+    category: synth
+    developer: U-He
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows, Linux]
+    releaseYear: 2017
+    status: active
+    tags: [analog-modeling, Prophet, Oberheim]
+    urls:
+      home: "https://u-he.com/repro"
+    notes: "Prophet-5 and Pro-One emulation. Exceptional analog sound."
+
+  - itemId: inst-042
+    name: Alchemy
+    type: instrument
+    category: synth
+    developer: Apple
+    format: [AU]
+    os: [macOS]
+    releaseYear: 2015
+    status: active
+    tags: [hybrid, additive, granular, spectral]
+    urls:
+      home: "https://apple.com/logic-pro"
+    notes: "Logic Pro exclusive. Multiple synthesis engines."
+
+  - itemId: inst-043
+    name: Sylenth1
+    type: instrument
+    category: synth
+    developer: LennarDigital
+    format: [VST3, AU]
+    os: [macOS, Windows]
+    releaseYear: 2006
+    status: active
+    tags: [subtractive, classic, EDM]
+    urls:
+      home: "https://lennardigital.com/sylenth1"
+    notes: "Classic subtractive synth. EDM staple."
+
+  - itemId: inst-044
+    name: Surge XT
+    type: instrument
+    category: synth
+    developer: Surge Synth Team
+    format: [VST3, AU, CLAP, Standalone]
+    os: [macOS, Windows, Linux]
+    releaseYear: 2020
+    status: active
+    tags: [hybrid, open-source, free, MPE]
+    urls:
+      home: "https://surge-synthesizer.github.io"
+    notes: "FREE open-source hybrid synth. Exceptional quality."
+
+  - itemId: inst-045
+    name: Analog Lab
+    type: instrument
+    category: synth
+    developer: Arturia
+    format: [VST3, AU, AAX, Standalone]
+    os: [macOS, Windows]
+    releaseYear: 2012
+    status: active
+    tags: [presets, vintage, analog-modeling]
+    urls:
+      home: "https://arturia.com/analog-lab"
+    notes: "All V Collection sounds in one plugin. 2000+ presets."
+
+  - itemId: inst-046
+    name: Avenger
+    type: instrument
+    category: synth
+    developer: Vengeance Sound
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2016
+    status: active
+    tags: [wavetable, drum-engine, EDM]
+    urls:
+      home: "https://vengeance-sound.com/avenger"
+    notes: "EDM production synth. Built-in drum engine and arpeggiator."
+
+  - itemId: inst-047
+    name: Dune
+    type: instrument
+    category: synth
+    developer: Synapse Audio
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2011
+    status: active
+    tags: [VA, wavetable, FM, trance]
+    urls:
+      home: "https://synapse-audio.com/dune"
+    notes: "Versatile VA/wavetable hybrid. Trance favorite."
+
+  - itemId: inst-048
+    name: Bazille
+    type: instrument
+    category: synth
+    developer: U-He
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows, Linux]
+    releaseYear: 2014
+    status: active
+    tags: [modular, digital, FM, PD]
+    urls:
+      home: "https://u-he.com/bazille"
+    notes: "Digital modular synth. FM, PD, fractal synthesis."
+
+  - itemId: inst-049
+    name: Spire
+    type: instrument
+    category: synth
+    developer: Reveal Sound
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2014
+    status: active
+    tags: [polyphonic, hybrid, EDM]
+    urls:
+      home: "https://reveal-sound.com/spire"
+    notes: "Polyphonic hybrid synth. Popular in EDM."
+
+  - itemId: inst-050
+    name: Retrologue
+    type: instrument
+    category: synth
+    developer: Steinberg
+    format: [VST3]
+    os: [macOS, Windows]
+    releaseYear: 2012
+    status: active
+    tags: [subtractive, vintage, analog-modeling]
+    urls:
+      home: "https://steinberg.net"
+    notes: "Cubase stock synth. Quality analog emulation."
+
+  - itemId: inst-051
+    name: Wavetable
+    type: instrument
+    category: synth
+    developer: Ableton
+    format: [VST3, AU]
+    os: [macOS, Windows]
+    releaseYear: 2018
+    status: active
+    tags: [wavetable, Live-native, MPE]
+    urls:
+      home: "https://ableton.com/live"
+    notes: "Live 10+ native wavetable synth."
+
+  - itemId: inst-052
+    name: Dexed
+    type: instrument
+    category: synth
+    developer: Digital Suburban
+    format: [VST3, AU, Standalone]
+    os: [macOS, Windows, Linux]
+    releaseYear: 2014
+    status: active
+    tags: [FM, DX7, free, open-source]
+    urls:
+      home: "https://asb2m10.github.io/dexed"
+    notes: "FREE DX7 emulation. Loads original SysEx patches."
+
+  - itemId: inst-053
+    name: FM8
+    type: instrument
+    category: synth
+    developer: Native Instruments
+    format: [VST3, AU, AAX, Standalone]
+    os: [macOS, Windows]
+    releaseYear: 2007
+    status: active
+    tags: [FM, digital, complex]
+    urls:
+      home: "https://native-instruments.com/fm8"
+    notes: "FM synthesis powerhouse. Complex sound design."
+
+  - itemId: inst-054
+    name: Reaktor
+    type: instrument
+    category: synth
+    developer: Native Instruments
+    format: [VST3, AU, AAX, Standalone]
+    os: [macOS, Windows]
+    releaseYear: 1999
+    status: active
+    tags: [modular, blocks, DSP, user-library]
+    urls:
+      home: "https://native-instruments.com/reaktor"
+    notes: "Modular DSP platform. Massive user library."
+
+  - itemId: inst-055
+    name: LABS
+    type: instrument
+    category: sampler
+    developer: Spitfire Audio
+    format: [VST3, AU, AAX, Standalone]
+    os: [macOS, Windows]
+    releaseYear: 2018
+    status: active
+    tags: [free, orchestral, experimental, growing]
+    urls:
+      home: "https://labs.spitfireaudio.com"
+    notes: "FREE high-quality instruments. Constantly expanding."
+
+  # ============================================================================
+  # ADDITIONAL ORCHESTRAL / CINEMATIC
+  # ============================================================================
+  - itemId: inst-060
+    name: Century Series
+    type: instrument
+    category: orchestral
+    developer: 8Dio
+    format: [Kontakt]
+    os: [macOS, Windows]
+    releaseYear: 2018
+    status: active
+    tags: [orchestral, strings, brass, ostinato]
+    urls:
+      home: "https://8dio.com"
+    notes: "Comprehensive orchestral collection. Ostinato builder."
+
+  - itemId: inst-061
+    name: Lacrimosa
+    type: instrument
+    category: orchestral
+    developer: 8Dio
+    format: [Kontakt]
+    os: [macOS, Windows]
+    releaseYear: 2019
+    status: active
+    tags: [choir, epic, SATB]
+    urls:
+      home: "https://8dio.com"
+    notes: "Epic choir library. Full SATB sections."
+
+  - itemId: inst-062
+    name: Novo
+    type: instrument
+    category: orchestral
+    developer: Heavyocity
+    format: [Kontakt]
+    os: [macOS, Windows]
+    releaseYear: 2017
+    status: active
+    tags: [strings, modern, cinematic]
+    urls:
+      home: "https://heavyocity.com"
+    notes: "Modern string instrument. Organic and processed."
+
+  - itemId: inst-063
+    name: Jaeger
+    type: instrument
+    category: orchestral
+    developer: Audio Imperia
+    format: [Kontakt]
+    os: [macOS, Windows]
+    releaseYear: 2018
+    status: active
+    tags: [orchestral, hybrid, epic]
+    urls:
+      home: "https://audioimperia.com"
+    notes: "Epic orchestral hybrid. Powerful brass and strings."
+
+  - itemId: inst-064
+    name: Nucleus
+    type: instrument
+    category: orchestral
+    developer: Audio Imperia
+    format: [Kontakt]
+    os: [macOS, Windows]
+    releaseYear: 2019
+    status: active
+    tags: [orchestral, lite, sketching]
+    urls:
+      home: "https://audioimperia.com"
+    notes: "Lightweight orchestral sketching tool."
+
+  - itemId: inst-065
+    name: Spitfire Studio Orchestra
+    type: instrument
+    category: orchestral
+    developer: Spitfire Audio
+    format: [VST3, AU, AAX, Standalone]
+    os: [macOS, Windows]
+    releaseYear: 2017
+    status: active
+    tags: [orchestral, dry, studio]
+    urls:
+      home: "https://spitfireaudio.com"
+    notes: "Dry studio recordings. Mix-ready orchestra."
+
+  - itemId: inst-066
+    name: CineStrings
+    type: instrument
+    category: orchestral
+    developer: Cinesamples
+    format: [Kontakt]
+    os: [macOS, Windows]
+    releaseYear: 2012
+    status: active
+    tags: [strings, Hollywood, cinematic]
+    urls:
+      home: "https://cinesamples.com"
+    notes: "Hollywood string sound. Sony scoring stage."
+
+  - itemId: inst-067
+    name: Mosaic
+    type: instrument
+    category: hybrid
+    developer: Heavyocity
+    format: [Kontakt]
+    os: [macOS, Windows]
+    releaseYear: 2016
+    status: active
+    tags: [voice, keys, bass, guitars, hybrid]
+    urls:
+      home: "https://heavyocity.com"
+    notes: "Hybrid instrument collection. Multiple volumes."
+
+  - itemId: inst-068
+    name: Exhale
+    type: instrument
+    category: sampler
+    developer: Output
+    format: [Kontakt]
+    os: [macOS, Windows]
+    releaseYear: 2015
+    status: active
+    tags: [vocal, hybrid, creative]
+    urls:
+      home: "https://output.com/exhale"
+    notes: "Modern vocal instrument. Processed and raw."
+
+  - itemId: inst-069
+    name: Analog Strings
+    type: instrument
+    category: sampler
+    developer: Output
+    format: [Kontakt]
+    os: [macOS, Windows]
+    releaseYear: 2016
+    status: active
+    tags: [strings, hybrid, analog]
+    urls:
+      home: "https://output.com/analog-strings"
+    notes: "Hybrid string instrument. Organic meets electronic."
+
+  - itemId: inst-070
+    name: Portal
+    type: instrument
+    category: sampler
+    developer: Output
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2018
+    status: active
+    tags: [granular, effects, creative]
+    urls:
+      home: "https://output.com/portal"
+    notes: "Granular effects plugin. Transform any sound."
+
+  # ============================================================================
+  # VOCAL PROCESSING
+  # ============================================================================
+  - itemId: plug-090
+    name: Nectar
+    type: plugin
+    category: channel-strip
+    developer: iZotope
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    minVersion: "4"
+    releaseYear: 2010
+    status: active
+    tags: [vocal, channel-strip, AI, processing]
+    urls:
+      home: "https://izotope.com/nectar"
+    notes: "Complete vocal processing suite. AI-assisted."
+
+  - itemId: plug-091
+    name: Vocal Rider
+    type: plugin
+    category: utility
+    developer: Waves
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2010
+    status: active
+    tags: [vocal, automation, leveling]
+    urls:
+      home: "https://waves.com"
+    notes: "Automatic vocal leveling. Reduces fader rides."
+
+  - itemId: plug-092
+    name: Soothe2
+    type: plugin
+    category: eq
+    developer: Oeksound
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2020
+    status: active
+    tags: [dynamic-resonance, vocal, de-harsh]
+    urls:
+      home: "https://oeksound.com/soothe2"
+    notes: "Dynamic resonance suppressor. De-harsh anything."
+
+  - itemId: plug-093
+    name: Spiff
+    type: plugin
+    category: eq
+    developer: Oeksound
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2021
+    status: active
+    tags: [transient, adaptive, drum, vocal]
+    urls:
+      home: "https://oeksound.com/spiff"
+    notes: "Adaptive transient processor. Sharpen or soften."
+
+  - itemId: plug-094
+    name: Vocal Bender
+    type: plugin
+    category: pitch
+    developer: Waves
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2019
+    status: active
+    tags: [pitch, formant, creative, real-time]
+    urls:
+      home: "https://waves.com"
+    notes: "Real-time pitch and formant bending."
+
+  - itemId: plug-095
+    name: Harmony Engine
+    type: plugin
+    category: pitch
+    developer: Antares
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2009
+    status: active
+    tags: [harmony, vocal, MIDI]
+    urls:
+      home: "https://antarestech.com"
+    notes: "Real-time vocal harmony generation."
+
+  # ============================================================================
+  # CHANNEL STRIPS & CONSOLES
+  # ============================================================================
+  - itemId: plug-100
+    name: SSL Channel Strip
+    type: plugin
+    category: channel-strip
+    developer: Waves
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2003
+    status: active
+    tags: [SSL, console, EQ, dynamics]
+    urls:
+      home: "https://waves.com"
+    notes: "SSL 4000 E/G channel emulation."
+
+  - itemId: plug-101
+    name: Console 1
+    type: plugin
+    category: channel-strip
+    developer: Softube
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2013
+    status: active
+    tags: [hardware-controller, SSL, Neve, API]
+    urls:
+      home: "https://softube.com/console-1"
+    notes: "Hardware-integrated channel strip. Multiple console emulations."
+
+  - itemId: plug-102
+    name: bx_console SSL 4000
+    type: plugin
+    category: channel-strip
+    developer: Plugin Alliance
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2017
+    status: active
+    tags: [SSL, console, TMT]
+    urls:
+      home: "https://plugin-alliance.com"
+    notes: "SSL 4000 emulation with TMT (Tolerance Modeling)."
+
+  - itemId: plug-103
+    name: bx_console Neve N
+    type: plugin
+    category: channel-strip
+    developer: Plugin Alliance
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2018
+    status: active
+    tags: [Neve, console, TMT]
+    urls:
+      home: "https://plugin-alliance.com"
+    notes: "Neve VXS console emulation with TMT."
+
+  - itemId: plug-104
+    name: Virtual Mix Rack
+    type: plugin
+    category: channel-strip
+    developer: Slate Digital
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2014
+    status: active
+    tags: [modular, mix, API, SSL, Neve]
+    urls:
+      home: "https://slatedigital.com"
+    notes: "Modular rack with multiple console modules."
+
+  - itemId: plug-105
+    name: InfiniStrip
+    type: plugin
+    category: channel-strip
+    developer: PSP Audioware
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2020
+    status: active
+    tags: [modular, channel-strip, analog]
+    urls:
+      home: "https://pspaudioware.com"
+    notes: "Modular channel strip. Mix and match modules."
+
+  # ============================================================================
+  # GATES & EXPANDERS
+  # ============================================================================
+  - itemId: plug-110
+    name: FabFilter Pro-G
+    type: plugin
+    category: gate
+    developer: FabFilter
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2014
+    status: active
+    tags: [gate, expander, visual]
+    urls:
+      home: "https://fabfilter.com/pro-g"
+    notes: "Professional gate/expander. Visual feedback."
+
+  - itemId: plug-111
+    name: C1 Gate
+    type: plugin
+    category: gate
+    developer: Waves
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2000
+    status: active
+    tags: [gate, sidechain, classic]
+    urls:
+      home: "https://waves.com"
+    notes: "Classic Waves gate. Sidechain EQ."
+
+  - itemId: plug-112
+    name: Oxford Drum Gate
+    type: plugin
+    category: gate
+    developer: Sonnox
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2012
+    status: active
+    tags: [gate, drum, intelligent]
+    urls:
+      home: "https://sonnox.com"
+    notes: "Intelligent drum gate. Automatic release."
+
+  # ============================================================================
+  # STEREO & IMAGING
+  # ============================================================================
+  - itemId: plug-115
+    name: Ozone Imager
+    type: plugin
+    category: stereo
+    developer: iZotope
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2018
+    status: active
+    tags: [stereo, imaging, free, width]
+    urls:
+      home: "https://izotope.com"
+    notes: "FREE stereo imaging plugin. Width and mono compatibility."
+
+  - itemId: plug-116
+    name: Wider
+    type: plugin
+    category: stereo
+    developer: Polyverse
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2017
+    status: active
+    tags: [stereo, width, free, mono-compatible]
+    urls:
+      home: "https://polyversemusic.com"
+    notes: "FREE stereo widener. Mono-compatible algorithm."
+
+  - itemId: plug-117
+    name: S1 Stereo Imager
+    type: plugin
+    category: stereo
+    developer: Waves
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 1997
+    status: active
+    tags: [stereo, M/S, imaging]
+    urls:
+      home: "https://waves.com"
+    notes: "Classic stereo tool. M/S processing."
+
+  - itemId: plug-118
+    name: bx_stereomaker
+    type: plugin
+    category: stereo
+    developer: Plugin Alliance
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2015
+    status: active
+    tags: [stereo, mono-to-stereo, M/S]
+    urls:
+      home: "https://plugin-alliance.com"
+    notes: "Mono to stereo conversion. M/S processing."
+
+  # ============================================================================
+  # LIMITERS
+  # ============================================================================
+  - itemId: plug-120
+    name: Limitless
+    type: plugin
+    category: limiter
+    developer: DMG Audio
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2018
+    status: active
+    tags: [limiter, mastering, multiband, true-peak]
+    urls:
+      home: "https://dmgaudio.com/limitless"
+    notes: "Comprehensive limiter. Multiband, true peak limiting."
+
+  - itemId: plug-121
+    name: Invisible Limiter
+    type: plugin
+    category: limiter
+    developer: A.O.M.
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2019
+    status: active
+    tags: [limiter, mastering, transparent]
+    urls:
+      home: "https://aom-factory.jp"
+    notes: "Transparent mastering limiter. Surgical precision."
+
+  - itemId: plug-122
+    name: Weiss DS1-MK3
+    type: plugin
+    category: limiter
+    developer: Softube
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2018
+    status: active
+    tags: [limiter, mastering, Weiss, transparent]
+    urls:
+      home: "https://softube.com"
+    notes: "Weiss DS1-MK3 emulation. Mastering standard."
+
+  - itemId: plug-123
+    name: L2 Ultramaximizer
+    type: plugin
+    category: limiter
+    developer: Waves
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2001
+    status: active
+    tags: [limiter, maximizer, classic]
+    urls:
+      home: "https://waves.com"
+    notes: "Classic brickwall limiter. Industry standard."
+
+  # ============================================================================
+  # CREATIVE EFFECTS
+  # ============================================================================
+  - itemId: plug-130
+    name: Crystallizer
+    type: plugin
+    category: delay
+    developer: Soundtoys
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2007
+    status: active
+    tags: [granular, delay, reverse, creative]
+    urls:
+      home: "https://soundtoys.com/crystallizer"
+    notes: "Granular echo and reverse delay. Shimmer effects."
+
+  - itemId: plug-131
+    name: PrimalTap
+    type: plugin
+    category: delay
+    developer: Soundtoys
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2015
+    status: active
+    tags: [delay, vintage, lo-fi]
+    urls:
+      home: "https://soundtoys.com/primaltap"
+    notes: "Lexicon Prime Time emulation. Lo-fi delays."
+
+  - itemId: plug-132
+    name: Panman
+    type: plugin
+    category: modulation
+    developer: Soundtoys
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2012
+    status: active
+    tags: [panning, auto-pan, rhythmic]
+    urls:
+      home: "https://soundtoys.com/panman"
+    notes: "Rhythmic auto-panning. Groove-synced."
+
+  - itemId: plug-133
+    name: FilterFreak
+    type: plugin
+    category: modulation
+    developer: Soundtoys
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2006
+    status: active
+    tags: [filter, analog, rhythmic]
+    urls:
+      home: "https://soundtoys.com/filterfreak"
+    notes: "Analog filter emulation. Rhythmic filtering."
+
+  - itemId: plug-134
+    name: Little Plate
+    type: plugin
+    category: reverb
+    developer: Soundtoys
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2018
+    status: active
+    tags: [reverb, plate, EMT-140, vintage]
+    urls:
+      home: "https://soundtoys.com/little-plate"
+    notes: "EMT-140 plate reverb emulation."
+
+  - itemId: plug-135
+    name: Effect Rack
+    type: plugin
+    category: utility
+    developer: Soundtoys
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2015
+    status: active
+    tags: [rack, modular, routing]
+    urls:
+      home: "https://soundtoys.com/effect-rack"
+    notes: "Modular effects rack. Combine any Soundtoys."
+
+  - itemId: plug-136
+    name: Physion
+    type: plugin
+    category: spectral
+    developer: Eventide
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2017
+    status: active
+    tags: [transient, tonal, split, creative]
+    urls:
+      home: "https://eventideaudio.com/physion"
+    notes: "Transient/tonal separation. Creative processing."
+
+  - itemId: plug-137
+    name: MangledVerb
+    type: plugin
+    category: reverb
+    developer: Eventide
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2016
+    status: active
+    tags: [reverb, distortion, creative]
+    urls:
+      home: "https://eventideaudio.com/mangledverb"
+    notes: "Reverb into distortion. H9 algorithm."
+
+  - itemId: plug-138
+    name: H3000 Factory
+    type: plugin
+    category: modulation
+    developer: Eventide
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2018
+    status: active
+    tags: [pitch-shift, modulation, H3000]
+    urls:
+      home: "https://eventideaudio.com/h3000"
+    notes: "H3000 Harmonizer emulation. Legendary effects."
+
+  # ============================================================================
+  # ADDITIONAL DRUM PLUGINS
+  # ============================================================================
+  - itemId: inst-075
+    name: EZdrummer
+    type: instrument
+    category: drum
+    developer: Toontrack
+    format: [VST3, AU, AAX, Standalone]
+    os: [macOS, Windows]
+    minVersion: "3"
+    releaseYear: 2006
+    status: active
+    tags: [acoustic-drums, easy, songwriting]
+    urls:
+      home: "https://toontrack.com/ezdrummer"
+    notes: "Easy-to-use drum production. Bandmate feature."
+
+  - itemId: inst-076
+    name: Addictive Drums
+    type: instrument
+    category: drum
+    developer: XLN Audio
+    format: [VST3, AU, AAX, Standalone]
+    os: [macOS, Windows]
+    minVersion: "2"
+    releaseYear: 2007
+    status: active
+    tags: [acoustic-drums, transient-shaping]
+    urls:
+      home: "https://xlnaudio.com/addictive-drums"
+    notes: "Transient-focused drum engine. Beat transform."
+
+  - itemId: inst-077
+    name: GetGood Drums
+    type: instrument
+    category: drum
+    developer: GetGood Audio
+    format: [Kontakt]
+    os: [macOS, Windows]
+    releaseYear: 2016
+    status: active
+    tags: [acoustic-drums, metal, rock]
+    urls:
+      home: "https://getgooddrums.com"
+    notes: "Modern drum sounds. Metal and rock focused."
+
+  - itemId: inst-078
+    name: Steven Slate Drums
+    type: instrument
+    category: drum
+    developer: Slate Digital
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    minVersion: "5"
+    releaseYear: 2017
+    status: active
+    tags: [acoustic-drums, mix-ready]
+    urls:
+      home: "https://stevenslatedrums.com"
+    notes: "Mix-ready drum sounds. Multiple mic positions."
+
+  - itemId: inst-079
+    name: Kick 2
+    type: instrument
+    category: drum
+    developer: Sonic Academy
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2016
+    status: active
+    tags: [kick, synthesis, EDM]
+    urls:
+      home: "https://sonicacademy.com/kick"
+    notes: "Kick drum synthesizer. Layer and shape kicks."
+
+  - itemId: inst-080
+    name: Strezov Sampling Percussion
+    type: instrument
+    category: drum
+    developer: Strezov Sampling
+    format: [Kontakt]
+    os: [macOS, Windows]
+    releaseYear: 2018
+    status: active
+    tags: [orchestral-percussion, cinematic]
+    urls:
+      home: "https://strezov-sampling.com"
+    notes: "Orchestral percussion. Thunder, Storm Drum."
+
+  # ============================================================================
+  # SPECIAL EFFECTS
+  # ============================================================================
+  - itemId: plug-140
+    name: RC-20 Retro Color
+    type: plugin
+    category: saturation
+    developer: XLN Audio
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2017
+    status: active
+    tags: [lo-fi, vinyl, tape, noise]
+    urls:
+      home: "https://xlnaudio.com/rc-20"
+    notes: "Lo-fi textures. Vinyl, tape, and wear."
+
+  - itemId: plug-141
+    name: Vinyl
+    type: plugin
+    category: saturation
+    developer: iZotope
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2004
+    status: active
+    tags: [vinyl, lo-fi, free]
+    urls:
+      home: "https://izotope.com"
+    notes: "FREE vinyl simulation. Dust, scratches, warp."
+
+  - itemId: plug-142
+    name: Guitar Rig
+    type: plugin
+    category: utility
+    developer: Native Instruments
+    format: [VST3, AU, AAX, Standalone]
+    os: [macOS, Windows]
+    minVersion: "7"
+    releaseYear: 2004
+    status: active
+    tags: [guitar, amp, cabinet, effects]
+    urls:
+      home: "https://native-instruments.com/guitar-rig"
+    notes: "Complete guitar amp and effects suite."
+
+  - itemId: plug-143
+    name: Helix Native
+    type: plugin
+    category: utility
+    developer: Line 6
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2017
+    status: active
+    tags: [guitar, amp, modeling, HX]
+    urls:
+      home: "https://line6.com/helix"
+    notes: "Helix modeling in plugin form. Same DSP."
+
+  - itemId: plug-144
+    name: Neural Amp Modeler
+    type: plugin
+    category: utility
+    developer: Neural DSP
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    releaseYear: 2022
+    status: active
+    tags: [guitar, amp, AI, neural-network]
+    urls:
+      home: "https://neuraldsp.com"
+    notes: "FREE AI amp modeler. Capture any amp."
+
+  - itemId: plug-145
+    name: BIAS FX
+    type: plugin
+    category: utility
+    developer: Positive Grid
+    format: [VST3, AU, AAX]
+    os: [macOS, Windows]
+    minVersion: "2"
+    releaseYear: 2015
+    status: active
+    tags: [guitar, amp, pedalboard]
+    urls:
+      home: "https://positivegrid.com"
+    notes: "Guitar amp and effects. Amp Match."
+
 # ==============================================================================
 # REGISTRY CONFIGURATION
 # ==============================================================================
