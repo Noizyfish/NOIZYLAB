@@ -1,8 +1,11 @@
 {
   "name": "@noizylab/core",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "NOIZYLAB - NEW ERA OF INNOVATION | High-performance parallel processing & cloud infrastructure toolkit",
   "main": "code/GORUNFREEX1TRILLION/index.js",
+  "bin": {
+    "noizy-mail": "./code/email-systems/email-cli.js"
+  },
   "scripts": {
     "start": "node code/GORUNFREEX1TRILLION/index.js",
     "worker": "node code/noizylab-worker.js",
@@ -12,7 +15,11 @@
     "example": "node examples/basic-usage.js",
     "benchmark": "node benchmarks/run.js",
     "lint": "eslint code/",
-    "build": "npm run lint && npm test"
+    "build": "npm run lint && npm test",
+    "mail": "node code/email-systems/email-cli.js",
+    "mail:list": "node code/email-systems/email-cli.js list",
+    "mail:setup": "node code/email-systems/email-cli.js setup-all",
+    "mail:status": "node code/email-systems/email-cli.js status"
   },
   "keywords": [
     "noizylab",
@@ -65,6 +72,11 @@
     "./testing": "./code/GORUNFREEX1TRILLION/testing.js",
     "./retry": "./code/GORUNFREEX1TRILLION/retry.js",
     "./email": "./code/email-systems/email-service.js",
+    "./email/config": "./code/email-systems/email-config-manager.js",
+    "./email/client": "./code/email-systems/multi-account-client.js",
+    "./email/automation": "./code/email-systems/email-automation.js",
+    "./email/monitor": "./code/email-systems/email-health-monitor.js",
+    "./email/cli": "./code/email-systems/email-cli.js",
     "./worker": "./code/noizylab-worker.js"
   },
   "files": [
