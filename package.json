@@ -1,13 +1,15 @@
 {
   "name": "@noizylab/core",
-  "version": "2.0.0",
-  "description": "NOIZYLAB - NEW ERA OF INNOVATION | High-performance parallel processing & cloud infrastructure",
+  "version": "2.1.0",
+  "description": "NOIZYLAB - NEW ERA OF INNOVATION | High-performance parallel processing & cloud infrastructure toolkit",
   "main": "code/GORUNFREEX1TRILLION/index.js",
   "scripts": {
     "start": "node code/GORUNFREEX1TRILLION/index.js",
     "worker": "node code/noizylab-worker.js",
     "dev": "node --watch code/GORUNFREEX1TRILLION/index.js",
     "test": "node --test",
+    "test:run": "node code/GORUNFREEX1TRILLION/testing.js",
+    "example": "node examples/basic-usage.js",
     "benchmark": "node benchmarks/run.js",
     "lint": "eslint code/",
     "build": "npm run lint && npm test"
@@ -19,7 +21,15 @@
     "high-performance",
     "email-system",
     "event-driven",
-    "trillion-processor"
+    "trillion-processor",
+    "rate-limiter",
+    "circuit-breaker",
+    "state-machine",
+    "validation",
+    "cli-framework",
+    "testing",
+    "metrics",
+    "logging"
   ],
   "author": "NOIZYLAB",
   "license": "MIT",
@@ -45,12 +55,22 @@
     "./websocket": "./code/GORUNFREEX1TRILLION/websocket-server.js",
     "./queue": "./code/GORUNFREEX1TRILLION/queue-system.js",
     "./crypto": "./code/GORUNFREEX1TRILLION/crypto-utils.js",
+    "./database": "./code/GORUNFREEX1TRILLION/database.js",
+    "./rate-limit": "./code/GORUNFREEX1TRILLION/rate-limiter.js",
+    "./logger": "./code/GORUNFREEX1TRILLION/logger.js",
+    "./metrics": "./code/GORUNFREEX1TRILLION/metrics.js",
+    "./validation": "./code/GORUNFREEX1TRILLION/validation.js",
+    "./state-machine": "./code/GORUNFREEX1TRILLION/state-machine.js",
+    "./cli": "./code/GORUNFREEX1TRILLION/cli.js",
+    "./testing": "./code/GORUNFREEX1TRILLION/testing.js",
+    "./retry": "./code/GORUNFREEX1TRILLION/retry.js",
     "./email": "./code/email-systems/email-service.js",
     "./worker": "./code/noizylab-worker.js"
   },
   "files": [
     "code/",
     "docs/",
+    "examples/",
     "README.md",
     "LICENSE"
   ],
@@ -59,13 +79,17 @@
   },
   "peerDependencies": {
     "nodemailer": "^6.9.0",
-    "ws": "^8.16.0"
+    "ws": "^8.16.0",
+    "ioredis": "^5.3.0"
   },
   "peerDependenciesMeta": {
     "nodemailer": {
       "optional": true
     },
     "ws": {
+      "optional": true
+    },
+    "ioredis": {
       "optional": true
     }
   }
