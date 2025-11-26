@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="100" fill="none"/>
+
+  <!-- Main text -->
+  <text x="20" y="60" font-family="Arial Black, sans-serif" font-size="48" font-weight="900" fill="url(#grad1)">
+    NOIZYLAB
+  </text>
+
+  <!-- Subtitle -->
+  <text x="20" y="85" font-family="Arial, sans-serif" font-size="14" fill="#666" letter-spacing="4">
+    NEW ERA OF INNOVATION
+  </text>
+
+  <!-- Decorative elements -->
+  <circle cx="370" cy="30" r="8" fill="url(#grad2)"/>
+  <circle cx="350" cy="50" r="5" fill="url(#grad1)" opacity="0.7"/>
+  <circle cx="380" cy="60" r="4" fill="url(#grad2)" opacity="0.5"/>
+</svg>

@@ -1,0 +1,84 @@
+# NOIZYLAB Cloudflare Worker Configuration
+# Deploy: wrangler deploy
+
+name = "noizylab-worker"
+main = "../code/noizylab-worker.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Workers Paid Plan Features
+# usage_model = "bundled"
+
+# Account Configuration
+# account_id = "your-account-id"
+
+[build]
+command = "npm run build"
+
+# Environment Variables
+[vars]
+ENVIRONMENT = "production"
+API_VERSION = "2.0.0"
+RATE_LIMIT_REQUESTS = "100"
+RATE_LIMIT_WINDOW = "60"
+
+# KV Namespaces
+[[kv_namespaces]]
+binding = "NOIZY_CACHE"
+id = "your-kv-namespace-id"
+preview_id = "your-preview-kv-namespace-id"
+
+[[kv_namespaces]]
+binding = "NOIZY_SESSIONS"
+id = "your-sessions-kv-id"
+
+[[kv_namespaces]]
+binding = "NOIZY_ANALYTICS"
+id = "your-analytics-kv-id"
+
+# Durable Objects (if needed)
+# [[durable_objects.bindings]]
+# name = "COUNTER"
+# class_name = "Counter"
+
+# R2 Storage Buckets
+# [[r2_buckets]]
+# binding = "NOIZY_STORAGE"
+# bucket_name = "noizylab-storage"
+
+# D1 Database
+# [[d1_databases]]
+# binding = "NOIZY_DB"
+# database_name = "noizylab"
+# database_id = "your-d1-database-id"
+
+# Cron Triggers
+[triggers]
+crons = ["0 * * * *", "0 0 * * *"]
+
+# Routes
+# routes = [
+#   { pattern = "api.noizylab.com/*", zone_name = "noizylab.com" }
+# ]
+
+# Custom Domains
+# [[routes]]
+# pattern = "api.noizylab.com"
+# custom_domain = true
+
+# Development Environment
+[env.development]
+name = "noizylab-worker-dev"
+[env.development.vars]
+ENVIRONMENT = "development"
+
+# Staging Environment
+[env.staging]
+name = "noizylab-worker-staging"
+[env.staging.vars]
+ENVIRONMENT = "staging"
+
+# Secrets (set via wrangler secret put)
+# - WEBHOOK_SECRET
+# - JWT_SECRET
+# - ENCRYPTION_KEY

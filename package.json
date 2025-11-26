@@ -1,0 +1,72 @@
+{
+  "name": "@noizylab/core",
+  "version": "2.0.0",
+  "description": "NOIZYLAB - NEW ERA OF INNOVATION | High-performance parallel processing & cloud infrastructure",
+  "main": "code/GORUNFREEX1TRILLION/index.js",
+  "scripts": {
+    "start": "node code/GORUNFREEX1TRILLION/index.js",
+    "worker": "node code/noizylab-worker.js",
+    "dev": "node --watch code/GORUNFREEX1TRILLION/index.js",
+    "test": "node --test",
+    "benchmark": "node benchmarks/run.js",
+    "lint": "eslint code/",
+    "build": "npm run lint && npm test"
+  },
+  "keywords": [
+    "noizylab",
+    "parallel-processing",
+    "cloudflare-workers",
+    "high-performance",
+    "email-system",
+    "event-driven",
+    "trillion-processor"
+  ],
+  "author": "NOIZYLAB",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Noizyfish/NOIZYLAB.git"
+  },
+  "homepage": "https://noizylab.com",
+  "bugs": {
+    "url": "https://github.com/Noizyfish/NOIZYLAB/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "exports": {
+    ".": "./code/GORUNFREEX1TRILLION/index.js",
+    "./parallel": "./code/GORUNFREEX1TRILLION/parallel-engine.js",
+    "./scheduler": "./code/GORUNFREEX1TRILLION/task-scheduler.js",
+    "./pipeline": "./code/GORUNFREEX1TRILLION/data-pipeline.js",
+    "./cache": "./code/GORUNFREEX1TRILLION/cache-system.js",
+    "./api": "./code/GORUNFREEX1TRILLION/api-client.js",
+    "./events": "./code/GORUNFREEX1TRILLION/event-system.js",
+    "./websocket": "./code/GORUNFREEX1TRILLION/websocket-server.js",
+    "./queue": "./code/GORUNFREEX1TRILLION/queue-system.js",
+    "./crypto": "./code/GORUNFREEX1TRILLION/crypto-utils.js",
+    "./email": "./code/email-systems/email-service.js",
+    "./worker": "./code/noizylab-worker.js"
+  },
+  "files": [
+    "code/",
+    "docs/",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "peerDependencies": {
+    "nodemailer": "^6.9.0",
+    "ws": "^8.16.0"
+  },
+  "peerDependenciesMeta": {
+    "nodemailer": {
+      "optional": true
+    },
+    "ws": {
+      "optional": true
+    }
+  }
+}
