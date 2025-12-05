@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git rebase:*)",
+      "Bash(git checkout:*)",
+      "Bash(git reset:*)",
+      "Bash(python3:*)",
+      "Bash(git config:*)",
+      "Bash(git count-objects:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git repack:*)",
+      "Bash(GIT_TRACE=1 git push:*)",
+      "Bash(cat:*)",
+      "Bash(mdfind:*)",
+      "Bash(git rm:*)",
+      "Bash(chmod:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

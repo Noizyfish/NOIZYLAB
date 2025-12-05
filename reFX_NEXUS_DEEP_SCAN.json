@@ -1,0 +1,3635 @@
+{
+  "scan_date": "2025-12-01T12:04:53.189686",
+  "library_name": "reFX NEXUS",
+  "root_path": "/Volumes/6TB/_ORGANIZED/reFX_Nexus",
+  "total_files": 65478,
+  "total_size_gb": 126.73,
+  "file_types": {
+    ".ndb": {
+      "count": 1,
+      "total_size_mb": 0.19
+    },
+    ".mkf": {
+      "count": 2,
+      "total_size_mb": 0.0
+    },
+    ".nap": {
+      "count": 238,
+      "total_size_mb": 0.0
+    },
+    ".nfx": {
+      "count": 190,
+      "total_size_mb": 0.0
+    },
+    ".imp": {
+      "count": 430,
+      "total_size_mb": 149.92000000000004
+    },
+    ".ogg": {
+      "count": 20722,
+      "total_size_mb": 2272.960000000026
+    },
+    ".json": {
+      "count": 35,
+      "total_size_mb": 0.0
+    },
+    ".meta": {
+      "count": 4,
+      "total_size_mb": 0.0
+    },
+    ".png": {
+      "count": 15,
+      "total_size_mb": 1.06
+    },
+    ".fxp": {
+      "count": 21595,
+      "total_size_mb": 595.9999999999136
+    },
+    ".nxs": {
+      "count": 21924,
+      "total_size_mb": 126737.4599999996
+    },
+    ".ned": {
+      "count": 132,
+      "total_size_mb": 0.0
+    },
+    ".nsk": {
+      "count": 23,
+      "total_size_mb": 14.54
+    },
+    ".ntp": {
+      "count": 104,
+      "total_size_mb": 0.0
+    },
+    ".wav": {
+      "count": 63,
+      "total_size_mb": 23.32
+    }
+  },
+  "expansions": [],
+  "presets": {
+    "arp_presets": [
+      {
+        "name": "Add Legato.nap",
+        "path": "Nexus_library/Arp_Presets/Add Legato.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "After Midnight 2.nap",
+        "path": "Nexus_library/Arp_Presets/After Midnight 2.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "After Midnight.nap",
+        "path": "Nexus_library/Arp_Presets/After Midnight.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Bass Basics.nap",
+        "path": "Nexus_library/Arp_Presets/Bass Basics.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Bassline 1.nap",
+        "path": "Nexus_library/Arp_Presets/Bassline 1.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Bassline 2.nap",
+        "path": "Nexus_library/Arp_Presets/Bassline 2.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Bassline 3.nap",
+        "path": "Nexus_library/Arp_Presets/Bassline 3.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Bassline 4.nap",
+        "path": "Nexus_library/Arp_Presets/Bassline 4.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Bassline 5.nap",
+        "path": "Nexus_library/Arp_Presets/Bassline 5.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Bassline Arcade.nap",
+        "path": "Nexus_library/Arp_Presets/Bassline Arcade.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Bell Sequence.nap",
+        "path": "Nexus_library/Arp_Presets/Bell Sequence.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Benny Dance Seq A.nap",
+        "path": "Nexus_library/Arp_Presets/Benny Dance Seq A.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Benny Dance Seq B.nap",
+        "path": "Nexus_library/Arp_Presets/Benny Dance Seq B.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Bionic Chords.nap",
+        "path": "Nexus_library/Arp_Presets/Bionic Chords.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Bits and Bytes.nap",
+        "path": "Nexus_library/Arp_Presets/Bits and Bytes.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "BT modwheel.nap",
+        "path": "Nexus_library/Arp_Presets/BT modwheel.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Classic Line 1.nap",
+        "path": "Nexus_library/Arp_Presets/Classic Line 1.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Classic Line 2.nap",
+        "path": "Nexus_library/Arp_Presets/Classic Line 2.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Classic Line 3.nap",
+        "path": "Nexus_library/Arp_Presets/Classic Line 3.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Classic Line 4.nap",
+        "path": "Nexus_library/Arp_Presets/Classic Line 4.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Computermusic A.nap",
+        "path": "Nexus_library/Arp_Presets/Computermusic A.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Computermusic B.nap",
+        "path": "Nexus_library/Arp_Presets/Computermusic B.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Dance Lineup.nap",
+        "path": "Nexus_library/Arp_Presets/Dance Lineup.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Dance Pluck.nap",
+        "path": "Nexus_library/Arp_Presets/Dance Pluck.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Dometrance.nap",
+        "path": "Nexus_library/Arp_Presets/Dometrance.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Double Tap Bassline.nap",
+        "path": "Nexus_library/Arp_Presets/Double Tap Bassline.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Drill Sequence.nap",
+        "path": "Nexus_library/Arp_Presets/Drill Sequence.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Etheral.nap",
+        "path": "Nexus_library/Arp_Presets/Etheral.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Fat Bassline 1.nap",
+        "path": "Nexus_library/Arp_Presets/Fat Bassline 1.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Fat Bassline 2.nap",
+        "path": "Nexus_library/Arp_Presets/Fat Bassline 2.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Fragrance Porta.nap",
+        "path": "Nexus_library/Arp_Presets/Fragrance Porta.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Future Trance.nap",
+        "path": "Nexus_library/Arp_Presets/Future Trance.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "FX Line 1.nap",
+        "path": "Nexus_library/Arp_Presets/FX Line 1.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "FX Line 2.nap",
+        "path": "Nexus_library/Arp_Presets/FX Line 2.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Guitar Ballad A.nap",
+        "path": "Nexus_library/Arp_Presets/Guitar Ballad A.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Hands Up Bassline.nap",
+        "path": "Nexus_library/Arp_Presets/Hands Up Bassline.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Hard Shorty.nap",
+        "path": "Nexus_library/Arp_Presets/Hard Shorty.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Harpeggio.nap",
+        "path": "Nexus_library/Arp_Presets/Harpeggio.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Ice Climber.nap",
+        "path": "Nexus_library/Arp_Presets/Ice Climber.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Italo 80s.nap",
+        "path": "Nexus_library/Arp_Presets/Italo 80s.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Jumping.nap",
+        "path": "Nexus_library/Arp_Presets/Jumping.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Katakis Bassline.nap",
+        "path": "Nexus_library/Arp_Presets/Katakis Bassline.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Krystaline.nap",
+        "path": "Nexus_library/Arp_Presets/Krystaline.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Lead Pattern 1.nap",
+        "path": "Nexus_library/Arp_Presets/Lead Pattern 1.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Lead Pattern 2.nap",
+        "path": "Nexus_library/Arp_Presets/Lead Pattern 2.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Lead Pattern 3.nap",
+        "path": "Nexus_library/Arp_Presets/Lead Pattern 3.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Lead Pattern 4.nap",
+        "path": "Nexus_library/Arp_Presets/Lead Pattern 4.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Lead Pattern 5.nap",
+        "path": "Nexus_library/Arp_Presets/Lead Pattern 5.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Melody Seq 1.nap",
+        "path": "Nexus_library/Arp_Presets/Melody Seq 1.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Minimal A.nap",
+        "path": "Nexus_library/Arp_Presets/Minimal A.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Minimal B.nap",
+        "path": "Nexus_library/Arp_Presets/Minimal B.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Monophone Terror.nap",
+        "path": "Nexus_library/Arp_Presets/Monophone Terror.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Musatschi.nap",
+        "path": "Nexus_library/Arp_Presets/Musatschi.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Nice Seq.nap",
+        "path": "Nexus_library/Arp_Presets/Nice Seq.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Octa Bassline.nap",
+        "path": "Nexus_library/Arp_Presets/Octa Bassline.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Offbeat Sequence.nap",
+        "path": "Nexus_library/Arp_Presets/Offbeat Sequence.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "On A Trip.nap",
+        "path": "Nexus_library/Arp_Presets/On A Trip.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Parasequence.nap",
+        "path": "Nexus_library/Arp_Presets/Parasequence.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Pitchbass 1.nap",
+        "path": "Nexus_library/Arp_Presets/Pitchbass 1.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Pitchbass 2.nap",
+        "path": "Nexus_library/Arp_Presets/Pitchbass 2.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Plasmafire.nap",
+        "path": "Nexus_library/Arp_Presets/Plasmafire.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Plucked 1.nap",
+        "path": "Nexus_library/Arp_Presets/Plucked 1.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Plucked 2.nap",
+        "path": "Nexus_library/Arp_Presets/Plucked 2.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Pluckline.nap",
+        "path": "Nexus_library/Arp_Presets/Pluckline.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "PolyArp.nap",
+        "path": "Nexus_library/Arp_Presets/PolyArp.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Porta Action 1.nap",
+        "path": "Nexus_library/Arp_Presets/Porta Action 1.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Porta Action 2.nap",
+        "path": "Nexus_library/Arp_Presets/Porta Action 2.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Porta Action 3.nap",
+        "path": "Nexus_library/Arp_Presets/Porta Action 3.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Portamento on.nap",
+        "path": "Nexus_library/Arp_Presets/Portamento on.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Praylor.nap",
+        "path": "Nexus_library/Arp_Presets/Praylor.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Problematique.nap",
+        "path": "Nexus_library/Arp_Presets/Problematique.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Propane.nap",
+        "path": "Nexus_library/Arp_Presets/Propane.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Punchstyle.nap",
+        "path": "Nexus_library/Arp_Presets/Punchstyle.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Raw Line.nap",
+        "path": "Nexus_library/Arp_Presets/Raw Line.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Rocker.nap",
+        "path": "Nexus_library/Arp_Presets/Rocker.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "RWArpeggio 1.nap",
+        "path": "Nexus_library/Arp_Presets/RWArpeggio 1.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "RWArpeggio 10.nap",
+        "path": "Nexus_library/Arp_Presets/RWArpeggio 10.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "RWArpeggio 11.nap",
+        "path": "Nexus_library/Arp_Presets/RWArpeggio 11.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "RWArpeggio 2.nap",
+        "path": "Nexus_library/Arp_Presets/RWArpeggio 2.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "RWArpeggio 3.nap",
+        "path": "Nexus_library/Arp_Presets/RWArpeggio 3.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "RWArpeggio 4.nap",
+        "path": "Nexus_library/Arp_Presets/RWArpeggio 4.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "RWArpeggio 5.nap",
+        "path": "Nexus_library/Arp_Presets/RWArpeggio 5.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "RWArpeggio 6.nap",
+        "path": "Nexus_library/Arp_Presets/RWArpeggio 6.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "RWArpeggio 7.nap",
+        "path": "Nexus_library/Arp_Presets/RWArpeggio 7.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "RWArpeggio 8.nap",
+        "path": "Nexus_library/Arp_Presets/RWArpeggio 8.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "RWArpeggio 9.nap",
+        "path": "Nexus_library/Arp_Presets/RWArpeggio 9.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Sequence 1.nap",
+        "path": "Nexus_library/Arp_Presets/Sequence 1.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Sequence 2.nap",
+        "path": "Nexus_library/Arp_Presets/Sequence 2.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Sequence 3.nap",
+        "path": "Nexus_library/Arp_Presets/Sequence 3.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Sequence 4.nap",
+        "path": "Nexus_library/Arp_Presets/Sequence 4.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Sequence 5.nap",
+        "path": "Nexus_library/Arp_Presets/Sequence 5.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Sequence 6.nap",
+        "path": "Nexus_library/Arp_Presets/Sequence 6.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Sharp Style.nap",
+        "path": "Nexus_library/Arp_Presets/Sharp Style.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Shifter.nap",
+        "path": "Nexus_library/Arp_Presets/Shifter.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Shocking.nap",
+        "path": "Nexus_library/Arp_Presets/Shocking.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Sidechain Pumpin.nap",
+        "path": "Nexus_library/Arp_Presets/Sidechain Pumpin.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Squall 2.nap",
+        "path": "Nexus_library/Arp_Presets/Squall 2.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Squall.nap",
+        "path": "Nexus_library/Arp_Presets/Squall.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Squarpeggio.nap",
+        "path": "Nexus_library/Arp_Presets/Squarpeggio.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Syncdrops.nap",
+        "path": "Nexus_library/Arp_Presets/Syncdrops.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "TB 303 Seq Porta.nap",
+        "path": "Nexus_library/Arp_Presets/TB 303 Seq Porta.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "The Cutter.nap",
+        "path": "Nexus_library/Arp_Presets/The Cutter.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Till I Come.nap",
+        "path": "Nexus_library/Arp_Presets/Till I Come.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Traffic.nap",
+        "path": "Nexus_library/Arp_Presets/Traffic.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "TrancePluckSeq.nap",
+        "path": "Nexus_library/Arp_Presets/TrancePluckSeq.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Tribal Gee.nap",
+        "path": "Nexus_library/Arp_Presets/Tribal Gee.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Tribal Percs.nap",
+        "path": "Nexus_library/Arp_Presets/Tribal Percs.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Trieste.nap",
+        "path": "Nexus_library/Arp_Presets/Trieste.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "TriMorph Sequence.nap",
+        "path": "Nexus_library/Arp_Presets/TriMorph Sequence.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Trip Trap.nap",
+        "path": "Nexus_library/Arp_Presets/Trip Trap.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Twisted.nap",
+        "path": "Nexus_library/Arp_Presets/Twisted.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Two Finger Madness.nap",
+        "path": "Nexus_library/Arp_Presets/Two Finger Madness.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "U Running.nap",
+        "path": "Nexus_library/Arp_Presets/U Running.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "UK Addbass.nap",
+        "path": "Nexus_library/Arp_Presets/UK Addbass.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Uneven.nap",
+        "path": "Nexus_library/Arp_Presets/Uneven.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Velo Guitar.nap",
+        "path": "Nexus_library/Arp_Presets/Velo Guitar.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Viral Infection 1.nap",
+        "path": "Nexus_library/Arp_Presets/Viral Infection 1.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Viral Infection 2.nap",
+        "path": "Nexus_library/Arp_Presets/Viral Infection 2.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Wanna Explode.nap",
+        "path": "Nexus_library/Arp_Presets/Wanna Explode.nap",
+        "extension": ".nap",
+        "size": 480,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:27:50",
+        "modified": "2019-10-05T15:27:50"
+      },
+      {
+        "name": "Add Legato.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Add Legato.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "After Midnight 2.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/After Midnight 2.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "After Midnight.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/After Midnight.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Bass Basics.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Bass Basics.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Bassline 1.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Bassline 1.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Bassline 2.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Bassline 2.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Bassline 3.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Bassline 3.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Bassline 4.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Bassline 4.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Bassline 5.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Bassline 5.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Bassline Arcade.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Bassline Arcade.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Bell Sequence.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Bell Sequence.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Benny Dance Seq A.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Benny Dance Seq A.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Benny Dance Seq B.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Benny Dance Seq B.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Bionic Chords.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Bionic Chords.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Bits and Bytes.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Bits and Bytes.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "BT modwheel.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/BT modwheel.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Classic Line 1.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Classic Line 1.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Classic Line 2.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Classic Line 2.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Classic Line 3.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Classic Line 3.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Classic Line 4.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Classic Line 4.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Computermusic A.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Computermusic A.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Computermusic B.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Computermusic B.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Dance Lineup.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Dance Lineup.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Dance Pluck.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Dance Pluck.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Dometrance.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Dometrance.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Double Tap Bassline.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Double Tap Bassline.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Drill Sequence.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Drill Sequence.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Etheral.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Etheral.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Fat Bassline 1.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Fat Bassline 1.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Fat Bassline 2.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Fat Bassline 2.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Fragrance Porta.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Fragrance Porta.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Future Trance.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Future Trance.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "FX Line 1.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/FX Line 1.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "FX Line 2.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/FX Line 2.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Guitar Ballad A.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Guitar Ballad A.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Hands Up Bassline.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Hands Up Bassline.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Hard Shorty.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Hard Shorty.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Harpeggio.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Harpeggio.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Ice Climber.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Ice Climber.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Italo 80s.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Italo 80s.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Jumping.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Jumping.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Katakis Bassline.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Katakis Bassline.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Krystaline.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Krystaline.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Lead Pattern 1.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Lead Pattern 1.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Lead Pattern 2.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Lead Pattern 2.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Lead Pattern 3.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Lead Pattern 3.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Lead Pattern 4.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Lead Pattern 4.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Lead Pattern 5.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Lead Pattern 5.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Melody Seq 1.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Melody Seq 1.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Minimal A.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Minimal A.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Minimal B.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Minimal B.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Monophone Terror.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Monophone Terror.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Musatschi.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Musatschi.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Nice Seq.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Nice Seq.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Octa Bassline.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Octa Bassline.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Offbeat Sequence.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Offbeat Sequence.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "On A Trip.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/On A Trip.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Parasequence.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Parasequence.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Pitchbass 1.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Pitchbass 1.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Pitchbass 2.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Pitchbass 2.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Plasmafire.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Plasmafire.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Plucked 1.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Plucked 1.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Plucked 2.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Plucked 2.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Pluckline.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Pluckline.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "PolyArp.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/PolyArp.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Porta Action 1.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Porta Action 1.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Porta Action 2.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Porta Action 2.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Porta Action 3.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Porta Action 3.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Portamento on.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Portamento on.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Praylor.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Praylor.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Problematique.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Problematique.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Propane.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Propane.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Punchstyle.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Punchstyle.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Raw Line.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Raw Line.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Rocker.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Rocker.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWArpeggio 1.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/RWArpeggio 1.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWArpeggio 10.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/RWArpeggio 10.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWArpeggio 11.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/RWArpeggio 11.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWArpeggio 2.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/RWArpeggio 2.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWArpeggio 3.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/RWArpeggio 3.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWArpeggio 4.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/RWArpeggio 4.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWArpeggio 5.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/RWArpeggio 5.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWArpeggio 6.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/RWArpeggio 6.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWArpeggio 7.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/RWArpeggio 7.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWArpeggio 8.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/RWArpeggio 8.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWArpeggio 9.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/RWArpeggio 9.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Sequence 1.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Sequence 1.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Sequence 2.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Sequence 2.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Sequence 3.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Sequence 3.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Sequence 4.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Sequence 4.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Sequence 5.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Sequence 5.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Sequence 6.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Sequence 6.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Sharp Style.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Sharp Style.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Shifter.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Shifter.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Shocking.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Shocking.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Sidechain Pumpin.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Sidechain Pumpin.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Squall 2.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Squall 2.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Squall.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Squall.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Squarpeggio.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Squarpeggio.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Syncdrops.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Syncdrops.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "TB 303 Seq Porta.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/TB 303 Seq Porta.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "The Cutter.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/The Cutter.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Till I Come.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Till I Come.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Traffic.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Traffic.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "TrancePluckSeq.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/TrancePluckSeq.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Tribal Gee.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Tribal Gee.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Tribal Percs.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Tribal Percs.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Trieste.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Trieste.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "TriMorph Sequence.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/TriMorph Sequence.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Trip Trap.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Trip Trap.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Twisted.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Twisted.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Two Finger Madness.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Two Finger Madness.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "U Running.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/U Running.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "UK Addbass.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/UK Addbass.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Uneven.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Uneven.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Velo Guitar.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Velo Guitar.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Viral Infection 1.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Viral Infection 1.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Viral Infection 2.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Viral Infection 2.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Wanna Explode.nap",
+        "path": "reFX/Nexus_library/Arp_Presets/Wanna Explode.nap",
+        "extension": ".nap",
+        "size": 224,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      }
+    ],
+    "trance_gate_presets": [
+      {
+        "name": "Alien Font 1.ntp",
+        "path": "Nexus_library/TG_Presets/Alien Font 1.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Alien Font 2.ntp",
+        "path": "Nexus_library/TG_Presets/Alien Font 2.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Deep Resonating.ntp",
+        "path": "Nexus_library/TG_Presets/Deep Resonating.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Delay Like.ntp",
+        "path": "Nexus_library/TG_Presets/Delay Like.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Delayed 1.ntp",
+        "path": "Nexus_library/TG_Presets/Delayed 1.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Delayed 2.ntp",
+        "path": "Nexus_library/TG_Presets/Delayed 2.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Delayed 3.ntp",
+        "path": "Nexus_library/TG_Presets/Delayed 3.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Drill Sequence.ntp",
+        "path": "Nexus_library/TG_Presets/Drill Sequence.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "LoFi Lead.ntp",
+        "path": "Nexus_library/TG_Presets/LoFi Lead.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Musatschi Pad.ntp",
+        "path": "Nexus_library/TG_Presets/Musatschi Pad.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Pad Hack 1.ntp",
+        "path": "Nexus_library/TG_Presets/Pad Hack 1.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Pad Hack 2.ntp",
+        "path": "Nexus_library/TG_Presets/Pad Hack 2.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Pad Hack 3.ntp",
+        "path": "Nexus_library/TG_Presets/Pad Hack 3.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Pad Hack 4.ntp",
+        "path": "Nexus_library/TG_Presets/Pad Hack 4.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Progressive 1.ntp",
+        "path": "Nexus_library/TG_Presets/Progressive 1.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Progressive 2.ntp",
+        "path": "Nexus_library/TG_Presets/Progressive 2.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Progressive 3.ntp",
+        "path": "Nexus_library/TG_Presets/Progressive 3.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Progressive 4.ntp",
+        "path": "Nexus_library/TG_Presets/Progressive 4.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Progressive 5.ntp",
+        "path": "Nexus_library/TG_Presets/Progressive 5.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Pulsating.ntp",
+        "path": "Nexus_library/TG_Presets/Pulsating.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Ringaracka 1.ntp",
+        "path": "Nexus_library/TG_Presets/Ringaracka 1.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Ringaracka 2.ntp",
+        "path": "Nexus_library/TG_Presets/Ringaracka 2.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Ringaracka 3.ntp",
+        "path": "Nexus_library/TG_Presets/Ringaracka 3.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Ringaracka 4.ntp",
+        "path": "Nexus_library/TG_Presets/Ringaracka 4.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "RWgate 1.ntp",
+        "path": "Nexus_library/TG_Presets/RWgate 1.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "RWgate 10.ntp",
+        "path": "Nexus_library/TG_Presets/RWgate 10.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "RWgate 2.ntp",
+        "path": "Nexus_library/TG_Presets/RWgate 2.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "RWgate 3.ntp",
+        "path": "Nexus_library/TG_Presets/RWgate 3.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "RWgate 4.ntp",
+        "path": "Nexus_library/TG_Presets/RWgate 4.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "RWgate 5.ntp",
+        "path": "Nexus_library/TG_Presets/RWgate 5.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "RWgate 6.ntp",
+        "path": "Nexus_library/TG_Presets/RWgate 6.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "RWgate 7.ntp",
+        "path": "Nexus_library/TG_Presets/RWgate 7.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "RWgate 8.ntp",
+        "path": "Nexus_library/TG_Presets/RWgate 8.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "RWgate 9.ntp",
+        "path": "Nexus_library/TG_Presets/RWgate 9.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Shuffled.ntp",
+        "path": "Nexus_library/TG_Presets/Shuffled.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Simple Fade In.ntp",
+        "path": "Nexus_library/TG_Presets/Simple Fade In.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Sleepwalker.ntp",
+        "path": "Nexus_library/TG_Presets/Sleepwalker.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Smooth and Slow 1.ntp",
+        "path": "Nexus_library/TG_Presets/Smooth and Slow 1.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Smooth and Slow 2.ntp",
+        "path": "Nexus_library/TG_Presets/Smooth and Slow 2.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Smooth And Slow 3.ntp",
+        "path": "Nexus_library/TG_Presets/Smooth And Slow 3.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Stereo Toy 1.ntp",
+        "path": "Nexus_library/TG_Presets/Stereo Toy 1.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Stereo Toy 2.ntp",
+        "path": "Nexus_library/TG_Presets/Stereo Toy 2.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Stereo Toy 3.ntp",
+        "path": "Nexus_library/TG_Presets/Stereo Toy 3.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Stereo Toy 4.ntp",
+        "path": "Nexus_library/TG_Presets/Stereo Toy 4.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Stereo Toy 5.ntp",
+        "path": "Nexus_library/TG_Presets/Stereo Toy 5.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Stereo Toy 6.ntp",
+        "path": "Nexus_library/TG_Presets/Stereo Toy 6.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Stopper.ntp",
+        "path": "Nexus_library/TG_Presets/Stopper.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Stutting Saw.ntp",
+        "path": "Nexus_library/TG_Presets/Stutting Saw.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Trance Rhythmix 1.ntp",
+        "path": "Nexus_library/TG_Presets/Trance Rhythmix 1.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Trance Rhythmix 2.ntp",
+        "path": "Nexus_library/TG_Presets/Trance Rhythmix 2.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Trance Rhythmix 3.ntp",
+        "path": "Nexus_library/TG_Presets/Trance Rhythmix 3.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Trance Rhythmix 4.ntp",
+        "path": "Nexus_library/TG_Presets/Trance Rhythmix 4.ntp",
+        "extension": ".ntp",
+        "size": 368,
+        "size_mb": 0.0,
+        "created": "2019-10-05T15:39:18",
+        "modified": "2019-10-05T15:39:18"
+      },
+      {
+        "name": "Alien Font 1.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Alien Font 1.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Alien Font 2.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Alien Font 2.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Deep Resonating.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Deep Resonating.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Delay Like.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Delay Like.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Delayed 1.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Delayed 1.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Delayed 2.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Delayed 2.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Delayed 3.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Delayed 3.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Drill Sequence.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Drill Sequence.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "LoFi Lead.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/LoFi Lead.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Musatschi Pad.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Musatschi Pad.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Pad Hack 1.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Pad Hack 1.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Pad Hack 2.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Pad Hack 2.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Pad Hack 3.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Pad Hack 3.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Pad Hack 4.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Pad Hack 4.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Progressive 1.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Progressive 1.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Progressive 2.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Progressive 2.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Progressive 3.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Progressive 3.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Progressive 4.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Progressive 4.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Progressive 5.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Progressive 5.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Pulsating.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Pulsating.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Ringaracka 1.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Ringaracka 1.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Ringaracka 2.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Ringaracka 2.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Ringaracka 3.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Ringaracka 3.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Ringaracka 4.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Ringaracka 4.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWgate 1.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/RWgate 1.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWgate 10.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/RWgate 10.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWgate 2.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/RWgate 2.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWgate 3.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/RWgate 3.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWgate 4.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/RWgate 4.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWgate 5.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/RWgate 5.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWgate 6.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/RWgate 6.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWgate 7.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/RWgate 7.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWgate 8.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/RWgate 8.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "RWgate 9.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/RWgate 9.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Shuffled.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Shuffled.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Simple Fade In.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Simple Fade In.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Sleepwalker.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Sleepwalker.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Smooth and Slow 1.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Smooth and Slow 1.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Smooth and Slow 2.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Smooth and Slow 2.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Smooth And Slow 3.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Smooth And Slow 3.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Stereo Toy 1.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Stereo Toy 1.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Stereo Toy 2.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Stereo Toy 2.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Stereo Toy 3.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Stereo Toy 3.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Stereo Toy 4.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Stereo Toy 4.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Stereo Toy 5.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Stereo Toy 5.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Stereo Toy 6.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Stereo Toy 6.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Stopper.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Stopper.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Stutting Saw.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Stutting Saw.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Trance Rhythmix 1.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Trance Rhythmix 1.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Trance Rhythmix 2.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Trance Rhythmix 2.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Trance Rhythmix 3.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Trance Rhythmix 3.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      },
+      {
+        "name": "Trance Rhythmix 4.ntp",
+        "path": "reFX/Nexus_library/TG_Presets/Trance Rhythmix 4.ntp",
+        "extension": ".ntp",
+        "size": 112,
+        "size_mb": 0.0,
+        "created": "2018-12-06T08:48:19",
+        "modified": "2018-12-06T08:48:19"
+      }
+    ],
+    "other_presets": []
+  },
+  "license_files": [
+    {
+      "name": "NEXUS master keyfile.mkf",
+      "path": "Nexus_library/NEXUS master keyfile.mkf",
+      "extension": ".mkf",
+      "size": 1280,
+      "size_mb": 0.0,
+      "created": "2019-10-05T15:39:38",
+      "modified": "2019-10-05T15:39:38"
+    },
+    {
+      "name": "NEXUS master keyfile.mkf",
+      "path": "Nexus_library/_License/NEXUS master keyfile.mkf",
+      "extension": ".mkf",
+      "size": 1280,
+      "size_mb": 0.0,
+      "created": "2019-10-05T15:19:16",
+      "modified": "2019-10-05T15:19:16"
+    }
+  ],
+  "directory_structure": {},
+  "largest_files": [
+    {
+      "name": "+PWRChordMetalSM57L.nxs",
+      "path": "Nexus_library/Samples/XpH3Gt/+PWRChordMetalSM57L.nxs",
+      "extension": ".nxs",
+      "size": 121347154,
+      "size_mb": 115.73,
+      "created": "2017-11-11T11:50:16",
+      "modified": "2017-11-11T11:50:16"
+    },
+    {
+      "name": "+PWRChordMetalSM57L.nxs",
+      "path": "reFX/Nexus_library/Samples/XpH3Gt/+PWRChordMetalSM57L.nxs",
+      "extension": ".nxs",
+      "size": 121347154,
+      "size_mb": 115.73,
+      "created": "2017-11-11T11:50:16",
+      "modified": "2017-11-11T11:50:16"
+    },
+    {
+      "name": "+PWRChordMetalSM57R.nxs",
+      "path": "Nexus_library/Samples/XpH3Gt/+PWRChordMetalSM57R.nxs",
+      "extension": ".nxs",
+      "size": 115976431,
+      "size_mb": 110.6,
+      "created": "2017-11-11T11:50:16",
+      "modified": "2017-11-11T11:50:16"
+    },
+    {
+      "name": "+PWRChordMetalSM57R.nxs",
+      "path": "reFX/Nexus_library/Samples/XpH3Gt/+PWRChordMetalSM57R.nxs",
+      "extension": ".nxs",
+      "size": 115976431,
+      "size_mb": 110.6,
+      "created": "2017-11-11T11:50:16",
+      "modified": "2017-11-11T11:50:16"
+    },
+    {
+      "name": "GlideUp.nxs",
+      "path": "Nexus_library/Samples/XpHPL2/GlideUp.nxs",
+      "extension": ".nxs",
+      "size": 111843064,
+      "size_mb": 106.66,
+      "created": "2018-03-17T23:08:38",
+      "modified": "2018-03-17T23:08:38"
+    },
+    {
+      "name": "GlideUp.nxs",
+      "path": "reFX/Nexus_library/Samples/XpHPL2/GlideUp.nxs",
+      "extension": ".nxs",
+      "size": 111843064,
+      "size_mb": 106.66,
+      "created": "2018-03-17T23:08:38",
+      "modified": "2018-03-17T23:08:38"
+    },
+    {
+      "name": "uplifterMenu.nxs",
+      "path": "Nexus_library/Samples/XpXm17/uplifterMenu.nxs",
+      "extension": ".nxs",
+      "size": 102813998,
+      "size_mb": 98.05,
+      "created": "2017-11-27T06:25:40",
+      "modified": "2017-11-27T06:25:40"
+    },
+    {
+      "name": "uplifterMenu.nxs",
+      "path": "reFX/Nexus_library/Samples/XpXm17/uplifterMenu.nxs",
+      "extension": ".nxs",
+      "size": 102813998,
+      "size_mb": 98.05,
+      "created": "2017-11-27T06:25:40",
+      "modified": "2017-11-27T06:25:40"
+    },
+    {
+      "name": "+FemaleVocsLooped 1.nxs",
+      "path": "Nexus_library/Samples/XpXm17/+FemaleVocsLooped 1.nxs",
+      "extension": ".nxs",
+      "size": 89281774,
+      "size_mb": 85.15,
+      "created": "2017-11-27T06:12:31",
+      "modified": "2017-11-27T06:12:31"
+    },
+    {
+      "name": "+FemaleVocsLooped 1.nxs",
+      "path": "reFX/Nexus_library/Samples/XpXm17/+FemaleVocsLooped 1.nxs",
+      "extension": ".nxs",
+      "size": 89281774,
+      "size_mb": 85.15,
+      "created": "2017-11-27T06:12:31",
+      "modified": "2017-11-27T06:12:31"
+    },
+    {
+      "name": "+Eminent Mono.nxs",
+      "path": "Nexus_library/Samples/XpHwSE2/+Eminent Mono.nxs",
+      "extension": ".nxs",
+      "size": 80995964,
+      "size_mb": 77.24,
+      "created": "2017-11-11T11:51:41",
+      "modified": "2017-11-11T11:51:41"
+    },
+    {
+      "name": "+Eminent Mono.nxs",
+      "path": "reFX/Nexus_library/Samples/XpHwSE2/+Eminent Mono.nxs",
+      "extension": ".nxs",
+      "size": 80995964,
+      "size_mb": 77.24,
+      "created": "2017-11-11T11:51:41",
+      "modified": "2017-11-11T11:51:41"
+    },
+    {
+      "name": "+Eminent310.nxs",
+      "path": "Nexus_library/Samples/XpHwSE2/+Eminent310.nxs",
+      "extension": ".nxs",
+      "size": 79750196,
+      "size_mb": 76.06,
+      "created": "2017-11-11T11:51:41",
+      "modified": "2017-11-11T11:51:41"
+    },
+    {
+      "name": "+Eminent310.nxs",
+      "path": "reFX/Nexus_library/Samples/XpHwSE2/+Eminent310.nxs",
+      "extension": ".nxs",
+      "size": 79750196,
+      "size_mb": 76.06,
+      "created": "2017-11-11T11:51:41",
+      "modified": "2017-11-11T11:51:41"
+    },
+    {
+      "name": "SciFiUplifter.nxs",
+      "path": "Nexus_library/Samples/XpXm16/SciFiUplifter.nxs",
+      "extension": ".nxs",
+      "size": 77831648,
+      "size_mb": 74.23,
+      "created": "2017-11-11T11:38:32",
+      "modified": "2017-11-11T11:38:32"
+    },
+    {
+      "name": "SciFiUplifter.nxs",
+      "path": "reFX/Nexus_library/Samples/XpXm16/SciFiUplifter.nxs",
+      "extension": ".nxs",
+      "size": 77831648,
+      "size_mb": 74.23,
+      "created": "2017-11-11T11:38:32",
+      "modified": "2017-11-11T11:38:32"
+    },
+    {
+      "name": "TripletEpic1.nxs",
+      "path": "Nexus_library/Samples/XpXm16/TripletEpic1.nxs",
+      "extension": ".nxs",
+      "size": 77683037,
+      "size_mb": 74.08,
+      "created": "2017-11-11T11:38:35",
+      "modified": "2017-11-11T11:38:35"
+    },
+    {
+      "name": "TripletEpic1.nxs",
+      "path": "reFX/Nexus_library/Samples/XpXm16/TripletEpic1.nxs",
+      "extension": ".nxs",
+      "size": 77683037,
+      "size_mb": 74.08,
+      "created": "2017-11-11T11:38:35",
+      "modified": "2017-11-11T11:38:35"
+    },
+    {
+      "name": "PianoAtmo.nxs",
+      "path": "Nexus_library/Samples/XpHwSE2/PianoAtmo.nxs",
+      "extension": ".nxs",
+      "size": 76076780,
+      "size_mb": 72.55,
+      "created": "2017-11-11T11:51:55",
+      "modified": "2017-11-11T11:51:55"
+    },
+    {
+      "name": "PianoAtmo.nxs",
+      "path": "reFX/Nexus_library/Samples/XpHwSE2/PianoAtmo.nxs",
+      "extension": ".nxs",
+      "size": 76076780,
+      "size_mb": 72.55,
+      "created": "2017-11-11T11:51:55",
+      "modified": "2017-11-11T11:51:55"
+    },
+    {
+      "name": "CymCresc2Menu.nxs",
+      "path": "Nexus_library/Samples/XpH3Ec/CymCresc2Menu.nxs",
+      "extension": ".nxs",
+      "size": 70513068,
+      "size_mb": 67.25,
+      "created": "2017-11-11T11:49:19",
+      "modified": "2017-11-11T11:49:19"
+    },
+    {
+      "name": "CymCresc2Menu.nxs",
+      "path": "reFX/Nexus_library/Samples/XpH3Ec/CymCresc2Menu.nxs",
+      "extension": ".nxs",
+      "size": 70513068,
+      "size_mb": 67.25,
+      "created": "2017-11-11T11:49:19",
+      "modified": "2017-11-11T11:49:19"
+    },
+    {
+      "name": "+CHSaws.nxs",
+      "path": "Nexus_library/Samples/XpEDM3/+CHSaws.nxs",
+      "extension": ".nxs",
+      "size": 66950208,
+      "size_mb": 63.85,
+      "created": "2017-11-11T11:42:05",
+      "modified": "2017-11-11T11:42:05"
+    },
+    {
+      "name": "+CHSaws.nxs",
+      "path": "reFX/Nexus_library/Samples/XpEDM3/+CHSaws.nxs",
+      "extension": ".nxs",
+      "size": 66950208,
+      "size_mb": 63.85,
+      "created": "2017-11-11T11:42:05",
+      "modified": "2017-11-11T11:42:05"
+    },
+    {
+      "name": "+HardSaw.nxs",
+      "path": "Nexus_library/Samples/XpHSE3/+HardSaw.nxs",
+      "extension": ".nxs",
+      "size": 64597583,
+      "size_mb": 61.61,
+      "created": "2017-11-11T11:52:29",
+      "modified": "2017-11-11T11:52:29"
+    },
+    {
+      "name": "+HardSaw.nxs",
+      "path": "reFX/Nexus_library/Samples/XpHSE3/+HardSaw.nxs",
+      "extension": ".nxs",
+      "size": 64597583,
+      "size_mb": 61.61,
+      "created": "2017-11-11T11:52:29",
+      "modified": "2017-11-11T11:52:29"
+    },
+    {
+      "name": "+BigSaw.nxs",
+      "path": "Nexus_library/Samples/XpEDM3/+BigSaw.nxs",
+      "extension": ".nxs",
+      "size": 64233517,
+      "size_mb": 61.26,
+      "created": "2017-11-11T11:42:04",
+      "modified": "2017-11-11T11:42:04"
+    },
+    {
+      "name": "+BigSaw.nxs",
+      "path": "reFX/Nexus_library/Samples/XpEDM3/+BigSaw.nxs",
+      "extension": ".nxs",
+      "size": 64233517,
+      "size_mb": 61.26,
+      "created": "2017-11-11T11:42:04",
+      "modified": "2017-11-11T11:42:04"
+    },
+    {
+      "name": "+ZR_Bass05.nxs",
+      "path": "Nexus_library/Samples/XpHwSE2/+ZR_Bass05.nxs",
+      "extension": ".nxs",
+      "size": 63534633,
+      "size_mb": 60.59,
+      "created": "2017-11-11T11:51:42",
+      "modified": "2017-11-11T11:51:42"
+    },
+    {
+      "name": "+ZR_Bass05.nxs",
+      "path": "reFX/Nexus_library/Samples/XpHwSE2/+ZR_Bass05.nxs",
+      "extension": ".nxs",
+      "size": 63534633,
+      "size_mb": 60.59,
+      "created": "2017-11-11T11:51:42",
+      "modified": "2017-11-11T11:51:42"
+    },
+    {
+      "name": "+H-LDnew.nxs",
+      "path": "Nexus_library/Samples/XpEDM3/+H-LDnew.nxs",
+      "extension": ".nxs",
+      "size": 62871984,
+      "size_mb": 59.96,
+      "created": "2017-11-11T11:42:31",
+      "modified": "2017-11-11T11:42:31"
+    },
+    {
+      "name": "+H-LDnew.nxs",
+      "path": "reFX/Nexus_library/Samples/XpEDM3/+H-LDnew.nxs",
+      "extension": ".nxs",
+      "size": 62871984,
+      "size_mb": 59.96,
+      "created": "2017-11-11T11:42:31",
+      "modified": "2017-11-11T11:42:31"
+    },
+    {
+      "name": "Lead - Snake 1.nxs",
+      "path": "Nexus_library/Samples/XpHH2/Lead - Snake 1.nxs",
+      "extension": ".nxs",
+      "size": 61355292,
+      "size_mb": 58.51,
+      "created": "2017-11-11T11:47:16",
+      "modified": "2017-11-11T11:47:16"
+    },
+    {
+      "name": "Lead - Snake 1.nxs",
+      "path": "reFX/Nexus_library/Samples/XpHH2/Lead - Snake 1.nxs",
+      "extension": ".nxs",
+      "size": 61355292,
+      "size_mb": 58.51,
+      "created": "2017-11-11T11:47:16",
+      "modified": "2017-11-11T11:47:16"
+    },
+    {
+      "name": "+GCHSaws.nxs",
+      "path": "Nexus_library/Samples/XpEDM3/+GCHSaws.nxs",
+      "extension": ".nxs",
+      "size": 61120771,
+      "size_mb": 58.29,
+      "created": "2017-11-11T11:42:10",
+      "modified": "2017-11-11T11:42:10"
+    },
+    {
+      "name": "+GCHSaws.nxs",
+      "path": "reFX/Nexus_library/Samples/XpEDM3/+GCHSaws.nxs",
+      "extension": ".nxs",
+      "size": 61120771,
+      "size_mb": 58.29,
+      "created": "2017-11-11T11:42:10",
+      "modified": "2017-11-11T11:42:10"
+    },
+    {
+      "name": "FearAtmosSet.nxs",
+      "path": "Nexus_library/Samples/XpHwAT/FearAtmosSet.nxs",
+      "extension": ".nxs",
+      "size": 60973506,
+      "size_mb": 58.15,
+      "created": "2017-11-11T11:50:42",
+      "modified": "2017-11-11T11:50:42"
+    },
+    {
+      "name": "FearAtmosSet.nxs",
+      "path": "Nexus_library/Samples/XpXm17/FearAtmosSet.nxs",
+      "extension": ".nxs",
+      "size": 60973506,
+      "size_mb": 58.15,
+      "created": "2017-11-27T06:17:52",
+      "modified": "2017-11-27T06:17:52"
+    },
+    {
+      "name": "FearAtmosSet.nxs",
+      "path": "reFX/Nexus_library/Samples/XpHwAT/FearAtmosSet.nxs",
+      "extension": ".nxs",
+      "size": 60973506,
+      "size_mb": 58.15,
+      "created": "2017-11-11T11:50:42",
+      "modified": "2017-11-11T11:50:42"
+    },
+    {
+      "name": "FearAtmosSet.nxs",
+      "path": "reFX/Nexus_library/Samples/XpXm17/FearAtmosSet.nxs",
+      "extension": ".nxs",
+      "size": 60973506,
+      "size_mb": 58.15,
+      "created": "2017-11-27T06:17:52",
+      "modified": "2017-11-27T06:17:52"
+    },
+    {
+      "name": "+FullStringsCello.nxs",
+      "path": "Nexus_library/Samples/XpHwSE/+FullStringsCello.nxs",
+      "extension": ".nxs",
+      "size": 60424478,
+      "size_mb": 57.63,
+      "created": "2017-11-11T11:51:31",
+      "modified": "2017-11-11T11:51:31"
+    },
+    {
+      "name": "+FullStringsCello.nxs",
+      "path": "reFX/Nexus_library/Samples/XpHwSE/+FullStringsCello.nxs",
+      "extension": ".nxs",
+      "size": 60424478,
+      "size_mb": 57.63,
+      "created": "2017-11-11T11:51:31",
+      "modified": "2017-11-11T11:51:31"
+    },
+    {
+      "name": "WSLEad.nxs",
+      "path": "Nexus_library/Samples/XpEDM3/WSLEad.nxs",
+      "extension": ".nxs",
+      "size": 60354204,
+      "size_mb": 57.56,
+      "created": "2017-11-11T11:42:32",
+      "modified": "2017-11-11T11:42:32"
+    },
+    {
+      "name": "WSLEad.nxs",
+      "path": "reFX/Nexus_library/Samples/XpEDM3/WSLEad.nxs",
+      "extension": ".nxs",
+      "size": 60354204,
+      "size_mb": 57.56,
+      "created": "2017-11-11T11:42:32",
+      "modified": "2017-11-11T11:42:32"
+    },
+    {
+      "name": "+H-LD.nxs",
+      "path": "Nexus_library/Samples/XpEDM3/+H-LD.nxs",
+      "extension": ".nxs",
+      "size": 60305375,
+      "size_mb": 57.51,
+      "created": "2017-11-11T11:42:09",
+      "modified": "2017-11-11T11:42:09"
+    },
+    {
+      "name": "+H-LD.nxs",
+      "path": "reFX/Nexus_library/Samples/XpEDM3/+H-LD.nxs",
+      "extension": ".nxs",
+      "size": 60305375,
+      "size_mb": 57.51,
+      "created": "2017-11-11T11:42:09",
+      "modified": "2017-11-11T11:42:09"
+    },
+    {
+      "name": "+PWRChordMetalEcoL.nxs",
+      "path": "Nexus_library/Samples/XpH3Gt/+PWRChordMetalEcoL.nxs",
+      "extension": ".nxs",
+      "size": 59749328,
+      "size_mb": 56.98,
+      "created": "2017-11-11T11:50:14",
+      "modified": "2017-11-11T11:50:14"
+    },
+    {
+      "name": "+PWRChordMetalEcoL.nxs",
+      "path": "reFX/Nexus_library/Samples/XpH3Gt/+PWRChordMetalEcoL.nxs",
+      "extension": ".nxs",
+      "size": 59749328,
+      "size_mb": 56.98,
+      "created": "2017-11-11T11:50:14",
+      "modified": "2017-11-11T11:50:14"
+    },
+    {
+      "name": "Athmos2.nxs",
+      "path": "Nexus_library/Samples/XpHwSE/Athmos2.nxs",
+      "extension": ".nxs",
+      "size": 58853569,
+      "size_mb": 56.13,
+      "created": "2017-11-11T11:51:31",
+      "modified": "2017-11-11T11:51:31"
+    },
+    {
+      "name": "Athmos2.nxs",
+      "path": "reFX/Nexus_library/Samples/XpHwSE/Athmos2.nxs",
+      "extension": ".nxs",
+      "size": 58853569,
+      "size_mb": 56.13,
+      "created": "2017-11-11T11:51:31",
+      "modified": "2017-11-11T11:51:31"
+    }
+  ],
+  "summary": {
+    "total_expansions": 0,
+    "total_arp_presets": 238,
+    "total_trance_gate_presets": 104,
+    "total_license_files": 2,
+    "unique_file_types": 15
+  }
+}

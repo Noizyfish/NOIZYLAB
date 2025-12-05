@@ -1,0 +1,47 @@
+{
+  "M2ULTRA": {
+    "id": "M2ULTRA",
+    "label": "M2 Ultra Mac Studio",
+    "host": "10.0.0.71",
+    "role": "master",
+    "tags": ["critical", "local", "studio", "mc96"],
+    "checks": ["ping", "disk"],
+    "notes": "Primary workstation - MC96 master node"
+  },
+  "GABRIEL": {
+    "id": "GABRIEL",
+    "label": "GABRIEL Workstation",
+    "host": "192.168.1.20",
+    "role": "workstation",
+    "tags": ["critical", "local", "ai"],
+    "checks": ["ping"],
+    "notes": "AI orchestrator workstation"
+  },
+  "MC96": {
+    "id": "MC96",
+    "label": "MC96 DGS1210-10 Switch",
+    "host": "192.168.1.1",
+    "role": "switch",
+    "tags": ["critical", "network", "mc96"],
+    "checks": ["ping"],
+    "notes": "D-Link DGS1210-10 managed switch - MC96 backbone"
+  },
+  "HP_OMEN": {
+    "id": "HP_OMEN",
+    "label": "HP OMEN Windows PC",
+    "host": "192.168.1.100",
+    "role": "workstation",
+    "tags": ["windows", "gaming", "remotedesktop"],
+    "checks": ["ping"],
+    "notes": "Windows workstation for cross-platform work"
+  },
+  "NAS_SYNOLOGY": {
+    "id": "NAS_SYNOLOGY",
+    "label": "Synology NAS",
+    "host": "192.168.1.50",
+    "role": "storage",
+    "tags": ["storage", "critical", "backup"],
+    "checks": ["ping"],
+    "notes": "Primary network storage - all volumes"
+  }
+}

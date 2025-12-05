@@ -1,0 +1,15 @@
+# Auto detect text files
+* text=auto
+
+# Force LF line endings
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.csv text eol=lf
+
+# Treat as binary
+*.png binary
+*.jpg binary
+*.pdf binary

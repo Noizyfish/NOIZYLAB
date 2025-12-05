@@ -1,0 +1,42 @@
+# Audio/Video (stored on 12TB external)
+*.wav
+*.mp3
+*.aiff
+*.flac
+*.ogg
+*.m4a
+*.mp4
+*.mov
+*.avi
+
+# DAW Projects
+*.als
+*.aup
+*.ptx
+*.logic
+*.band
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Secrets
+.env
+*.key
+credentials.json
+
+# Temp
+*.tmp
+*.bak
+*~

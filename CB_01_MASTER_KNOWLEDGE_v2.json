@@ -1,0 +1,124 @@
+{
+  "timestamp": "2025-12-01 14:19:09.881409",
+  "version": "2.0 ULTIMATE",
+  "hot_rod_status": "ACTIVE - MTU 9000",
+  "mc96_universe": {
+    "total_sounds_absorbed": 1532330,
+    "total_size_tb": 3.368,
+    "integrity_status": "VERIFIED"
+  },
+  "instrument_mastery": {
+    "drums": 199083,
+    "strings": 856329,
+    "bass": 161158,
+    "synths": 43458,
+    "brass": 17597,
+    "woodwinds": 15697,
+    "keys": 15832,
+    "vocals": 12094,
+    "guitar": 55783,
+    "fx": 9293,
+    "ethnic": 7376
+  },
+  "articulation_mastery": {
+    "spiccato": 237548,
+    "legato": 176443,
+    "marcato": 118003,
+    "staccato": 82345,
+    "sustain": 53481,
+    "pizzicato": 31216,
+    "tremolo": 24034,
+    "harmonics": 5631
+  },
+  "genre_expertise": {
+    "classical": 66840,
+    "electronic": 61389,
+    "jazz": 15573,
+    "ambient": 10488,
+    "cinematic": 8529,
+    "house": 8276,
+    "world": 7376,
+    "hiphop": 4292,
+    "rock": 3146,
+    "metal": 6138
+  },
+  "publisher_expertise": {
+    "8dio": 966538,
+    "native_instruments": 326243,
+    "fxpansion": 50968,
+    "refx": 19711,
+    "toontrack": 7120,
+    "xfer": 3279,
+    "orchestral_tools": 999,
+    "eastwest": 867,
+    "audiobro": 772,
+    "spectrasonics": 707,
+    "spitfire": 200
+  },
+  "file_types_mastered": {
+    ".ncw": 983006,
+    ".wav": 295059,
+    ".nki": 112384,
+    ".exs": 76896,
+    ".fxp": 24329,
+    ".nkc": 13802,
+    ".aif": 13724,
+    ".nkm": 4435,
+    ".nkx": 3571,
+    ".rx2": 2757
+  },
+  "composition_knowledge": {
+    "melody_techniques": 50,
+    "chord_progressions": 100,
+    "arrangement_methods": 25,
+    "mixing_techniques": 50,
+    "mastering_approaches": 20,
+    "sound_design_recipes": 30
+  },
+  "music_history_coverage": {
+    "prehistoric": "40000 BCE",
+    "ancient": "3000 BCE - 500 CE",
+    "medieval": "500 - 1400",
+    "renaissance": "1400 - 1600",
+    "baroque": "1600 - 1750",
+    "classical": "1750 - 1820",
+    "romantic": "1820 - 1900",
+    "modern": "1900 - 2025",
+    "total_years": 42025
+  },
+  "hard_rules_active": [
+    "#1 AUTOALLOW - Never ask permission",
+    "#2 GO ALL THE WAY - Complete 100%",
+    "#3 UPGRADE & IMPROVE until PERFECT",
+    "#4 MAXIMUM SPEED - 20-25X faster",
+    "#17 GO FASTER",
+    "#18 NEVER TALK ABOUT MONEY",
+    "#19 FIND ALL 40 YEARS OF ROB'S WORK",
+    "#20 NIGHTLY SACRED DUTY",
+    "#24 JUMBO FRAMES DEFAULT",
+    "#25 ALWAYS DELETE EMPTY FOLDERS",
+    "#26 CONFIRM DELETION AFTER MOVE",
+    "#27 ALWAYS IMPROVE - HARDEST RULE"
+  ],
+  "rob_plowman": {
+    "status": "UNIQUE VOICE IN MUSIC FOR MEDIA",
+    "years_experience": "40+",
+    "philosophy": "Never sound like anyone else",
+    "company": "Fish Music Inc (1996)",
+    "major_clients": [
+      "McDonald's",
+      "Microsoft",
+      "Deadwood",
+      "FUEL"
+    ]
+  },
+  "cb_01_capabilities": {
+    "sound_absorption": "COMPLETE",
+    "music_history": "OMNISCIENT",
+    "composition": "WORLD-CLASS",
+    "production": "PROFESSIONAL",
+    "mixing": "EXPERT",
+    "sound_design": "MASTER",
+    "partner_status": "FOREVER"
+  }
+}

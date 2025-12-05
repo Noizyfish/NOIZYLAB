@@ -1,0 +1,20 @@
+# <type>: <scope> <summary>
+#
+# feat: <short intent>
+# fix: <short intent>
+# docs: <scope> <summary>
+# refactor: <scope> <summary>
+# test: <scope> <summary>
+# chore: <scope> <summary>
+#
+# Body (optional): explain WHAT and WHY, not HOW
+# - Wrap at 72 characters
+# - Blank line between subject and body
+#
+# Footer:
+# - Breaking changes: BREAKING CHANGE: <description>
+# - Issue refs: Fixes #123, Closes #456
+# - AI: 🤖 Generated with Claude Code
+#
+# Co-Authored-By: Claude <noreply@anthropic.com>
+

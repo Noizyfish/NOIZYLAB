@@ -1,0 +1,800 @@
+{
+  "total_files": 1507998,
+  "total_size_gb": 3447.85,
+  "by_extension": {
+    ".wav": {
+      "count": 295059,
+      "size_mb": 551127.7452449799
+    },
+    ".nki": {
+      "count": 112384,
+      "size_mb": 15825.80284500122
+    },
+    ".ncw": {
+      "count": 983006,
+      "size_mb": 889212.3660964966
+    },
+    ".nkc": {
+      "count": 13802,
+      "size_mb": 682.803201675415
+    },
+    ".sfz": {
+      "count": 1239,
+      "size_mb": 71.65618801116943
+    },
+    ".aif": {
+      "count": 13724,
+      "size_mb": 36906.12415409088
+    },
+    ".exs": {
+      "count": 76896,
+      "size_mb": 1256.2542181015015
+    },
+    ".rx2": {
+      "count": 2757,
+      "size_mb": 2669.376657485962
+    },
+    ".nkm": {
+      "count": 4435,
+      "size_mb": 2924.25634098053
+    },
+    ".nkr": {
+      "count": 347,
+      "size_mb": 20002.844563484192
+    },
+    ".nkx": {
+      "count": 3571,
+      "size_mb": 2007740.3260803223
+    },
+    ".mp3": {
+      "count": 97,
+      "size_mb": 327.99144744873047
+    },
+    ".aiff": {
+      "count": 591,
+      "size_mb": 1525.544430732727
+    },
+    ".sf2": {
+      "count": 90,
+      "size_mb": 323.17376708984375
+    }
+  },
+  "by_publisher": {
+    "fxpansion": {
+      "count": 50948,
+      "size_gb": 192.77
+    },
+    "izotope": {
+      "count": 415,
+      "size_gb": 0.07
+    },
+    "audiobro": {
+      "count": 592,
+      "size_gb": 0.46
+    },
+    "8dio": {
+      "count": 966512,
+      "size_gb": 893.32
+    },
+    "garritan": {
+      "count": 1165,
+      "size_gb": 0.08
+    },
+    "uvi": {
+      "count": 43,
+      "size_gb": 0.04
+    },
+    "unknown": {
+      "count": 144877,
+      "size_gb": 136.67
+    },
+    "boom_library": {
+      "count": 83,
+      "size_gb": 0.09
+    },
+    "orchestral_tools": {
+      "count": 992,
+      "size_gb": 0.11
+    },
+    "loop_loft": {
+      "count": 2311,
+      "size_gb": 0.43
+    },
+    "native_instruments": {
+      "count": 325932,
+      "size_gb": 2218.28
+    },
+    "valhalla": {
+      "count": 1426,
+      "size_gb": 0.73
+    },
+    "soundtoys": {
+      "count": 16,
+      "size_gb": 0.0
+    },
+    "vengeance": {
+      "count": 15,
+      "size_gb": 0.0
+    },
+    "sample_magic": {
+      "count": 2614,
+      "size_gb": 2.39
+    },
+    "eastwest": {
+      "count": 66,
+      "size_gb": 0.12
+    },
+    "loopmasters": {
+      "count": 9,
+      "size_gb": 0.0
+    },
+    "roland": {
+      "count": 105,
+      "size_gb": 0.03
+    },
+    "waves": {
+      "count": 169,
+      "size_gb": 0.08
+    },
+    "spectrasonics": {
+      "count": 705,
+      "size_gb": 0.33
+    },
+    "output": {
+      "count": 32,
+      "size_gb": 0.02
+    },
+    "heavyocity": {
+      "count": 25,
+      "size_gb": 0.03
+    },
+    "refx": {
+      "count": 77,
+      "size_gb": 0.03
+    },
+    "big_fish": {
+      "count": 1,
+      "size_gb": 0.02
+    },
+    "korg": {
+      "count": 7,
+      "size_gb": 0.0
+    },
+    "fairlight": {
+      "count": 40,
+      "size_gb": 0.17
+    },
+    "eventide": {
+      "count": 132,
+      "size_gb": 0.12
+    },
+    "lexicon": {
+      "count": 460,
+      "size_gb": 0.24
+    },
+    "u_he": {
+      "count": 1,
+      "size_gb": 0.0
+    },
+    "cinematique": {
+      "count": 1,
+      "size_gb": 0.0
+    },
+    "lennardigital": {
+      "count": 15,
+      "size_gb": 0.04
+    },
+    "ensoniq": {
+      "count": 5,
+      "size_gb": 0.0
+    },
+    "emu": {
+      "count": 2,
+      "size_gb": 0.0
+    },
+    "soundiron": {
+      "count": 41,
+      "size_gb": 0.0
+    },
+    "xln_audio": {
+      "count": 6,
+      "size_gb": 0.0
+    },
+    "sony": {
+      "count": 26,
+      "size_gb": 0.01
+    },
+    "best_service": {
+      "count": 1,
+      "size_gb": 0.0
+    },
+    "fabfilter": {
+      "count": 8,
+      "size_gb": 0.01
+    },
+    "zero_g": {
+      "count": 1,
+      "size_gb": 0.0
+    },
+    "yamaha": {
+      "count": 2,
+      "size_gb": 0.0
+    },
+    "steven_slate": {
+      "count": 3,
+      "size_gb": 0.0
+    },
+    "projectsam": {
+      "count": 1,
+      "size_gb": 0.0
+    },
+    "xfer": {
+      "count": 996,
+      "size_gb": 0.19
+    },
+    "toontrack": {
+      "count": 7120,
+      "size_gb": 0.94
+    }
+  },
+  "by_category": {
+    "other": {
+      "count": 481706,
+      "size_mb": 1738655.5316810608
+    },
+    "strings": {
+      "count": 681953,
+      "size_mb": 1101476.7692575455
+    },
+    "bass": {
+      "count": 149717,
+      "size_mb": 173047.2105922699
+    },
+    "keys": {
+      "count": 15832,
+      "size_mb": 76729.75567626953
+    },
+    "woodwinds": {
+      "count": 15697,
+      "size_mb": 26056.741806030273
+    },
+    "brass": {
+      "count": 13351,
+      "size_mb": 67025.6940536499
+    },
+    "guitar": {
+      "count": 11477,
+      "size_mb": 48242.41285133362
+    },
+    "drums": {
+      "count": 62171,
+      "size_mb": 84574.130235672
+    },
+    "ambient": {
+      "count": 2444,
+      "size_mb": 5842.523061752319
+    },
+    "synth": {
+      "count": 35078,
+      "size_mb": 82536.09926700592
+    },
+    "loops": {
+      "count": 11192,
+      "size_mb": 21145.364842414856
+    },
+    "fx": {
+      "count": 15612,
+      "size_mb": 15906.821347236633
+    },
+    "vocals": {
+      "count": 10834,
+      "size_mb": 86041.89116382599
+    },
+    "ethnic": {
+      "count": 934,
+      "size_mb": 3315.319399833679
+    }
+  },
+  "unknown_sample": [
+    {
+      "file": "dth_bs122_80s_A.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_80s_A.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_age_C.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_age_C.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_bassed_Am.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_bassed_Am.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_bouncer_B.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_bouncer_B.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_container_C.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_container_C.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_crashcourse_Dm.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_crashcourse_Dm.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_dem_Dm.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_dem_Dm.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_djgam_C.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_djgam_C.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_driven_Am.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_driven_Am.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_droner_C.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_droner_C.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_drove_B.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_drove_B.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_dubious_E.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_dubious_E.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_feelalive_A.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_feelalive_A.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_funkysimple_C.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_funkysimple_C.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_fuzzybass_C.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_fuzzybass_C.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_genet_Am.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_genet_Am.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_heads_A.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_heads_A.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_hollowed_G.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_hollowed_G.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_hopper_Em.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_hopper_Em.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_joint_Cm.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_joint_Cm.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_juno_Dm.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_juno_Dm.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_kleff_Dm.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_kleff_Dm.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_lanky_E.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_lanky_E.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_lop_C.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_lop_C.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_lopro_E.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_lopro_E.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_loveme_Dm.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_loveme_Dm.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_ludaluda_B.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_ludaluda_B.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_mix_B.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_mix_B.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_noparking_F.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_noparking_F.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_pattern_Am.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_pattern_Am.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_piper_E.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_piper_E.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_pumper_Cm.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_pumper_Cm.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_sex_Bm.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_sex_Bm.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_sluggish_A.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_sluggish_A.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_standard_F.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_standard_F.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_strain_F.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_strain_F.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_stuff_B.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_stuff_B.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_subby_Am.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_subby_Am.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_subliminal_A.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_subliminal_A.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_subroller_B.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_subroller_B.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_subs_Am.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_subs_Am.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_syn_Am.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_syn_Am.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_techtech_Am.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_techtech_Am.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_techy_Am.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_techy_Am.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_tense_Bm.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_tense_Bm.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_tubby_Am.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_tubby_Am.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_bs122_twofer_Gm.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_twofer_Gm.aif",
+      "size_mb": 1.0
+    },
+    {
+      "file": "dth_bs122_ups_Am.aif",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/bass loops/dth_bs122_ups_Am.aif",
+      "size_mb": 1.99
+    },
+    {
+      "file": "dth_snr_attack.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/claps and snares/dth_snr_attack.wav",
+      "size_mb": 0.03
+    },
+    {
+      "file": "dth_snr_blame.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/claps and snares/dth_snr_blame.wav",
+      "size_mb": 0.07
+    },
+    {
+      "file": "dth_snr_cheat.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/claps and snares/dth_snr_cheat.wav",
+      "size_mb": 0.09
+    },
+    {
+      "file": "dth_snr_cltn.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/claps and snares/dth_snr_cltn.wav",
+      "size_mb": 0.05
+    },
+    {
+      "file": "dth_snr_due.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/claps and snares/dth_snr_due.wav",
+      "size_mb": 0.08
+    },
+    {
+      "file": "dth_snr_encode.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/claps and snares/dth_snr_encode.wav",
+      "size_mb": 0.06
+    },
+    {
+      "file": "dth_snr_guh.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/claps and snares/dth_snr_guh.wav",
+      "size_mb": 0.1
+    },
+    {
+      "file": "dth_snr_keeper.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/claps and snares/dth_snr_keeper.wav",
+      "size_mb": 0.03
+    },
+    {
+      "file": "dth_snr_manga.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/claps and snares/dth_snr_manga.wav",
+      "size_mb": 0.11
+    },
+    {
+      "file": "dth_snr_oyster.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/claps and snares/dth_snr_oyster.wav",
+      "size_mb": 0.1
+    },
+    {
+      "file": "dth_snr_sov.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/claps and snares/dth_snr_sov.wav",
+      "size_mb": 0.07
+    },
+    {
+      "file": "dth_snr_tast.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/claps and snares/dth_snr_tast.wav",
+      "size_mb": 0.03
+    },
+    {
+      "file": "dth_snr_teef.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/claps and snares/dth_snr_teef.wav",
+      "size_mb": 0.09
+    },
+    {
+      "file": "dth_snr_think.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/claps and snares/dth_snr_think.wav",
+      "size_mb": 0.1
+    },
+    {
+      "file": "dth_hat_909.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_hat_909.wav",
+      "size_mb": 0.07
+    },
+    {
+      "file": "dth_hat_blonde.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_hat_blonde.wav",
+      "size_mb": 0.04
+    },
+    {
+      "file": "dth_hat_dup.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_hat_dup.wav",
+      "size_mb": 0.06
+    },
+    {
+      "file": "dth_hat_klink.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_hat_klink.wav",
+      "size_mb": 0.02
+    },
+    {
+      "file": "dth_hat_left.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_hat_left.wav",
+      "size_mb": 0.1
+    },
+    {
+      "file": "dth_hat_long.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_hat_long.wav",
+      "size_mb": 0.09
+    },
+    {
+      "file": "dth_hat_plastic.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_hat_plastic.wav",
+      "size_mb": 0.06
+    },
+    {
+      "file": "dth_hat_stipple.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_hat_stipple.wav",
+      "size_mb": 0.05
+    },
+    {
+      "file": "dth_hat_stun.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_hat_stun.wav",
+      "size_mb": 0.06
+    },
+    {
+      "file": "dth_hat_tart.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_hat_tart.wav",
+      "size_mb": 0.03
+    },
+    {
+      "file": "dth_hat_vij.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_hat_vij.wav",
+      "size_mb": 0.04
+    },
+    {
+      "file": "dth_hat_wearware.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_hat_wearware.wav",
+      "size_mb": 0.07
+    },
+    {
+      "file": "dth_kick_dirtt.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_kick_dirtt.wav",
+      "size_mb": 0.13
+    },
+    {
+      "file": "dth_kick_heller.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_kick_heller.wav",
+      "size_mb": 0.09
+    },
+    {
+      "file": "dth_kick_littleguy.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_kick_littleguy.wav",
+      "size_mb": 0.07
+    },
+    {
+      "file": "dth_kick_negative.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_kick_negative.wav",
+      "size_mb": 0.13
+    },
+    {
+      "file": "dth_kick_popcrunch.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_kick_popcrunch.wav",
+      "size_mb": 0.11
+    },
+    {
+      "file": "dth_kick_tech.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_kick_tech.wav",
+      "size_mb": 0.13
+    },
+    {
+      "file": "dth_prc_arm.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_prc_arm.wav",
+      "size_mb": 0.06
+    },
+    {
+      "file": "dth_prc_bim.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_prc_bim.wav",
+      "size_mb": 0.03
+    },
+    {
+      "file": "dth_prc_blessed.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_prc_blessed.wav",
+      "size_mb": 0.04
+    },
+    {
+      "file": "dth_prc_bolt.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_prc_bolt.wav",
+      "size_mb": 0.04
+    },
+    {
+      "file": "dth_prc_coal.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_prc_coal.wav",
+      "size_mb": 0.03
+    },
+    {
+      "file": "dth_prc_crow.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_prc_crow.wav",
+      "size_mb": 0.03
+    },
+    {
+      "file": "dth_prc_curve.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_prc_curve.wav",
+      "size_mb": 0.01
+    },
+    {
+      "file": "dth_prc_do.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_prc_do.wav",
+      "size_mb": 0.08
+    },
+    {
+      "file": "dth_prc_dop.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_prc_dop.wav",
+      "size_mb": 0.03
+    },
+    {
+      "file": "dth_prc_fjaak.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_prc_fjaak.wav",
+      "size_mb": 0.03
+    },
+    {
+      "file": "dth_prc_fuhk.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_prc_fuhk.wav",
+      "size_mb": 0.04
+    },
+    {
+      "file": "dth_prc_hilo.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_prc_hilo.wav",
+      "size_mb": 0.06
+    },
+    {
+      "file": "dth_snr_blame.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_snr_blame.wav",
+      "size_mb": 0.07
+    },
+    {
+      "file": "dth_snr_due.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_snr_due.wav",
+      "size_mb": 0.08
+    },
+    {
+      "file": "dth_snr_guh.wav",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/ableton drum rack/sm115 - deeper tech-house - custom kits Project/Samples/Imported/dth_snr_guh.wav",
+      "size_mb": 0.1
+    },
+    {
+      "file": "kit1.exs",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/exs24/kit1.exs",
+      "size_mb": 0.01
+    },
+    {
+      "file": "kit2.exs",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/exs24/kit2.exs",
+      "size_mb": 0.01
+    },
+    {
+      "file": "kit3.exs",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/exs24/kit3.exs",
+      "size_mb": 0.01
+    },
+    {
+      "file": "kit1.exs",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/exs24/sm115 - deeper tech-house - custom kits/Sampler Instruments/kit1.exs",
+      "size_mb": 0.01
+    },
+    {
+      "file": "kit2.exs",
+      "path": "_ORGANIZED/03_Samples/Deeper_Tech_House/SM115 - Deeper Tech-House - Apple Loops/drum hits/custom kits/exs24/sm115 - deeper tech-house - custom kits/Sampler Instruments/kit2.exs",
+      "size_mb": 0.01
+    }
+  ]
+}

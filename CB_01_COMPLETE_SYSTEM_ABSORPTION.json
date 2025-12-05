@@ -1,0 +1,504 @@
+{
+  "timestamp": "2025-12-01 15:55:43.483118",
+  "total_files": 21920665,
+  "total_size_tb": 38.436,
+  "volumes": {
+    "HOME": {
+      "path": "/Users/m2ultra",
+      "files": 368708,
+      "size_gb": 850.92,
+      "top_types": {
+        ".wav": 101172,
+        ".py": 77431,
+        ".txt": 75099,
+        ".h": 19750,
+        ".ncw": 11781,
+        ".json": 11231,
+        ".go": 10025,
+        ".nki": 5334,
+        ".js": 5003,
+        "": 3554
+      }
+    },
+    "6TB_DRIVE": {
+      "path": "/Volumes/6TB",
+      "files": 1990425,
+      "size_gb": 4724.9,
+      "top_types": {
+        ".ncw": 983006,
+        ".wav": 295059,
+        "": 145077,
+        ".nki": 112384,
+        ".mid": 93829,
+        ".exs": 76896,
+        ".nka": 32982,
+        ".bfdlac": 28788,
+        ".audio": 25622,
+        ".fxp": 24329
+      }
+    },
+    "4TB Blue Fish": {
+      "path": "/Volumes/4TB Blue Fish",
+      "files": 364578,
+      "size_gb": 533.01,
+      "top_types": {
+        ".ncw": 163287,
+        ".wav": 117378,
+        ".nki": 60878,
+        "": 4568,
+        ".mid": 3830,
+        ".png": 2753,
+        ".txt": 2124,
+        ".aif": 1844,
+        ".nkib": 1137,
+        ".nkia": 1131
+      }
+    },
+    "M2Ultra": {
+      "path": "/Volumes/M2Ultra",
+      "files": 14657430,
+      "size_gb": 25927.01,
+      "top_types": {
+        ".ews": 7736444,
+        ".ncw": 2002114,
+        ".wav": 1307567,
+        "": 352050,
+        ".strings": 329715,
+        ".mid": 316584,
+        ".bfdlac": 259410,
+        ".nki": 246068,
+        ".txt": 209656,
+        ".py": 205567
+      }
+    },
+    "SIDNEY": {
+      "path": "/Volumes/SIDNEY",
+      "files": 873,
+      "size_gb": 2478.1,
+      "top_types": {
+        ".m4v": 850,
+        ".mp4": 21,
+        ".mov": 2
+      }
+    },
+    "4TB Lacie": {
+      "path": "/Volumes/4TB Lacie",
+      "files": 100099,
+      "size_gb": 486.1,
+      "top_types": {
+        ".py": 25276,
+        ".txt": 23312,
+        ".h": 10129,
+        ".png": 7023,
+        ".wav": 5750,
+        ".json": 5314,
+        ".go": 4897,
+        "": 1821,
+        ".mp4": 1817,
+        ".plist": 1093
+      }
+    },
+    "MAG 4TB": {
+      "path": "/Volumes/MAG 4TB",
+      "files": 4317497,
+      "size_gb": 3444.3,
+      "top_types": {
+        ".ews": 3868222,
+        ".wav": 151604,
+        ".bfdlac": 100917,
+        ".mid": 62550,
+        ".bfdca": 47740,
+        ".pm": 24881,
+        ".ewi": 16501,
+        ".preset": 8136,
+        ".xml": 7989,
+        ".png": 7023
+      }
+    },
+    "4TBSG": {
+      "path": "/Volumes/4TBSG",
+      "files": 121055,
+      "size_gb": 914.16,
+      "top_types": {
+        ".wav": 100104,
+        ".ncw": 6240,
+        ".nki": 5316,
+        ".aif": 2878,
+        "": 2055,
+        ".png": 1782,
+        ".aiff": 598,
+        ".exs": 292,
+        ".obw": 288,
+        ".sxt": 179
+      }
+    }
+  },
+  "audio_files": {
+    ".wav": 2078634,
+    ".aif": 60890,
+    ".ncw": 3166458,
+    ".nki": 429980,
+    ".mp3": 7549,
+    ".exs": 232491,
+    ".sfz": 3978,
+    ".aiff": 6272,
+    ".nkc": 41927,
+    ".nkx": 11084,
+    ".rx2": 9054,
+    ".m4a": 245,
+    ".ogg": 456,
+    ".fxp": 73272,
+    ".nkm": 13927
+  },
+  "code_files": {
+    ".md": 13112,
+    ".sh": 10384,
+    ".py": 308277,
+    ".json": 56653,
+    ".txt": 314675,
+    ".html": 38070,
+    ".js": 24384,
+    ".ts": 6339,
+    ".tsx": 608,
+    ".css": 4715,
+    ".jsx": 273,
+    ".yml": 222,
+    ".swift": 252,
+    ".yaml": 835,
+    ".sql": 137,
+    ".h": 146278,
+    ".cpp": 4081,
+    ".c": 2374,
+    ".java": 226,
+    ".zsh": 59,
+    ".go": 44766,
+    ".bash": 37,
+    ".rs": 60,
+    ".rb": 1
+  },
+  "document_files": {
+    ".docx": 93,
+    ".pdf": 3618,
+    ".xls": 45,
+    ".doc": 1213,
+    ".pptx": 36,
+    ".xlsx": 134,
+    ".ppt": 16
+  },
+  "image_files": {
+    ".jpg": 19247,
+    ".png": 98407,
+    ".jpeg": 3066,
+    ".gif": 859,
+    ".ico": 158,
+    ".svg": 2958,
+    ".webp": 62,
+    ".tiff": 5967,
+    ".psd": 566,
+    ".bmp": 38,
+    ".ai": 18
+  },
+  "git_repos": [
+    "/Users/m2ultra/Github/noizylab",
+    "/Users/m2ultra/Github/noizylab/4TBSG_COMPLETE/NOIZYLAB",
+    "/Users/m2ultra/Github/Noizyfish",
+    "/Users/m2ultra/Github/Noizyfish/NOIZYLAB",
+    "/Users/m2ultra/Github/Noizyfish/NOIZYLAB/4TBSG_PROJECTS/Projects",
+    "/Users/m2ultra/Github/Noizyfish/NOIZYLAB/4TBSG_PROJECTS/The-Aquarium",
+    "/Users/m2ultra/Github/noizylab_COMPLETE",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/ai-aggregator",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/ai",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/llama-models/llama3",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/llama-models/llama-api-python",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/llama-models/llama-cookbook",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/llama-models/llama-models",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/llama-models/llama",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/tools/ultimate-ssh-system",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/tools/scripts",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/tools/automation",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/_CONSOLIDATED_CODE/_CLAUDE_NEEDS/FLIP 4TB 01/___2025 PROJECT MASTER/PREVIOUS_UNITY_BUILDS/META-CAMBRIA",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/ARCHIVES/Backups/_CODE_FROM_ARCHIVE/Projects",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/ARCHIVES/Backups/_CODE_FROM_ARCHIVE/The-Aquarium",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/core",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/noizylab-knowledge-system",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/cloudflare",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/control-panel",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/integrations",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/master-dashboard",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/email-intelligence",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/noizylab_2026/\ud83d\udc0d Python_Projects/NoizyFish/Projects/MovingSuitcase/Noizy_Temp",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/noizylab_2026/GitHub/noizywind-ritual-pack",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/infrastructure/network",
+    "/Users/m2ultra/Github/noizylab_COMPLETE/infrastructure/monitoring",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab/4TBSG_COMPLETE/NOIZYLAB",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/Noizyfish",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/Noizyfish/NOIZYLAB",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/Noizyfish/NOIZYLAB/4TBSG_PROJECTS/Projects",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/Noizyfish/NOIZYLAB/4TBSG_PROJECTS/The-Aquarium",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/ai-aggregator",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/ai",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/llama-models/llama3",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/llama-models/llama-api-python",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/llama-models/llama-cookbook",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/llama-models/llama-models",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/llama-models/llama",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/tools/ultimate-ssh-system",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/tools/scripts",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/tools/automation",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/_CONSOLIDATED_CODE/_CLAUDE_NEEDS/FLIP 4TB 01/___2025 PROJECT MASTER/PREVIOUS_UNITY_BUILDS/META-CAMBRIA",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/ARCHIVES/Backups/_CODE_FROM_ARCHIVE/Projects",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/ARCHIVES/Backups/_CODE_FROM_ARCHIVE/The-Aquarium",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/core",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/noizylab-knowledge-system",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/cloudflare",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/control-panel",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/integrations",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/master-dashboard",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/email-intelligence",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/noizylab_2026/\ud83d\udc0d Python_Projects/NoizyFish/Projects/MovingSuitcase/Noizy_Temp",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/noizylab_2026/GitHub/noizywind-ritual-pack",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/infrastructure/network",
+    "/Volumes/M2Ultra/System/Volumes/Data/Users/m2ultra/Github/noizylab_COMPLETE/infrastructure/monitoring",
+    "/Volumes/M2Ultra/System/Volumes/Data/Volumes/4TB Lacie/_ORGANIZED/05_ARCHIVES/GOD_ARCHIVES/Backups/_CODE_FROM_ARCHIVE/Projects",
+    "/Volumes/M2Ultra/System/Volumes/Data/Volumes/4TB Lacie/_ORGANIZED/05_ARCHIVES/GOD_ARCHIVES/Backups/_CODE_FROM_ARCHIVE/The-Aquarium",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab/4TBSG_COMPLETE/NOIZYLAB",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/Noizyfish",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/Noizyfish/NOIZYLAB",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/Noizyfish/NOIZYLAB/4TBSG_PROJECTS/Projects",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/Noizyfish/NOIZYLAB/4TBSG_PROJECTS/The-Aquarium",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/ai-aggregator",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/ai",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/llama-models/llama3",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/llama-models/llama-api-python",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/llama-models/llama-cookbook",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/llama-models/llama-models",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/ai-systems/llama-models/llama",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/tools/ultimate-ssh-system",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/tools/scripts",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/tools/automation",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/_CONSOLIDATED_CODE/_CLAUDE_NEEDS/FLIP 4TB 01/___2025 PROJECT MASTER/PREVIOUS_UNITY_BUILDS/META-CAMBRIA",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/ARCHIVES/Backups/_CODE_FROM_ARCHIVE/Projects",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/ARCHIVES/Backups/_CODE_FROM_ARCHIVE/The-Aquarium",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/core",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/noizylab-knowledge-system",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/cloudflare",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/control-panel",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/integrations",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/master-dashboard",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/active-projects/email-intelligence",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/noizylab_2026/\ud83d\udc0d Python_Projects/NoizyFish/Projects/MovingSuitcase/Noizy_Temp",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/noizylab_2026/GitHub/noizywind-ritual-pack",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/infrastructure/network",
+    "/Volumes/M2Ultra/Users/m2ultra/Github/noizylab_COMPLETE/infrastructure/monitoring",
+    "/Volumes/M2Ultra/Volumes/4TB Lacie/_ORGANIZED/05_ARCHIVES/GOD_ARCHIVES/Backups/_CODE_FROM_ARCHIVE/Projects",
+    "/Volumes/M2Ultra/Volumes/4TB Lacie/_ORGANIZED/05_ARCHIVES/GOD_ARCHIVES/Backups/_CODE_FROM_ARCHIVE/The-Aquarium",
+    "/Volumes/4TB Lacie/_ORGANIZED/05_ARCHIVES/GOD_ARCHIVES/Backups/_CODE_FROM_ARCHIVE/Projects",
+    "/Volumes/4TB Lacie/_ORGANIZED/05_ARCHIVES/GOD_ARCHIVES/Backups/_CODE_FROM_ARCHIVE/The-Aquarium"
+  ],
+  "file_types": {
+    ".ews": {
+      "count": 11604666,
+      "size_mb": 8071975.406536102
+    },
+    ".ncw": {
+      "count": 3166458,
+      "size_mb": 2814265.2215652466
+    },
+    ".wav": {
+      "count": 2078634,
+      "size_mb": 7421331.984395981
+    },
+    "": {
+      "count": 512826,
+      "size_mb": 1198560.7781829834
+    },
+    ".mid": {
+      "count": 478668,
+      "size_mb": 193.56702327728271
+    },
+    ".nki": {
+      "count": 429980,
+      "size_mb": 54070.71779632568
+    },
+    ".bfdlac": {
+      "count": 389115,
+      "size_mb": 850848.166437149
+    },
+    ".strings": {
+      "count": 330924,
+      "size_mb": 2157.0280170440674
+    },
+    ".txt": {
+      "count": 314675,
+      "size_mb": 19999.18266391754
+    },
+    ".py": {
+      "count": 308277,
+      "size_mb": 4274.31436920166
+    },
+    ".exs": {
+      "count": 232491,
+      "size_mb": 3881.9589338302612
+    },
+    ".h": {
+      "count": 146278,
+      "size_mb": 776.1789903640747
+    },
+    ".bfdca": {
+      "count": 144192,
+      "size_mb": 170581.1000289917
+    },
+    ".nka": {
+      "count": 99337,
+      "size_mb": 1374.8361864089966
+    },
+    ".png": {
+      "count": 98407,
+      "size_mb": 9445.953187942505
+    },
+    ".audio": {
+      "count": 76866,
+      "size_mb": 47712.515785217285
+    },
+    ".pm": {
+      "count": 74731,
+      "size_mb": 2869.818452835083
+    },
+    ".nksn": {
+      "count": 74205,
+      "size_mb": 3855.4914121627808
+    },
+    ".fxp": {
+      "count": 73272,
+      "size_mb": 3881.680901527405
+    },
+    ".loopdata": {
+      "count": 67886,
+      "size_mb": 97.72222518920898
+    },
+    ".nxs": {
+      "count": 65772,
+      "size_mb": 380208.8576488495
+    },
+    ".aif": {
+      "count": 60890,
+      "size_mb": 183362.2139186859
+    },
+    ".json": {
+      "count": 56653,
+      "size_mb": 12044.605343818665
+    },
+    ".plist": {
+      "count": 56422,
+      "size_mb": 330.3600606918335
+    },
+    ".xml": {
+      "count": 51944,
+      "size_mb": 1231.8212804794312
+    },
+    ".ewi": {
+      "count": 49503,
+      "size_mb": 5288.353177070618
+    },
+    ".data": {
+      "count": 47276,
+      "size_mb": 13686.928786277771
+    },
+    ".go": {
+      "count": 44766,
+      "size_mb": 648.9766073226929
+    },
+    ".nkc": {
+      "count": 41927,
+      "size_mb": 2089.7160682678223
+    },
+    ".html": {
+      "count": 38070,
+      "size_mb": 352.34436416625977
+    },
+    ".cst": {
+      "count": 31830,
+      "size_mb": 873.4431018829346
+    },
+    ".tif": {
+      "count": 25342,
+      "size_mb": 1660.719762802124
+    },
+    ".preset": {
+      "count": 24408,
+      "size_mb": 60.48844814300537
+    },
+    ".js": {
+      "count": 24384,
+      "size_mb": 1867.876594543457
+    },
+    ".nib": {
+      "count": 22011,
+      "size_mb": 437.04237270355225
+    },
+    ".jpg": {
+      "count": 19247,
+      "size_mb": 1905.5479383468628
+    },
+    ".tga": {
+      "count": 18034,
+      "size_mb": 1743.5101194381714
+    },
+    ".resjson": {
+      "count": 17904,
+      "size_mb": 53.91139602661133
+    },
+    ".eco_kpp": {
+      "count": 17568,
+      "size_mb": 67.2136459350586
+    },
+    ".pst": {
+      "count": 14326,
+      "size_mb": 81.7146987915039
+    },
+    ".nkm": {
+      "count": 13927,
+      "size_mb": 8957.460277557373
+    },
+    ".md": {
+      "count": 13112,
+      "size_mb": 129.40616130828857
+    },
+    ".3pm": {
+      "count": 11424,
+      "size_mb": 137.94248962402344
+    },
+    ".oib": {
+      "count": 11190,
+      "size_mb": 1085.0129528045654
+    },
+    ".nkx": {
+      "count": 11084,
+      "size_mb": 6328539.665185928
+    },
+    ".mxsnd": {
+      "count": 10764,
+      "size_mb": 98.36696720123291
+    },
+    ".mxgrp": {
+      "count": 10638,
+      "size_mb": 1376.4774370193481
+    },
+    ".sh": {
+      "count": 10384,
+      "size_mb": 799.7769479751587
+    },
+    ".nksf": {
+      "count": 9237,
+      "size_mb": 271.9002799987793
+    },
+    ".rx2": {
+      "count": 9054,
+      "size_mb": 8726.696557998657
+    }
+  }
+}

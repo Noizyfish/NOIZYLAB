@@ -1,0 +1,97 @@
+{
+  "scan_date": "2025-12-01 21:25:14.228307",
+  "total_files": 1507998,
+  "total_size_gb": 3447.85,
+  "integrity": {
+    "passed": 1507896,
+    "failed": 102
+  },
+  "quality": {
+    "bit_depths": {
+      "24": 2413,
+      "16": 436
+    },
+    "sample_rates": {
+      "44100": 2664,
+      "48000": 175,
+      "22050": 1,
+      "96000": 7,
+      "88200": 2
+    },
+    "channels": {
+      "11": 475,
+      "10": 7,
+      "6": 13,
+      "5": 12,
+      "7": 2,
+      "2": 2022,
+      "1": 318
+    }
+  },
+  "instruments": {
+    "cymbal": 10614,
+    "organ": 1503588,
+    "hihat": 25754,
+    "kick": 23597,
+    "snare": 37263,
+    "percussion": 60826,
+    "synth_bass": 3806,
+    "strings": 859933,
+    "guitar": 331758,
+    "piano": 13893,
+    "woodwind": 22079,
+    "brass": 21713,
+    "fx": 11765,
+    "choir": 12271,
+    "synth_pad": 2969,
+    "synth_lead": 4485
+  },
+  "genres": {
+    "jazz": 15519,
+    "world": 8010,
+    "electronic": 26259,
+    "rock": 7436,
+    "ambient": 10600,
+    "cinematic": 12320,
+    "classical": 3038,
+    "hiphop": 623
+  },
+  "moods": {
+    "dark": 6283,
+    "peaceful": 122,
+    "aggressive": 64,
+    "bright": 894,
+    "emotional": 2245,
+    "epic": 4368
+  },
+  "publishers": {
+    "fxpansion": 50976,
+    "audiobro": 614,
+    "8dio": 966388,
+    "unknown": 156100,
+    "boom_library": 100,
+    "orchestral_tools": 992,
+    "native_instruments": 325629,
+    "output": 6,
+    "eastwest": 15,
+    "heavyocity": 18,
+    "soundiron": 40,
+    "toontrack": 7120
+  },
+  "file_types": {
+    ".wav": 295059,
+    ".nki": 112384,
+    ".ncw": 983006,
+    ".nkc": 13802,
+    ".sfz": 1239,
+    ".aif": 13724,
+    ".exs": 76896,
+    ".rx2": 2757,
+    ".nkm": 4435,
+    ".nkr": 347,
+    ".nkx": 3571,
+    ".mp3": 97,
+    ".aiff": 591,
+    ".sf2": 90
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "scan_date": "/Volumes/6TB/_ORGANIZED/Kontakt_Libraries/KONTAKT_LAB/KTK_TO_ORGANIZE",
+  "total_files": 38934,
+  "total_size_gb": 79.42,
+  "by_extension": {
+    ".json": {
+      "count": 3,
+      "size_mb": 0.76
+    },
+    ".wav": {
+      "count": 3763,
+      "size_mb": 5614.18
+    },
+    ".nkc": {
+      "count": 2379,
+      "size_mb": 124.37
+    },
+    ".nkr": {
+      "count": 8,
+      "size_mb": 434.09
+    },
+    ".pdf": {
+      "count": 17,
+      "size_mb": 50.16
+    },
+    ".ncw": {
+      "count": 6707,
+      "size_mb": 8142.3
+    },
+    ".nki": {
+      "count": 23881,
+      "size_mb": 3137.53
+    },
+    ".aif": {
+      "count": 4,
+      "size_mb": 15.54
+    },
+    "NO_EXT": {
+      "count": 11,
+      "size_mb": 3.66
+    },
+    ".nicnt": {
+      "count": 4,
+      "size_mb": 3.2
+    },
+    ".rtf": {
+      "count": 3,
+      "size_mb": 0.58
+    },
+    ".nkx": {
+      "count": 46,
+      "size_mb": 62402.3
+    },
+    ".nksn": {
+      "count": 130,
+      "size_mb": 13.95
+    },
+    ".nkm": {
+      "count": 1395,
+      "size_mb": 1257.5
+    },
+    ".nka": {
+      "count": 66,
+      "size_mb": 0.64
+    },
+    ".txt": {
+      "count": 5,
+      "size_mb": 0.01
+    },
+    ".zip": {
+      "count": 1,
+      "size_mb": 48.12
+    },
+    ".nkb": {
+      "count": 141,
+      "size_mb": 50.92
+    },
+    ".notion": {
+      "count": 10,
+      "size_mb": 11.54
+    },
+    ".prules": {
+      "count": 8,
+      "size_mb": 0.16
+    },
+    ".expressionmap": {
+      "count": 4,
+      "size_mb": 0.71
+    },
+    ".dpartmap": {
+      "count": 3,
+      "size_mb": 0.18
+    },
+    ".plist": {
+      "count": 4,
+      "size_mb": 0.1
+    },
+    ".keyswitch": {
+      "count": 3,
+      "size_mb": 0.01
+    },
+    ".xml": {
+      "count": 16,
+      "size_mb": 1.65
+    },
+    ".lib": {
+      "count": 3,
+      "size_mb": 0.27
+    },
+    ".sib": {
+      "count": 3,
+      "size_mb": 0.11
+    },
+    ".ndx": {
+      "count": 316,
+      "size_mb": 9.26
+    }
+  },
+  "by_publisher": {
+    "unknown": {
+      "count": 23119,
+      "instruments": []
+    },
+    "fluffy_audio": {
+      "count": 1,
+      "instruments": [
+        "Fluffy.nki"
+      ]
+    },
+    "audiobro": {
+      "count": 94,
+      "instruments": [
+        "Glass.nki",
+        "Genesis Childrens Choir (Speed Pro Low Voices).nki",
+        "Genesis Childrens Choir (Speed Pro Med Voices).nki",
+        "Genesis Childrens Choir (Speed Pro Most Voices).nk",
+        "Genesis Childrens Choir.nki",
+        "Genesis Childrens Choir (Speed Pro - Low Voices).n",
+        "Genesis Childrens Choir (Speed Pro - Med Voices).n",
+        "Genesis Childrens Choir (Speed Pro - Most Voices).",
+        "Genesis Childrens Choir (Speed Pro Low Voices).nki",
+        "Genesis Childrens Choir (Speed Pro Med Voices).nki"
+      ]
+    },
+    "8dio": {
+      "count": 509,
+      "instruments": [
+        "01 8Dio Hybrid 4 - I.nki",
+        "02 8Dio Hybrid 4 - II.nki",
+        "03 8Dio Hybrid 4 - I - TMPro.nki",
+        "04 8Dio Hybrid 4 - II - TMPro.nki",
+        "05 8Dio Hybrid 4 - I - Lite.nki",
+        "06 8Dio Hybrid 4 - II - Lite.nki",
+        "1 - 8Dio Equinox - Main.nki",
+        "1 - 8Dio Equinox - Main_1.nki",
+        "1 8Dio NEO II - Main.nki",
+        "2 - 8Dio Equinox - Action Groove Generator.nki"
+      ]
+    },
+    "heavyocity": {
+      "count": 98,
+      "instruments": [
+        "097 - Low Gravity.nki",
+        "097 - Low Gravity_1.nki",
+        "Antigravity Antibiotics.nki",
+        "Drama Evolve Bpm Mw.nki",
+        "Dramatic Evolved 01 A-1.nki",
+        "Dramatic Evolved 01.nki",
+        "Dramatic Evolved 02 A#-1.nki",
+        "Dramatic Evolved 02.nki",
+        "Dramatic Evolved 03 B-1.nki",
+        "Dramatic Evolved 04 C0.nki"
+      ]
+    },
+    "vir2": {
+      "count": 1,
+      "instruments": [
+        "83 MOJO BASS.nki"
+      ]
+    },
+    "spitfire": {
+      "count": 9,
+      "instruments": [
+        "Albion Fanfare Mw.nki",
+        "Albion One Update - New Brunel Loops.nki",
+        "Albion One Update - New Stephenson Dev Kit (22Mb L",
+        "Brass Mid - Albion Ii Overlay.nki",
+        "String Hi - Albion Ii Overlay.nki",
+        "String Lo - Albion Ii Overlay.nki",
+        "String Lo - Albion Iii Cello Overlay.nki",
+        "String Lo - Albion Iii Overlay.nki",
+        "Woodwind Lo - Albion Iii Overlay.nki"
+      ]
+    },
+    "projectsam": {
+      "count": 10,
+      "instruments": [
+        "BAMBOO WINDCHIMES LOOPS_1.nki",
+        "Bell Drops_1.nki",
+        "Claps 4 & Snaps_1.nki",
+        "Creamy Drops_1.nki",
+        "CYMBAL LOOPS_1.nki",
+        "Preset - Cursed Raindrops_1.nki",
+        "Projectsam The Free Orchestra 1.nki",
+        "REV - Loops_1.nki",
+        "SMALL MORIN KHUUR LOOPS_1.nki",
+        "WINDCHIMES LOOPS_1.nki"
+      ]
+    },
+    "soundiron": {
+      "count": 13,
+      "instruments": [
+        "Cp11 Harpsi_1.nki",
+        "Ep10 Harpsi_1.nki",
+        "Ep10 Piano Harpsi_1.nki",
+        "Ep20 Harpsi_1.nki",
+        "Life On Mars.nki",
+        "Mars Rover.nki",
+        "Marshmellow Bass.nki",
+        "Marshy Pad 2 Mw - Gate.nki",
+        "Marshy Pad Mw - Shash & Gate.nki",
+        "Marshy Pad Mw - Shash.nki"
+      ]
+    },
+    "output": {
+      "count": 1,
+      "instruments": [
+        "EXHALE_1.nki"
+      ]
+    },
+    "cinematique": {
+      "count": 1,
+      "instruments": [
+        "Klangumwandler.nki"
+      ]
+    },
+    "izotope": {
+      "count": 1,
+      "instruments": [
+        "Lps Combi 07 Neutron Nomads.nki"
+      ]
+    },
+    "waves": {
+      "count": 1,
+      "instruments": [
+        "OCEANDRUM + SHAKER + WAVES_1.nki"
+      ]
+    },
+    "native_instruments": {
+      "count": 2,
+      "instruments": [
+        "Ptx - Oddly Unsatisfactory Mw.nki",
+        "Xfactory.nki"
+      ]
+    },
+    "u_he": {
+      "count": 12,
+      "instruments": [
+        "Stradivari Cello Multi Mic-Flex Vib.nki",
+        "Stradivari Cello Multi Mic-True Vib.nki",
+        "Stradivari Cello Multi Mic.nki",
+        "Stradivari Cello-Flex Vib.nki",
+        "Stradivari Cello-True Vib.nki",
+        "Stradivari Cello.nki",
+        "Stradivari Violin Multi Mic-Flex Vib.nki",
+        "Stradivari Violin Multi Mic-True Vib.nki",
+        "Stradivari Violin Multi Mic.nki",
+        "Stradivari Violin-Flex Vib.nki"
+      ]
+    },
+    "strezov": {
+      "count": 4,
+      "instruments": [
+        "Strezov Sampling Altos.nki",
+        "Strezov Sampling Basses.nki",
+        "Strezov Sampling Sopranos.nki",
+        "Strezov Sampling Tenors.nki"
+      ]
+    },
+    "vienna": {
+      "count": 5,
+      "instruments": [
+        "Vienna Baroque.nki",
+        "Vienna Extrabass.nki",
+        "Vienna Grand With Overtones.nki",
+        "Vienna Gregorian.nki",
+        "Vienna Pop Idol.nki"
+      ]
+    }
+  },
+  "unknown_sample": [
+    "Ambient Guitar Chords 001.nki",
+    "Ambient Guitar Chords 002.nki",
+    "Ambient Guitar Chords 003.nki",
+    "Ambient Guitar Chords 004.nki",
+    "Ambient Guitar Chords 005.nki",
+    "Ambient Guitar Chords 006.nki",
+    "Ambient Guitar Chords 007.nki",
+    "Ambient Guitar Chords 008.nki",
+    "Ambient Guitar Chords 009.nki",
+    "Ambient Guitar Chords 010.nki",
+    "Ambient Guitar Chords 011.nki",
+    "Ambient Guitar Chords 012.nki",
+    "Ambient Guitar Chords 013.nki",
+    "Ambient Guitar Chords 014.nki",
+    "Ambient Guitar Chords 015.nki",
+    "Ambient Guitar Chords 016.nki",
+    "Ambient Guitar Chords 017.nki",
+    "Ambient Guitar Chords 018.nki",
+    "Ambient Guitar Chords 019.nki",
+    "Ambient Guitar Chords 020.nki",
+    "Ambient Guitar Chords 021.nki",
+    "Ambient Guitar Chords 022.nki",
+    "Ambient Guitar Chords 023.nki",
+    "Ambient Guitar Chords 024.nki",
+    "Ambient Guitar Chords 025.nki",
+    "Ambient Guitar Chords 026.nki",
+    "Ambient Guitar Chords 027.nki",
+    "Ambient Guitar Chords 028.nki",
+    "Ambient Guitar Chords 029.nki",
+    "Ambient Guitar Chords 030.nki",
+    "Ambient Guitar Chords 031.nki",
+    "Ambient Guitar Chords 032.nki",
+    "Ambient Guitar Chords 033.nki",
+    "Ambient Guitar Chords 034.nki",
+    "Ambient Guitar Chords 035.nki",
+    "Ambient Guitar Chords 036.nki",
+    "Ambient Guitar Chords 037.nki",
+    "Ambient Guitar Chords 038.nki",
+    "Ambient Guitar Chords 039.nki",
+    "Ambient Guitar Chords 040.nki",
+    "Ambient Guitar Chords 041.nki",
+    "Ambient Guitar Chords 042.nki",
+    "Ambient Guitar Chords 043.nki",
+    "Ambient Guitar Chords 044.nki",
+    "Ambient Guitar Chords 045.nki",
+    "Ambient Guitar Chords 046.nki",
+    "Ambient Guitar Chords 047.nki",
+    "Ambient Guitar Chords 048.nki",
+    "Ambient Guitar Chords 049.nki",
+    "Ambient Guitar Chords 050.nki",
+    "Ambient Guitar Chords 051.nki",
+    "Ambient Guitar Chords 052.nki",
+    "Ambient Guitar Chords 053.nki",
+    "Ambient Guitar Chords 054.nki",
+    "Ambient Guitar Chords 055.nki",
+    "Ambient Guitar Chords 056.nki",
+    "Ambient Guitar Chords 057.nki",
+    "Ambient Guitar Chords 058.nki",
+    "Ambient Guitar Chords 059.nki",
+    "Ambient Guitar Chords 060.nki",
+    "Ambient Guitar Chords 061.nki",
+    "Ambient Guitar Chords 062.nki",
+    "Ambient Guitar Chords 063.nki",
+    "Ambient Guitar Chords 064.nki",
+    "Ambient Guitar Chords 065.nki",
+    "Ambient Guitar Chords 066.nki",
+    "Ambient Guitar Chords 067.nki",
+    "Ambient Guitar Chords 068.nki",
+    "Ambient Guitar Chords 069.nki",
+    "Ambient Guitar Chords 070.nki",
+    "Ambient Guitar Chords 071.nki",
+    "Ambient Guitar Chords 072.nki",
+    "Ambient Guitar Chords 073.nki",
+    "Ambient Guitar Chords 074.nki",
+    "Ambient Guitar Chords 075.nki",
+    "Ambient Guitar Chords 076.nki",
+    "Ambient Guitar Chords 077.nki",
+    "Ambient Guitar Chords 078.nki",
+    "Ambient Guitar Chords 079.nki",
+    "Ambient Guitar Chords 080.nki",
+    "Ambient Guitar Chords 081.nki",
+    "Ambient Guitar Chords 082.nki",
+    "Ambient Guitar Chords 083.nki",
+    "Ambient Guitar Chords 084.nki",
+    "Ambient Guitar Chords 085.nki",
+    "Ambient Guitar Chords 086.nki",
+    "Ambient Guitar Chords 087.nki",
+    "Ambient Guitar Chords 088.nki",
+    "Ambient Guitar Chords 089.nki",
+    "Ambient Guitar Chords 090.nki",
+    "Ambient Guitar Chords 091.nki",
+    "Ambient Guitar Chords 092.nki",
+    "Ambient Guitar Chords 093.nki",
+    "Ambient Guitar Chords 094.nki",
+    "Ambient Guitar Chords 095.nki",
+    "Ambient Guitar Chords 096.nki",
+    "Ambient Guitar Chords 097.nki",
+    "Ambient Guitar Chords 098.nki",
+    "Ambient Guitar Chords 099.nki",
+    "Ambient Guitar Chords 100.nki"
+  ]
+}

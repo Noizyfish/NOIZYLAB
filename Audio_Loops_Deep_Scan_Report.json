@@ -1,0 +1,7245 @@
+{
+  "scan_date": "2025-12-01T00:00:58.362117",
+  "scan_location": "/Volumes/6TB/Sample_Libraries/Audio_Loops/AIFF",
+  "total_files": 105,
+  "summary": {
+    "original_work_count": 11,
+    "commercial_library_count": 94,
+    "original_work_percentage": 10.5,
+    "commercial_library_percentage": 89.5,
+    "total_original_size_mb": 14.47,
+    "total_commercial_size_mb": 73.86
+  },
+  "original_work_files": [
+    {
+      "filename": "Deep_Transportation_Tone.aif",
+      "filepath": "Deep_Transportation_Tone.aif",
+      "filesize_bytes": 2116854,
+      "file_modified": "2014-06-22T05:57:08",
+      "file_created": "2025-11-30T20:07:13",
+      "chunks": [
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 24,
+        "frames": 352800,
+        "duration_seconds": 8.0
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "INHARMX_3.aif",
+      "filepath": "INHARMX_3.aif",
+      "filesize_bytes": 529254,
+      "file_modified": "2012-07-28T16:32:26",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 24,
+        "frames": 88200,
+        "duration_seconds": 2.0
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "STRUM3.aif",
+      "filepath": "STRUM3.aif",
+      "filesize_bytes": 13876,
+      "file_modified": "2014-03-30T10:12:18",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "FVER",
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 32,
+        "frames": 1723,
+        "duration_seconds": 0.04
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "Tones_from_Es_Vedra_1.aif",
+      "filepath": "Tones_from_Es_Vedra_1.aif",
+      "filesize_bytes": 4233654,
+      "file_modified": "2014-06-18T12:52:46",
+      "file_created": "2025-11-30T20:07:29",
+      "chunks": [
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 24,
+        "frames": 705600,
+        "duration_seconds": 16.0
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "XF_SLICE_1.aif",
+      "filepath": "XF_SLICE_1.aif",
+      "filesize_bytes": 44716,
+      "file_modified": "2014-09-01T04:39:34",
+      "file_created": "2025-11-30T20:07:29",
+      "chunks": [
+        "FVER",
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 32,
+        "frames": 5578,
+        "duration_seconds": 0.13
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "XF_SLICE_2.aif",
+      "filepath": "XF_SLICE_2.aif",
+      "filesize_bytes": 80436,
+      "file_modified": "2014-09-01T04:38:46",
+      "file_created": "2025-11-30T20:07:29",
+      "chunks": [
+        "FVER",
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 32,
+        "frames": 10043,
+        "duration_seconds": 0.23
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "XF_SLICE_3.aif",
+      "filepath": "XF_SLICE_3.aif",
+      "filesize_bytes": 87692,
+      "file_modified": "2014-09-01T04:45:20",
+      "file_created": "2025-11-30T20:07:29",
+      "chunks": [
+        "FVER",
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 32,
+        "frames": 10950,
+        "duration_seconds": 0.25
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "detroit.aif",
+      "filepath": "detroit.aif",
+      "filesize_bytes": 1587654,
+      "file_modified": "2014-06-17T02:30:58",
+      "file_created": "2025-11-30T20:07:29",
+      "chunks": [
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 24,
+        "frames": 264600,
+        "duration_seconds": 6.0
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "dieter_sample.aif",
+      "filepath": "dieter_sample.aif",
+      "filesize_bytes": 529254,
+      "file_modified": "2011-04-24T07:30:10",
+      "file_created": "2025-11-30T20:07:29",
+      "chunks": [
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 24,
+        "frames": 88200,
+        "duration_seconds": 2.0
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "hungernorm.aif",
+      "filepath": "hungernorm.aif",
+      "filesize_bytes": 5421500,
+      "file_modified": "2014-04-23T10:51:50",
+      "file_created": "2025-11-30T20:07:30",
+      "chunks": [
+        "COMM",
+        "MARK",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": "2 markers"
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 1355355,
+        "duration_seconds": 30.73
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "i_just_wanna_dance.aif",
+      "filepath": "i_just_wanna_dance.aif",
+      "filesize_bytes": 529254,
+      "file_modified": "2014-06-16T17:26:00",
+      "file_created": "2025-11-30T20:07:30",
+      "chunks": [
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 24,
+        "frames": 88200,
+        "duration_seconds": 2.0
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    }
+  ],
+  "commercial_library_files": [
+    {
+      "filename": "EL-A_82_01.aif",
+      "filepath": "EL-A_82_01.aif",
+      "filesize_bytes": 516434,
+      "file_modified": "2017-10-30T18:53:10",
+      "file_created": "2025-11-30T20:07:13",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-A 82 01\u00001",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 129073,
+        "duration_seconds": 2.93
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-A 82 01\u00001",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-A_82_02.aif",
+      "filepath": "EL-A_82_02.aif",
+      "filesize_bytes": 516434,
+      "file_modified": "2017-10-30T18:53:10",
+      "file_created": "2025-11-30T20:07:13",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-A 82 02\u00002",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 129073,
+        "duration_seconds": 2.93
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-A 82 02\u00002",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-A_85_02.aif",
+      "filepath": "EL-A_85_02.aif",
+      "filesize_bytes": 498214,
+      "file_modified": "2017-10-30T18:53:10",
+      "file_created": "2025-11-30T20:07:13",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-A 85 02\u00002",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 124518,
+        "duration_seconds": 2.82
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-A 85 02\u00002",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-A_87_02.aif",
+      "filepath": "EL-A_87_02.aif",
+      "filesize_bytes": 486762,
+      "file_modified": "2017-10-30T18:53:10",
+      "file_created": "2025-11-30T20:07:13",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-A 87 02\u00002",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 121655,
+        "duration_seconds": 2.76
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-A 87 02\u00002",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-B_115_01.aif",
+      "filepath": "EL-B_115_01.aif",
+      "filesize_bytes": 1472698,
+      "file_modified": "2017-10-30T18:53:10",
+      "file_created": "2025-11-30T20:07:14",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-B 115 01",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 368139,
+        "duration_seconds": 8.35
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-B 115 01",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-B_115_02.aif",
+      "filepath": "EL-B_115_02.aif",
+      "filesize_bytes": 736422,
+      "file_modified": "2017-10-30T18:53:10",
+      "file_created": "2025-11-30T20:07:14",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-B 115 02",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 184070,
+        "duration_seconds": 4.17
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-B 115 02",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-B_115_03.aif",
+      "filepath": "EL-B_115_03.aif",
+      "filesize_bytes": 736422,
+      "file_modified": "2017-10-30T18:53:10",
+      "file_created": "2025-11-30T20:07:14",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-B 115 03",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 184070,
+        "duration_seconds": 4.17
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-B 115 03",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-B_120_05.aif",
+      "filepath": "EL-B_120_05.aif",
+      "filesize_bytes": 171030,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:14",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-B 120 05",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 42722,
+        "duration_seconds": 0.97
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-B 120 05",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_122_01.aif",
+      "filepath": "EL-C_122_01.aif",
+      "filesize_bytes": 347158,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:14",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 122 01",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 86754,
+        "duration_seconds": 1.97
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 122 01",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_122_02.aif",
+      "filepath": "EL-C_122_02.aif",
+      "filesize_bytes": 347158,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:14",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 122 02",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 86754,
+        "duration_seconds": 1.97
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 122 02",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_122_03.aif",
+      "filepath": "EL-C_122_03.aif",
+      "filesize_bytes": 694174,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:14",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 122 03",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 173508,
+        "duration_seconds": 3.93
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 122 03",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_122_04.aif",
+      "filepath": "EL-C_122_04.aif",
+      "filesize_bytes": 694174,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:15",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 122 04",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 173508,
+        "duration_seconds": 3.93
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 122 04",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_122_05.aif",
+      "filepath": "EL-C_122_05.aif",
+      "filesize_bytes": 1388206,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:15",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 122 05",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 347016,
+        "duration_seconds": 7.87
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 122 05",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_122_06.aif",
+      "filepath": "EL-C_122_06.aif",
+      "filesize_bytes": 1388206,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:15",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 122 06",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 347016,
+        "duration_seconds": 7.87
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 122 06",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_122_07.aif",
+      "filepath": "EL-C_122_07.aif",
+      "filesize_bytes": 1388206,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:15",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 122 07",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 347016,
+        "duration_seconds": 7.87
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 122 07",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_122_10.aif",
+      "filepath": "EL-C_122_10.aif",
+      "filesize_bytes": 694174,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:15",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 122 10",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 173508,
+        "duration_seconds": 3.93
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 122 10",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_125_04.aif",
+      "filepath": "EL-C_125_04.aif",
+      "filesize_bytes": 668834,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:16",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 125 04",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 167173,
+        "duration_seconds": 3.79
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 125 04",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_125_05.aif",
+      "filepath": "EL-C_125_05.aif",
+      "filesize_bytes": 1354894,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:16",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 125 05",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 338688,
+        "duration_seconds": 7.68
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 125 05",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_125_07.aif",
+      "filepath": "EL-C_125_07.aif",
+      "filesize_bytes": 1354894,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:16",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 125 07",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 338688,
+        "duration_seconds": 7.68
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 125 07",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_125_08.aif",
+      "filepath": "EL-C_125_08.aif",
+      "filesize_bytes": 1354894,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:16",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 125 08",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 338688,
+        "duration_seconds": 7.68
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 125 08",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_125_09.aif",
+      "filepath": "EL-C_125_09.aif",
+      "filesize_bytes": 1354894,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:17",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 125 09",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 338688,
+        "duration_seconds": 7.68
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 125 09",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_125_10.aif",
+      "filepath": "EL-C_125_10.aif",
+      "filesize_bytes": 338830,
+      "file_modified": "2017-10-30T18:53:14",
+      "file_created": "2025-11-30T20:07:17",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 125 10",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 84672,
+        "duration_seconds": 1.92
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 125 10",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_125_11.aif",
+      "filepath": "EL-C_125_11.aif",
+      "filesize_bytes": 673466,
+      "file_modified": "2017-10-30T18:53:14",
+      "file_created": "2025-11-30T20:07:17",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 125 11",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 168331,
+        "duration_seconds": 3.82
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 125 11",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_128_03.aif",
+      "filepath": "EL-C_128_03.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:14",
+      "file_created": "2025-11-30T20:07:17",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 128 03",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 128 03",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_01.aif",
+      "filepath": "EL-D_128_01.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:26",
+      "file_created": "2025-11-30T20:07:17",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 01",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 01",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_02.aif",
+      "filepath": "EL-D_128_02.aif",
+      "filesize_bytes": 330894,
+      "file_modified": "2017-10-30T18:53:26",
+      "file_created": "2025-11-30T20:07:17",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 02",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 82688,
+        "duration_seconds": 1.88
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 02",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_03.aif",
+      "filepath": "EL-D_128_03.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:26",
+      "file_created": "2025-11-30T20:07:18",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 03",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 03",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_04.aif",
+      "filepath": "EL-D_128_04.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:26",
+      "file_created": "2025-11-30T20:07:18",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 04",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 04",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_05.aif",
+      "filepath": "EL-D_128_05.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:26",
+      "file_created": "2025-11-30T20:07:18",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 05",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 05",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_06.aif",
+      "filepath": "EL-D_128_06.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:26",
+      "file_created": "2025-11-30T20:07:18",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 06",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 06",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_07.aif",
+      "filepath": "EL-D_128_07.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:26",
+      "file_created": "2025-11-30T20:07:19",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 07",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 07",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_08.aif",
+      "filepath": "EL-D_128_08.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:26",
+      "file_created": "2025-11-30T20:07:19",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 08",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 08",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_10.aif",
+      "filepath": "EL-D_128_10.aif",
+      "filesize_bytes": 1323138,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:19",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 10",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330749,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 10",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_11.aif",
+      "filepath": "EL-D_128_11.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:19",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 11",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 11",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_12.aif",
+      "filepath": "EL-D_128_12.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:19",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 12",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 12",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_13.aif",
+      "filepath": "EL-D_128_13.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:19",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 13",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 13",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_14.aif",
+      "filepath": "EL-D_128_14.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:19",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 14",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 14",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_15.aif",
+      "filepath": "EL-D_128_15.aif",
+      "filesize_bytes": 330894,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:20",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 15",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 82688,
+        "duration_seconds": 1.88
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 15",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_16.aif",
+      "filepath": "EL-D_128_16.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:20",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 16",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 16",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_17.aif",
+      "filepath": "EL-D_128_17.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:20",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 17",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 17",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_19.aif",
+      "filepath": "EL-D_128_19.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:20",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 19",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 19",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_20.aif",
+      "filepath": "EL-D_128_20.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:20",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 20",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 20",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_21.aif",
+      "filepath": "EL-D_128_21.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:20",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 21",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 21",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_22.aif",
+      "filepath": "EL-D_128_22.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:21",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 22",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 22",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_23.aif",
+      "filepath": "EL-D_128_23.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:21",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 23",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 23",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_28.aif",
+      "filepath": "EL-D_128_28.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:21",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 28",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 28",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_29.aif",
+      "filepath": "EL-D_128_29.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:21",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 29",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 29",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_32.aif",
+      "filepath": "EL-D_128_32.aif",
+      "filesize_bytes": 330894,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:22",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 32",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 82688,
+        "duration_seconds": 1.88
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 32",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_34.aif",
+      "filepath": "EL-D_128_34.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:22",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 34",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 34",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_36.aif",
+      "filepath": "EL-D_128_36.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:22",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 36",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 36",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_37.aif",
+      "filepath": "EL-D_128_37.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:22",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 37",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 37",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_38.aif",
+      "filepath": "EL-D_128_38.aif",
+      "filesize_bytes": 330890,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:22",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 38",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 82687,
+        "duration_seconds": 1.87
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 38",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_39.aif",
+      "filepath": "EL-D_128_39.aif",
+      "filesize_bytes": 700402,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:22",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 39",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 175065,
+        "duration_seconds": 3.97
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 39",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_54.aif",
+      "filepath": "EL-D_128_54.aif",
+      "filesize_bytes": 330894,
+      "file_modified": "2017-10-30T18:53:32",
+      "file_created": "2025-11-30T20:07:22",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 54",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 82688,
+        "duration_seconds": 1.88
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 54",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_58.aif",
+      "filepath": "EL-D_128_58.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:32",
+      "file_created": "2025-11-30T20:07:23",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 58",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 58",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_64.aif",
+      "filepath": "EL-D_128_64.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:32",
+      "file_created": "2025-11-30T20:07:23",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 64",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 64",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_05.aif",
+      "filepath": "EL-D_130_05.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:34",
+      "file_created": "2025-11-30T20:07:23",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 05",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 05",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_11.aif",
+      "filepath": "EL-D_130_11.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:34",
+      "file_created": "2025-11-30T20:07:23",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 11",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 11",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_34.aif",
+      "filepath": "EL-D_130_34.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:23",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 34",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 34",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_35.aif",
+      "filepath": "EL-D_130_35.aif",
+      "filesize_bytes": 325802,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:23",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 35",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 81415,
+        "duration_seconds": 1.85
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 35",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_39.aif",
+      "filepath": "EL-D_130_39.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:24",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 39",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 39",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_41.aif",
+      "filepath": "EL-D_130_41.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:24",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 41",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 41",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_43.aif",
+      "filepath": "EL-D_130_43.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:24",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 43",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 43",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_44.aif",
+      "filepath": "EL-D_130_44.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:24",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 44",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 44",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_45.aif",
+      "filepath": "EL-D_130_45.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:24",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 45",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 45",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_46.aif",
+      "filepath": "EL-D_130_46.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:25",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 46",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 46",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_48.aif",
+      "filepath": "EL-D_130_48.aif",
+      "filesize_bytes": 1954110,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:25",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 48",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 488492,
+        "duration_seconds": 11.08
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 48",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_49.aif",
+      "filepath": "EL-D_130_49.aif",
+      "filesize_bytes": 325802,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:25",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 49",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 81415,
+        "duration_seconds": 1.85
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 49",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_50.aif",
+      "filepath": "EL-D_130_50.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:25",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 50",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 50",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_51.aif",
+      "filepath": "EL-D_130_51.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:25",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 51",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 51",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_52.aif",
+      "filepath": "EL-D_130_52.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:26",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 52",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 52",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_55.aif",
+      "filepath": "EL-D_130_55.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:26",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 55",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 55",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_56.aif",
+      "filepath": "EL-D_130_56.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:26",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 56",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 56",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_57.aif",
+      "filepath": "EL-D_130_57.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:26",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 57",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 57",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_58.aif",
+      "filepath": "EL-D_130_58.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:26",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 58",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 58",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_59.aif",
+      "filepath": "EL-D_130_59.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:26",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 59",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 59",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_128_05.aif",
+      "filepath": "EL-E_128_05.aif",
+      "filesize_bytes": 330894,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 128 05",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 82688,
+        "duration_seconds": 1.88
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 128 05",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_128_08.aif",
+      "filepath": "EL-E_128_08.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 128 08",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 128 08",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_130_02.aif",
+      "filepath": "EL-E_130_02.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 130 02",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 130 02",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_130_05.aif",
+      "filepath": "EL-E_130_05.aif",
+      "filesize_bytes": 325802,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 130 05",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 81415,
+        "duration_seconds": 1.85
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 130 05",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_130_06.aif",
+      "filepath": "EL-E_130_06.aif",
+      "filesize_bytes": 325802,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 130 06",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 81415,
+        "duration_seconds": 1.85
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 130 06",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_130_07.aif",
+      "filepath": "EL-E_130_07.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 130 07",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 130 07",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_130_08.aif",
+      "filepath": "EL-E_130_08.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 130 08",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 130 08",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_130_09.aif",
+      "filepath": "EL-E_130_09.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 130 09",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 130 09",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_135_01.aif",
+      "filepath": "EL-E_135_01.aif",
+      "filesize_bytes": 627342,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 135 01",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 156800,
+        "duration_seconds": 3.56
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 135 01",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_135_02.aif",
+      "filepath": "EL-E_135_02.aif",
+      "filesize_bytes": 627342,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 135 02",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 156800,
+        "duration_seconds": 3.56
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 135 02",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_135_03.aif",
+      "filepath": "EL-E_135_03.aif",
+      "filesize_bytes": 313742,
+      "file_modified": "2017-10-30T18:53:40",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 135 03",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 78400,
+        "duration_seconds": 1.78
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 135 03",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_135_04.aif",
+      "filepath": "EL-E_135_04.aif",
+      "filesize_bytes": 313742,
+      "file_modified": "2017-10-30T18:53:40",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 135 04",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 78400,
+        "duration_seconds": 1.78
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 135 04",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_135_05.aif",
+      "filepath": "EL-E_135_05.aif",
+      "filesize_bytes": 313742,
+      "file_modified": "2017-10-30T18:53:40",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 135 05",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 78400,
+        "duration_seconds": 1.78
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 135 05",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_135_06.aif",
+      "filepath": "EL-E_135_06.aif",
+      "filesize_bytes": 627342,
+      "file_modified": "2017-10-30T18:53:40",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 135 06",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 156800,
+        "duration_seconds": 3.56
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 135 06",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_135_07.aif",
+      "filepath": "EL-E_135_07.aif",
+      "filesize_bytes": 313742,
+      "file_modified": "2017-10-30T18:53:40",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 135 07",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 78400,
+        "duration_seconds": 1.78
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 135 07",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_135_09.aif",
+      "filepath": "EL-E_135_09.aif",
+      "filesize_bytes": 627342,
+      "file_modified": "2017-10-30T18:53:40",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 135 09",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 156800,
+        "duration_seconds": 3.56
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 135 09",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-F_145_03.aif",
+      "filepath": "EL-F_145_03.aif",
+      "filesize_bytes": 1168030,
+      "file_modified": "2017-10-30T18:53:40",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-F 145 03",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 291972,
+        "duration_seconds": 6.62
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-F 145 03",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "whoknowas.aif",
+      "filepath": "whoknowas.aif",
+      "filesize_bytes": 1410652,
+      "file_modified": "2014-04-28T08:56:30",
+      "file_created": "2025-11-30T20:07:30",
+      "chunks": [
+        "COMM",
+        "COMT",
+        "CHAN",
+        "LGWV",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": "1 comments",
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 344215,
+        "duration_seconds": 7.81
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "1 comment markers"
+      ]
+    }
+  ],
+  "all_files": [
+    {
+      "filename": "Deep_Transportation_Tone.aif",
+      "filepath": "Deep_Transportation_Tone.aif",
+      "filesize_bytes": 2116854,
+      "file_modified": "2014-06-22T05:57:08",
+      "file_created": "2025-11-30T20:07:13",
+      "chunks": [
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 24,
+        "frames": 352800,
+        "duration_seconds": 8.0
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "EL-A_82_01.aif",
+      "filepath": "EL-A_82_01.aif",
+      "filesize_bytes": 516434,
+      "file_modified": "2017-10-30T18:53:10",
+      "file_created": "2025-11-30T20:07:13",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-A 82 01\u00001",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 129073,
+        "duration_seconds": 2.93
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-A 82 01\u00001",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-A_82_02.aif",
+      "filepath": "EL-A_82_02.aif",
+      "filesize_bytes": 516434,
+      "file_modified": "2017-10-30T18:53:10",
+      "file_created": "2025-11-30T20:07:13",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-A 82 02\u00002",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 129073,
+        "duration_seconds": 2.93
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-A 82 02\u00002",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-A_85_02.aif",
+      "filepath": "EL-A_85_02.aif",
+      "filesize_bytes": 498214,
+      "file_modified": "2017-10-30T18:53:10",
+      "file_created": "2025-11-30T20:07:13",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-A 85 02\u00002",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 124518,
+        "duration_seconds": 2.82
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-A 85 02\u00002",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-A_87_02.aif",
+      "filepath": "EL-A_87_02.aif",
+      "filesize_bytes": 486762,
+      "file_modified": "2017-10-30T18:53:10",
+      "file_created": "2025-11-30T20:07:13",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-A 87 02\u00002",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 121655,
+        "duration_seconds": 2.76
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-A 87 02\u00002",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-B_115_01.aif",
+      "filepath": "EL-B_115_01.aif",
+      "filesize_bytes": 1472698,
+      "file_modified": "2017-10-30T18:53:10",
+      "file_created": "2025-11-30T20:07:14",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-B 115 01",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 368139,
+        "duration_seconds": 8.35
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-B 115 01",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-B_115_02.aif",
+      "filepath": "EL-B_115_02.aif",
+      "filesize_bytes": 736422,
+      "file_modified": "2017-10-30T18:53:10",
+      "file_created": "2025-11-30T20:07:14",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-B 115 02",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 184070,
+        "duration_seconds": 4.17
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-B 115 02",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-B_115_03.aif",
+      "filepath": "EL-B_115_03.aif",
+      "filesize_bytes": 736422,
+      "file_modified": "2017-10-30T18:53:10",
+      "file_created": "2025-11-30T20:07:14",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-B 115 03",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 184070,
+        "duration_seconds": 4.17
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-B 115 03",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-B_120_05.aif",
+      "filepath": "EL-B_120_05.aif",
+      "filesize_bytes": 171030,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:14",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-B 120 05",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 42722,
+        "duration_seconds": 0.97
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-B 120 05",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_122_01.aif",
+      "filepath": "EL-C_122_01.aif",
+      "filesize_bytes": 347158,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:14",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 122 01",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 86754,
+        "duration_seconds": 1.97
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 122 01",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_122_02.aif",
+      "filepath": "EL-C_122_02.aif",
+      "filesize_bytes": 347158,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:14",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 122 02",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 86754,
+        "duration_seconds": 1.97
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 122 02",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_122_03.aif",
+      "filepath": "EL-C_122_03.aif",
+      "filesize_bytes": 694174,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:14",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 122 03",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 173508,
+        "duration_seconds": 3.93
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 122 03",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_122_04.aif",
+      "filepath": "EL-C_122_04.aif",
+      "filesize_bytes": 694174,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:15",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 122 04",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 173508,
+        "duration_seconds": 3.93
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 122 04",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_122_05.aif",
+      "filepath": "EL-C_122_05.aif",
+      "filesize_bytes": 1388206,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:15",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 122 05",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 347016,
+        "duration_seconds": 7.87
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 122 05",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_122_06.aif",
+      "filepath": "EL-C_122_06.aif",
+      "filesize_bytes": 1388206,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:15",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 122 06",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 347016,
+        "duration_seconds": 7.87
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 122 06",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_122_07.aif",
+      "filepath": "EL-C_122_07.aif",
+      "filesize_bytes": 1388206,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:15",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 122 07",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 347016,
+        "duration_seconds": 7.87
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 122 07",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_122_10.aif",
+      "filepath": "EL-C_122_10.aif",
+      "filesize_bytes": 694174,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:15",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 122 10",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 173508,
+        "duration_seconds": 3.93
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 122 10",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_125_04.aif",
+      "filepath": "EL-C_125_04.aif",
+      "filesize_bytes": 668834,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:16",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 125 04",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 167173,
+        "duration_seconds": 3.79
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 125 04",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_125_05.aif",
+      "filepath": "EL-C_125_05.aif",
+      "filesize_bytes": 1354894,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:16",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 125 05",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 338688,
+        "duration_seconds": 7.68
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 125 05",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_125_07.aif",
+      "filepath": "EL-C_125_07.aif",
+      "filesize_bytes": 1354894,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:16",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 125 07",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 338688,
+        "duration_seconds": 7.68
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 125 07",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_125_08.aif",
+      "filepath": "EL-C_125_08.aif",
+      "filesize_bytes": 1354894,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:16",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 125 08",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 338688,
+        "duration_seconds": 7.68
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 125 08",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_125_09.aif",
+      "filepath": "EL-C_125_09.aif",
+      "filesize_bytes": 1354894,
+      "file_modified": "2017-10-30T18:53:12",
+      "file_created": "2025-11-30T20:07:17",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 125 09",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 338688,
+        "duration_seconds": 7.68
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 125 09",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_125_10.aif",
+      "filepath": "EL-C_125_10.aif",
+      "filesize_bytes": 338830,
+      "file_modified": "2017-10-30T18:53:14",
+      "file_created": "2025-11-30T20:07:17",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 125 10",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 84672,
+        "duration_seconds": 1.92
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 125 10",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_125_11.aif",
+      "filepath": "EL-C_125_11.aif",
+      "filesize_bytes": 673466,
+      "file_modified": "2017-10-30T18:53:14",
+      "file_created": "2025-11-30T20:07:17",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 125 11",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 168331,
+        "duration_seconds": 3.82
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 125 11",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-C_128_03.aif",
+      "filepath": "EL-C_128_03.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:14",
+      "file_created": "2025-11-30T20:07:17",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-C 128 03",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-C 128 03",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_01.aif",
+      "filepath": "EL-D_128_01.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:26",
+      "file_created": "2025-11-30T20:07:17",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 01",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 01",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_02.aif",
+      "filepath": "EL-D_128_02.aif",
+      "filesize_bytes": 330894,
+      "file_modified": "2017-10-30T18:53:26",
+      "file_created": "2025-11-30T20:07:17",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 02",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 82688,
+        "duration_seconds": 1.88
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 02",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_03.aif",
+      "filepath": "EL-D_128_03.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:26",
+      "file_created": "2025-11-30T20:07:18",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 03",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 03",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_04.aif",
+      "filepath": "EL-D_128_04.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:26",
+      "file_created": "2025-11-30T20:07:18",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 04",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 04",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_05.aif",
+      "filepath": "EL-D_128_05.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:26",
+      "file_created": "2025-11-30T20:07:18",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 05",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 05",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_06.aif",
+      "filepath": "EL-D_128_06.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:26",
+      "file_created": "2025-11-30T20:07:18",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 06",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 06",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_07.aif",
+      "filepath": "EL-D_128_07.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:26",
+      "file_created": "2025-11-30T20:07:19",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 07",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 07",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_08.aif",
+      "filepath": "EL-D_128_08.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:26",
+      "file_created": "2025-11-30T20:07:19",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 08",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 08",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_10.aif",
+      "filepath": "EL-D_128_10.aif",
+      "filesize_bytes": 1323138,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:19",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 10",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330749,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 10",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_11.aif",
+      "filepath": "EL-D_128_11.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:19",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 11",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 11",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_12.aif",
+      "filepath": "EL-D_128_12.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:19",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 12",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 12",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_13.aif",
+      "filepath": "EL-D_128_13.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:19",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 13",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 13",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_14.aif",
+      "filepath": "EL-D_128_14.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:19",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 14",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 14",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_15.aif",
+      "filepath": "EL-D_128_15.aif",
+      "filesize_bytes": 330894,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:20",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 15",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 82688,
+        "duration_seconds": 1.88
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 15",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_16.aif",
+      "filepath": "EL-D_128_16.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:20",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 16",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 16",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_17.aif",
+      "filepath": "EL-D_128_17.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:20",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 17",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 17",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_19.aif",
+      "filepath": "EL-D_128_19.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:20",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 19",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 19",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_20.aif",
+      "filepath": "EL-D_128_20.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:20",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 20",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 20",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_21.aif",
+      "filepath": "EL-D_128_21.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:20",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 21",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 21",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_22.aif",
+      "filepath": "EL-D_128_22.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:28",
+      "file_created": "2025-11-30T20:07:21",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 22",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 22",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_23.aif",
+      "filepath": "EL-D_128_23.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:21",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 23",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 23",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_28.aif",
+      "filepath": "EL-D_128_28.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:21",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 28",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 28",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_29.aif",
+      "filepath": "EL-D_128_29.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:21",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 29",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 29",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_32.aif",
+      "filepath": "EL-D_128_32.aif",
+      "filesize_bytes": 330894,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:22",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 32",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 82688,
+        "duration_seconds": 1.88
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 32",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_34.aif",
+      "filepath": "EL-D_128_34.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:22",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 34",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 34",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_36.aif",
+      "filepath": "EL-D_128_36.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:22",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 36",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 36",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_37.aif",
+      "filepath": "EL-D_128_37.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:22",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 37",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 37",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_38.aif",
+      "filepath": "EL-D_128_38.aif",
+      "filesize_bytes": 330890,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:22",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 38",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 82687,
+        "duration_seconds": 1.87
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 38",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_39.aif",
+      "filepath": "EL-D_128_39.aif",
+      "filesize_bytes": 700402,
+      "file_modified": "2017-10-30T18:53:30",
+      "file_created": "2025-11-30T20:07:22",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 39",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 175065,
+        "duration_seconds": 3.97
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 39",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_54.aif",
+      "filepath": "EL-D_128_54.aif",
+      "filesize_bytes": 330894,
+      "file_modified": "2017-10-30T18:53:32",
+      "file_created": "2025-11-30T20:07:22",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 54",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 82688,
+        "duration_seconds": 1.88
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 54",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_58.aif",
+      "filepath": "EL-D_128_58.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:32",
+      "file_created": "2025-11-30T20:07:23",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 58",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 58",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_128_64.aif",
+      "filepath": "EL-D_128_64.aif",
+      "filesize_bytes": 1323142,
+      "file_modified": "2017-10-30T18:53:32",
+      "file_created": "2025-11-30T20:07:23",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 128 64",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 330750,
+        "duration_seconds": 7.5
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 128 64",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_05.aif",
+      "filepath": "EL-D_130_05.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:34",
+      "file_created": "2025-11-30T20:07:23",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 05",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 05",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_11.aif",
+      "filepath": "EL-D_130_11.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:34",
+      "file_created": "2025-11-30T20:07:23",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 11",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 11",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_34.aif",
+      "filepath": "EL-D_130_34.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:23",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 34",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 34",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_35.aif",
+      "filepath": "EL-D_130_35.aif",
+      "filesize_bytes": 325802,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:23",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 35",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 81415,
+        "duration_seconds": 1.85
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 35",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_39.aif",
+      "filepath": "EL-D_130_39.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:24",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 39",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 39",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_41.aif",
+      "filepath": "EL-D_130_41.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:24",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 41",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 41",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_43.aif",
+      "filepath": "EL-D_130_43.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:24",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 43",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 43",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_44.aif",
+      "filepath": "EL-D_130_44.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:24",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 44",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 44",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_45.aif",
+      "filepath": "EL-D_130_45.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:24",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 45",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 45",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_46.aif",
+      "filepath": "EL-D_130_46.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:25",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 46",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 46",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_48.aif",
+      "filepath": "EL-D_130_48.aif",
+      "filesize_bytes": 1954110,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:25",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 48",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 488492,
+        "duration_seconds": 11.08
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 48",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_49.aif",
+      "filepath": "EL-D_130_49.aif",
+      "filesize_bytes": 325802,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:25",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 49",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 81415,
+        "duration_seconds": 1.85
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 49",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_50.aif",
+      "filepath": "EL-D_130_50.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:25",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 50",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 50",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_51.aif",
+      "filepath": "EL-D_130_51.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:25",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 51",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 51",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_52.aif",
+      "filepath": "EL-D_130_52.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:36",
+      "file_created": "2025-11-30T20:07:26",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 52",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 52",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_55.aif",
+      "filepath": "EL-D_130_55.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:26",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 55",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 55",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_56.aif",
+      "filepath": "EL-D_130_56.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:26",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 56",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 56",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_57.aif",
+      "filepath": "EL-D_130_57.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:26",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 57",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 57",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_58.aif",
+      "filepath": "EL-D_130_58.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:26",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 58",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 58",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-D_130_59.aif",
+      "filepath": "EL-D_130_59.aif",
+      "filesize_bytes": 1302786,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:26",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-D 130 59",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 325661,
+        "duration_seconds": 7.38
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-D 130 59",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_128_05.aif",
+      "filepath": "EL-E_128_05.aif",
+      "filesize_bytes": 330894,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 128 05",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 82688,
+        "duration_seconds": 1.88
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 128 05",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_128_08.aif",
+      "filepath": "EL-E_128_08.aif",
+      "filesize_bytes": 661642,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 128 08",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 165375,
+        "duration_seconds": 3.75
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 128 08",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_130_02.aif",
+      "filepath": "EL-E_130_02.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 130 02",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 130 02",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_130_05.aif",
+      "filepath": "EL-E_130_05.aif",
+      "filesize_bytes": 325802,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 130 05",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 81415,
+        "duration_seconds": 1.85
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 130 05",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_130_06.aif",
+      "filepath": "EL-E_130_06.aif",
+      "filesize_bytes": 325802,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 130 06",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 81415,
+        "duration_seconds": 1.85
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 130 06",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_130_07.aif",
+      "filepath": "EL-E_130_07.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 130 07",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 130 07",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_130_08.aif",
+      "filepath": "EL-E_130_08.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 130 08",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 130 08",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_130_09.aif",
+      "filepath": "EL-E_130_09.aif",
+      "filesize_bytes": 651466,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 130 09",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 162831,
+        "duration_seconds": 3.69
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 130 09",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_135_01.aif",
+      "filepath": "EL-E_135_01.aif",
+      "filesize_bytes": 627342,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:27",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 135 01",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 156800,
+        "duration_seconds": 3.56
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 135 01",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_135_02.aif",
+      "filepath": "EL-E_135_02.aif",
+      "filesize_bytes": 627342,
+      "file_modified": "2017-10-30T18:53:38",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 135 02",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 156800,
+        "duration_seconds": 3.56
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 135 02",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_135_03.aif",
+      "filepath": "EL-E_135_03.aif",
+      "filesize_bytes": 313742,
+      "file_modified": "2017-10-30T18:53:40",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 135 03",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 78400,
+        "duration_seconds": 1.78
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 135 03",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_135_04.aif",
+      "filepath": "EL-E_135_04.aif",
+      "filesize_bytes": 313742,
+      "file_modified": "2017-10-30T18:53:40",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 135 04",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 78400,
+        "duration_seconds": 1.78
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 135 04",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_135_05.aif",
+      "filepath": "EL-E_135_05.aif",
+      "filesize_bytes": 313742,
+      "file_modified": "2017-10-30T18:53:40",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 135 05",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 78400,
+        "duration_seconds": 1.78
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 135 05",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_135_06.aif",
+      "filepath": "EL-E_135_06.aif",
+      "filesize_bytes": 627342,
+      "file_modified": "2017-10-30T18:53:40",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 135 06",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 156800,
+        "duration_seconds": 3.56
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 135 06",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_135_07.aif",
+      "filepath": "EL-E_135_07.aif",
+      "filesize_bytes": 313742,
+      "file_modified": "2017-10-30T18:53:40",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 135 07",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 78400,
+        "duration_seconds": 1.78
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 135 07",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-E_135_09.aif",
+      "filepath": "EL-E_135_09.aif",
+      "filesize_bytes": 627342,
+      "file_modified": "2017-10-30T18:53:40",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-E 135 09",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 156800,
+        "duration_seconds": 3.56
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-E 135 09",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "EL-F_145_03.aif",
+      "filepath": "EL-F_145_03.aif",
+      "filesize_bytes": 1168030,
+      "file_modified": "2017-10-30T18:53:40",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "INST",
+        "SSND",
+        "NAME",
+        "ANNO"
+      ],
+      "metadata": {
+        "name": "EL-F 145 03",
+        "author": null,
+        "copyright": null,
+        "annotation": "Made with Sonic Foundry ACID 4",
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 291972,
+        "duration_seconds": 6.62
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "NAME chunk: EL-F 145 03",
+        "SOFTWARE: Made with Sonic Foundry ACID 4"
+      ]
+    },
+    {
+      "filename": "INHARMX_3.aif",
+      "filepath": "INHARMX_3.aif",
+      "filesize_bytes": 529254,
+      "file_modified": "2012-07-28T16:32:26",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 24,
+        "frames": 88200,
+        "duration_seconds": 2.0
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "STRUM3.aif",
+      "filepath": "STRUM3.aif",
+      "filesize_bytes": 13876,
+      "file_modified": "2014-03-30T10:12:18",
+      "file_created": "2025-11-30T20:07:28",
+      "chunks": [
+        "FVER",
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 32,
+        "frames": 1723,
+        "duration_seconds": 0.04
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "Tones_from_Es_Vedra_1.aif",
+      "filepath": "Tones_from_Es_Vedra_1.aif",
+      "filesize_bytes": 4233654,
+      "file_modified": "2014-06-18T12:52:46",
+      "file_created": "2025-11-30T20:07:29",
+      "chunks": [
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 24,
+        "frames": 705600,
+        "duration_seconds": 16.0
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "XF_SLICE_1.aif",
+      "filepath": "XF_SLICE_1.aif",
+      "filesize_bytes": 44716,
+      "file_modified": "2014-09-01T04:39:34",
+      "file_created": "2025-11-30T20:07:29",
+      "chunks": [
+        "FVER",
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 32,
+        "frames": 5578,
+        "duration_seconds": 0.13
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "XF_SLICE_2.aif",
+      "filepath": "XF_SLICE_2.aif",
+      "filesize_bytes": 80436,
+      "file_modified": "2014-09-01T04:38:46",
+      "file_created": "2025-11-30T20:07:29",
+      "chunks": [
+        "FVER",
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 32,
+        "frames": 10043,
+        "duration_seconds": 0.23
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "XF_SLICE_3.aif",
+      "filepath": "XF_SLICE_3.aif",
+      "filesize_bytes": 87692,
+      "file_modified": "2014-09-01T04:45:20",
+      "file_created": "2025-11-30T20:07:29",
+      "chunks": [
+        "FVER",
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 32,
+        "frames": 10950,
+        "duration_seconds": 0.25
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "detroit.aif",
+      "filepath": "detroit.aif",
+      "filesize_bytes": 1587654,
+      "file_modified": "2014-06-17T02:30:58",
+      "file_created": "2025-11-30T20:07:29",
+      "chunks": [
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 24,
+        "frames": 264600,
+        "duration_seconds": 6.0
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "dieter_sample.aif",
+      "filepath": "dieter_sample.aif",
+      "filesize_bytes": 529254,
+      "file_modified": "2011-04-24T07:30:10",
+      "file_created": "2025-11-30T20:07:29",
+      "chunks": [
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 24,
+        "frames": 88200,
+        "duration_seconds": 2.0
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "hungernorm.aif",
+      "filepath": "hungernorm.aif",
+      "filesize_bytes": 5421500,
+      "file_modified": "2014-04-23T10:51:50",
+      "file_created": "2025-11-30T20:07:30",
+      "chunks": [
+        "COMM",
+        "MARK",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": "2 markers"
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 1355355,
+        "duration_seconds": 30.73
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "i_just_wanna_dance.aif",
+      "filepath": "i_just_wanna_dance.aif",
+      "filesize_bytes": 529254,
+      "file_modified": "2014-06-16T17:26:00",
+      "file_created": "2025-11-30T20:07:30",
+      "chunks": [
+        "COMM",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": null,
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 24,
+        "frames": 88200,
+        "duration_seconds": 2.0
+      },
+      "is_original_work": true,
+      "commercial_indicators": []
+    },
+    {
+      "filename": "whoknowas.aif",
+      "filepath": "whoknowas.aif",
+      "filesize_bytes": 1410652,
+      "file_modified": "2014-04-28T08:56:30",
+      "file_created": "2025-11-30T20:07:30",
+      "chunks": [
+        "COMM",
+        "COMT",
+        "CHAN",
+        "LGWV",
+        "SSND"
+      ],
+      "metadata": {
+        "name": null,
+        "author": null,
+        "copyright": null,
+        "annotation": null,
+        "application": null,
+        "comments": "1 comments",
+        "markers": null
+      },
+      "audio_info": {
+        "channels": 2,
+        "sample_rate": 44100,
+        "bit_depth": 16,
+        "frames": 344215,
+        "duration_seconds": 7.81
+      },
+      "is_original_work": false,
+      "commercial_indicators": [
+        "1 comment markers"
+      ]
+    }
+  ]
+}

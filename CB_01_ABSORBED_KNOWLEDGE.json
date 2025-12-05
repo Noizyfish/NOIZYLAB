@@ -1,0 +1,39 @@
+{
+  "files": 1507464,
+  "size_gb": 3427.68,
+  "types": {
+    ".wav": 295059,
+    ".nki": 112384,
+    ".ncw": 983006,
+    ".nkc": 13802,
+    ".sfz": 1239,
+    ".aif": 13724,
+    ".exs": 76896,
+    ".rx2": 2757,
+    ".nkm": 4435,
+    ".nkx": 3571,
+    ".aiff": 591
+  },
+  "inst": {
+    "drums": 173542,
+    "hihat": 25450,
+    "kick": 20995,
+    "snare": 36505,
+    "bass": 161158,
+    "strings": 856329,
+    "piano": 13887,
+    "brass": 17597,
+    "guitar": 55783,
+    "fx": 9293,
+    "synth": 43458,
+    "choir": 12094
+  },
+  "pub": {
+    "fxpansion": 50981,
+    "8dio": 966297,
+    "native_instruments": 325163,
+    "eastwest": 15,
+    "heavyocity": 9,
+    "toontrack": 7149
+  }
+}

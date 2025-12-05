@@ -1,0 +1,68 @@
+{
+  "version": "1.0.0",
+  "services": [
+    {
+      "name": "backend",
+      "description": "Node.js Express API server",
+      "command": "cd backend/core && npm run dev",
+      "port": 5000,
+      "auto_start": true
+    },
+    {
+      "name": "brain",
+      "description": "Python FastAPI AI engine",
+      "command": "cd backend/brain && python3 app.py",
+      "port": 5001,
+      "auto_start": true
+    },
+    {
+      "name": "frontend",
+      "description": "React UI application",
+      "command": "cd frontend && npm run dev",
+      "port": 3000,
+      "auto_start": true
+    },
+    {
+      "name": "omega",
+      "description": "Omega Core miracle engine",
+      "command": "node miracle/omega/omega_core.ts",
+      "port": null,
+      "auto_start": true
+    },
+    {
+      "name": "remote",
+      "description": "Remote desktop relay server",
+      "command": "node remote/host/relay.ts",
+      "port": 9000,
+      "auto_start": false
+    },
+    {
+      "name": "voice",
+      "description": "Voice interface listener",
+      "command": "node voice/listener.ts",
+      "port": null,
+      "auto_start": false
+    },
+    {
+      "name": "updater",
+      "description": "Auto-update service",
+      "command": "node updater/updater.ts",
+      "port": null,
+      "auto_start": true
+    },
+    {
+      "name": "mesh",
+      "description": "Multi-device mesh network",
+      "command": "node noizyos/mesh/mesh_node.ts",
+      "port": 8888,
+      "auto_start": false
+    },
+    {
+      "name": "autopilot",
+      "description": "Autonomous repair system",
+      "command": "node noizyos/autopilot/autopilot_engine.ts",
+      "port": null,
+      "auto_start": false
+    }
+  ]
+}
