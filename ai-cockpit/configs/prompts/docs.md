@@ -1,19 +1,22 @@
 # Generate Documentation
 
-Generate clear documentation for the selected code.
+Produce concise documentation optimized for quick scanning.
 
-## Documentation Types
+## Required Sections
 
-1. **Docstrings** - Function/class documentation
-2. **README sections** - If generating for a module
-3. **API docs** - If endpoints/interfaces
+1. **Purpose** - What it does (1-2 sentences)
+2. **Inputs/Outputs** - Parameters and return values
+3. **Invariants** - Assumptions that must hold
+4. **Side Effects** - External state changes
+5. **Example Usage** - Copy-paste ready
+6. **Known Limitations** - What it can't do
 
 ## Style
 
 - Google docstring format
-- Concise but complete
-- Include examples where helpful
-- Note any gotchas or warnings
+- **Concise** - No filler words
+- **Scannable** - Headers, bullets, tables
+- **Actionable** - Examples that work
 
 ## Output Format
 
@@ -21,23 +24,35 @@ Generate clear documentation for the selected code.
 
 ```python
 def function_name(param1: type, param2: type) -> return_type:
-    """Short description.
-
-    Longer description if needed.
+    """One-line purpose.
 
     Args:
-        param1: Description of param1.
-        param2: Description of param2.
+        param1: What it is. Constraints.
+        param2: What it is. Defaults to X.
 
     Returns:
-        Description of return value.
+        What you get back. Type and structure.
 
     Raises:
-        ErrorType: When this error occurs.
+        ValueError: When param1 is invalid.
+        IOError: When file not found.
+
+    Invariants:
+        - param1 must be non-empty
+        - Database connection must exist
+
+    Side Effects:
+        - Writes to filesystem
+        - Modifies global state
 
     Example:
-        >>> function_name("value", 123)
-        "result"
+        >>> result = function_name("input", 42)
+        >>> print(result)
+        "expected output"
+
+    Limitations:
+        - Max 1000 items
+        - UTF-8 only
     """
 ```
 
@@ -45,16 +60,59 @@ def function_name(param1: type, param2: type) -> return_type:
 
 ```python
 class ClassName:
-    """Short description.
+    """One-line purpose.
 
-    Longer description if needed.
+    Use this when you need to [scenario].
 
     Attributes:
-        attr1: Description.
-        attr2: Description.
+        attr1 (type): Description.
+        attr2 (type): Description. Default: X.
+
+    Invariants:
+        - Must call init() before use
+        - Not thread-safe
 
     Example:
-        >>> obj = ClassName()
-        >>> obj.method()
+        >>> obj = ClassName(config)
+        >>> obj.process(data)
+        >>> obj.close()
+
+    Limitations:
+        - Single-threaded only
+        - Memory scales with input size
     """
+```
+
+### For Modules/README
+
+```markdown
+# Module Name
+
+> One-line description
+
+## Quick Start
+
+\`\`\`python
+from module import Thing
+result = Thing().do_work()
+\`\`\`
+
+## API
+
+| Function | Purpose | Returns |
+|----------|---------|---------|
+| `func1()` | Does X | `str` |
+| `func2(n)` | Does Y | `int` |
+
+## Configuration
+
+| Env Var | Default | Description |
+|---------|---------|-------------|
+| `API_KEY` | None | Required |
+| `TIMEOUT` | 30 | Seconds |
+
+## Limitations
+
+- Max 1MB payload
+- Requires Python 3.10+
 ```
