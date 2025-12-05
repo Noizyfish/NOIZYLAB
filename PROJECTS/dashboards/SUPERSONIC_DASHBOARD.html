@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>⚡ SUPERSONIC</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+    :root{--bg:#050508;--card:#0a0a12;--accent:#00ff88;--blue:#00d4ff;--gold:#ffd700;--red:#ff4466;--text:#fff;--muted:#666}
+    body{font-family:-apple-system,system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;padding:15px;padding-bottom:120px}
+    .glow{text-shadow:0 0 20px var(--accent)}
+    
+    /* Header */
+    .hdr{text-align:center;padding:20px 0}
+    .hdr h1{font-size:2.5rem;font-weight:900;background:linear-gradient(90deg,var(--accent),var(--blue),var(--gold));-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:shift 3s linear infinite}
+    @keyframes shift{0%,100%{filter:hue-rotate(0deg)}50%{filter:hue-rotate(30deg)}}
+    .hdr .sub{color:var(--muted);font-size:.8rem;margin-top:5px}
+    .live{display:inline-flex;align-items:center;gap:6px;background:rgba(0,255,136,.1);padding:6px 14px;border-radius:20px;font-size:.75rem;color:var(--accent);margin-top:10px}
+    .live::before{content:'';width:8px;height:8px;background:var(--accent);border-radius:50%;animation:pulse 1s infinite}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+    
+    /* Stats Row */
+    .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:15px}
+    .stat{background:var(--card);border-radius:16px;padding:15px 10px;text-align:center;border:1px solid rgba(255,255,255,.05)}
+    .stat.hot{background:linear-gradient(135deg,rgba(0,255,136,.15),rgba(0,212,255,.1));border-color:var(--accent)}
+    .stat .v{font-size:1.8rem;font-weight:800;color:var(--accent)}
+    .stat.gold .v{color:var(--gold)}
+    .stat .l{font-size:.7rem;color:var(--muted);margin-top:4px}
+    
+    /* Progress */
+    .prog{background:var(--card);border-radius:16px;padding:15px;margin-bottom:15px}
+    .prog-top{display:flex;justify-content:space-between;margin-bottom:8px;font-size:.85rem}
+    .prog-bar{height:10px;background:rgba(255,255,255,.1);border-radius:5px;overflow:hidden}
+    .prog-fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--blue));border-radius:5px;transition:width .5s}
+    
+    /* Grid */
+    .grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:15px}
+    .card{background:var(--card);border-radius:14px;padding:12px 8px;text-align:center;cursor:pointer;border:1px solid rgba(255,255,255,.05);transition:all .15s}
+    .card:active{transform:scale(.96);border-color:var(--accent)}
+    .card .ico{font-size:28px;margin-bottom:6px}
+    .card .nm{font-size:.75rem;font-weight:700}
+    .card .rl{font-size:.65rem;color:var(--muted);margin-top:2px}
+    .card.fam{border-left:3px solid #ff6b9d}
+    .card.ops{border-left:3px solid var(--blue)}
+    
+    /* Systems */
+    .sys{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:15px}
+    .sys-card{background:var(--card);border-radius:12px;padding:12px;text-align:center;border:1px solid rgba(255,255,255,.05)}
+    .sys-card .ip{font-family:monospace;font-size:.7rem;color:var(--blue);margin-top:4px}
+    .sys-card .status{width:8px;height:8px;background:var(--accent);border-radius:50%;display:inline-block;margin-right:4px}
+    
+    /* Repairs */
+    .repairs{background:var(--card);border-radius:16px;overflow:hidden;margin-bottom:15px}
+    .repair{display:flex;justify-content:space-between;align-items:center;padding:12px 15px;border-bottom:1px solid rgba(255,255,255,.05)}
+    .repair:last-child{border:none}
+    .repair .info{display:flex;align-items:center;gap:10px}
+    .repair .tid{font-weight:600;font-size:.85rem}
+    .repair .cust{font-size:.75rem;color:var(--muted)}
+    .repair .badge{padding:4px 10px;border-radius:10px;font-size:.7rem;font-weight:600;background:rgba(0,255,136,.2);color:var(--accent)}
+    
+    /* FABs */
+    .fab{position:fixed;width:70px;height:70px;border-radius:50%;border:none;font-size:28px;cursor:pointer;z-index:1000;display:flex;align-items:center;justify-content:center;transition:transform .15s}
+    .fab:active{transform:scale(.92)}
+    .fab.voice{bottom:25px;right:25px;background:linear-gradient(135deg,var(--accent),var(--blue));box-shadow:0 5px 25px rgba(0,255,136,.4)}
+    .fab.new{bottom:25px;left:25px;background:linear-gradient(135deg,var(--gold),#ffaa00);box-shadow:0 5px 25px rgba(255,215,0,.4)}
+    .fab.listening{animation:vpulse 1s infinite}
+    @keyframes vpulse{0%,100%{box-shadow:0 5px 25px rgba(0,255,136,.4)}50%{box-shadow:0 5px 50px rgba(0,255,136,.8)}}
+    
+    /* Toast */
+    .toast{position:fixed;bottom:110px;left:50%;transform:translateX(-50%);background:var(--card);border:2px solid var(--accent);border-radius:30px;padding:12px 25px;font-size:.9rem;font-weight:600;z-index:1500;opacity:0;transition:opacity .2s}
+    .toast.show{opacity:1}
+    
+    /* Modal */
+    .modal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.95);z-index:2000;align-items:center;justify-content:center}
+    .modal.on{display:flex}
+    .modal-box{background:var(--card);border-radius:20px;padding:25px;max-width:450px;width:90%;text-align:center}
+    .modal-box h2{font-size:1.4rem;margin-bottom:12px}
+    .modal-box p{color:var(--muted);font-size:.9rem;white-space:pre-line;margin-bottom:20px;line-height:1.5}
+    .modal-box button{background:var(--accent);color:#000;border:none;padding:12px 40px;border-radius:25px;font-size:1rem;font-weight:700;cursor:pointer}
+    
+    .section{font-size:.85rem;font-weight:700;color:var(--blue);margin:15px 0 10px;display:flex;align-items:center;gap:8px}
+    
+    @media(max-width:600px){.stats,.sys{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:repeat(3,1fr)}}
+  </style>
+</head>
+<body>
+  <div class="hdr">
+    <h1>⚡ SUPERSONIC</h1>
+    <div class="sub">NOIZYLAB Command Center v3.0</div>
+    <div class="live"><span id="status">LIVE</span></div>
+  </div>
+
+  <div class="stats">
+    <div class="stat hot"><div class="v" id="repairs">12</div><div class="l">REPAIRS</div></div>
+    <div class="stat gold"><div class="v" id="revenue">$1,068</div><div class="l">REVENUE</div></div>
+    <div class="stat"><div class="v" id="goal">100%</div><div class="l">GOAL</div></div>
+    <div class="stat"><div class="v">$89</div><div class="l">RATE</div></div>
+  </div>
+
+  <div class="prog">
+    <div class="prog-top"><span>Daily Goal</span><span id="pct">100%</span></div>
+    <div class="prog-bar"><div class="prog-fill" id="bar" style="width:100%"></div></div>
+  </div>
+
+  <div class="section">🤖 AI AGENTS</div>
+  <div class="grid">
+    <div class="card fam" onclick="agent('SHIRL')"><div class="ico">👩‍🦰</div><div class="nm">SHIRL</div><div class="rl">Aunt</div></div>
+    <div class="card fam" onclick="agent('POPS')"><div class="ico">👨‍🦳</div><div class="nm">POPS</div><div class="rl">Dad</div></div>
+    <div class="card ops" onclick="agent('ENGR')"><div class="ico">👷</div><div class="nm">ENGR</div><div class="rl">Tech</div></div>
+    <div class="card ops" onclick="agent('DREAM')"><div class="ico">🎨</div><div class="nm">DREAM</div><div class="rl">Vision</div></div>
+    <div class="card ops" onclick="agent('GABRIEL')"><div class="ico">⚔️</div><div class="nm">GABRIEL</div><div class="rl">Execute</div></div>
+  </div>
+
+  <div class="section">🖥️ MC96 NETWORK</div>
+  <div class="sys">
+    <div class="sys-card"><div class="nm"><span class="status"></span>GOD</div><div class="ip">10.90.90.10</div></div>
+    <div class="sys-card"><div class="nm"><span class="status"></span>GABRIEL</div><div class="ip">10.90.90.20</div></div>
+    <div class="sys-card"><div class="nm"><span class="status"></span>DaFixer</div><div class="ip">10.90.90.40</div></div>
+    <div class="sys-card"><div class="nm"><span class="status"></span>MC96</div><div class="ip">10.90.90.90</div></div>
+  </div>
+
+  <div class="section">🔧 RECENT REPAIRS</div>
+  <div class="repairs" id="list">
+    <div class="repair"><div class="info"><div>✅</div><div><div class="tid">NZ-20251203-012</div><div class="cust">Kevin Brown • Ryzen 5 5600X</div></div></div><div class="badge">PAID</div></div>
+    <div class="repair"><div class="info"><div>✅</div><div><div class="tid">NZ-20251203-011</div><div class="cust">Amanda White • i9-13900K</div></div></div><div class="badge">PAID</div></div>
+    <div class="repair"><div class="info"><div>✅</div><div><div class="tid">NZ-20251203-010</div><div class="cust">Robert Taylor • Ryzen 7 5800X3D</div></div></div><div class="badge">PAID</div></div>
+  </div>
+
+  <button class="fab new" onclick="newRepair()">➕</button>
+  <button class="fab voice" id="mic" onclick="voice()">🎤</button>
+  <div class="toast" id="toast"></div>
+  
+  <div class="modal" id="modal">
+    <div class="modal-box">
+      <h2 id="mtitle">Title</h2>
+      <p id="mtext">Text</p>
+      <button onclick="closeModal()">OK</button>
+    </div>
+  </div>
+
+  <script>
+    const agents={
+      SHIRL:{t:'👩‍🦰 SHIRL',m:'Division: FAMILY\n\nOrganization • Scheduling • Support\n\n"I\'m here. What do you need?"'},
+      POPS:{t:'👨‍🦳 POPS',m:'Division: FAMILY\n\nWisdom • Decisions • Perspective\n\n"What\'s weighing on you?"'},
+      ENGR:{t:'👷 ENGR_KEITH',m:'Division: OPERATIONS\nLegacy: R.K. Plowman\n\nCode • Deploy • Architecture\n\n"What are you building?"'},
+      DREAM:{t:'🎨 DREAM',m:'Division: OPERATIONS\n\nIdeas • Creativity • Brand\n\n"What do you want to create?"'},
+      GABRIEL:{t:'⚔️ GABRIEL',m:'Division: OPERATIONS\nChain: Rob → Claude → Gabriel\n\nExecute • Deadlines • Battle\n\n"What needs to get done NOW?"'}
+    };
+    
+    function toast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2500)}
+    function modal(t,m){document.getElementById('mtitle').textContent=t;document.getElementById('mtext').textContent=m;document.getElementById('modal').classList.add('on')}
+    function closeModal(){document.getElementById('modal').classList.remove('on')}
+    function agent(n){const a=agents[n];modal(a.t,a.m);toast('@'+n+' activated')}
+    function newRepair(){modal('➕ NEW REPAIR','Ticket: NZ-'+new Date().toISOString().slice(0,10).replace(/-/g,'')+'-XXX\n\nAmount: $89.00\n\nReady for intake!');toast('New ticket created')}
+    function voice(){
+      const m=document.getElementById('mic');m.classList.add('listening');toast('Listening...');
+      if('webkitSpeechRecognition' in window){
+        const r=new webkitSpeechRecognition();r.continuous=false;r.lang='en-US';
+        r.onresult=e=>{const c=e.results[0][0].transcript.toLowerCase();processVoice(c)};
+        r.onend=()=>m.classList.remove('listening');
+        r.onerror=()=>{m.classList.remove('listening');toast('Voice error')};
+        r.start();
+      }else{setTimeout(()=>{m.classList.remove('listening');toast('Voice ready')},2000)}
+    }
+    function processVoice(c){
+      toast('Heard: "'+c+'"');
+      if(c.includes('shirl'))agent('SHIRL');
+      else if(c.includes('pops'))agent('POPS');
+      else if(c.includes('engineer')||c.includes('keith'))agent('ENGR');
+      else if(c.includes('dream'))agent('DREAM');
+      else if(c.includes('gabriel'))agent('GABRIEL');
+      else if(c.includes('repair')||c.includes('new'))newRepair();
+      else if(c.includes('gorunfree'))modal('🔥 GORUNFREE','12/12 repairs ✅\n$1,068 revenue ✅\n100% goal ✅\n\nAll systems ONLINE!\n\n🔥 GORUNFREE COMPLETE 🔥');
+      else modal('🎤 Voice',`Heard: "${c}"\n\nTry: shirl, pops, engineer, dream, gabriel, new repair, gorunfree`);
+    }
+  </script>
+</body>
+</html>
