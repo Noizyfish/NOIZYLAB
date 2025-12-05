@@ -1,30 +1,54 @@
 # Refactor Code
 
-Refactor the selected code for:
+Refactor the selected code:
 
 ## Goals
 
-1. **Clarity** - Readable, self-documenting
-2. **Testability** - Easy to unit test
-3. **Security** - No vulnerabilities
-4. **Performance** - Efficient without premature optimization
+1. **Improve clarity and naming** - Self-documenting, descriptive
+2. **Add small, focused functions** - Single responsibility
+3. **Maintain behavior** - Show diffs to prove equivalence
+4. **Add tests for key paths** - Cover happy path and edge cases
+5. **Highlight any API or breaking change** - Flag for review
 
 ## Rules
 
 - Keep changes minimal and focused
 - Don't add features not requested
-- Preserve existing behavior
+- Preserve existing behavior exactly
 - Add type hints where missing
 - Remove dead code
+- Show before/after diffs
 
 ## Output Format
 
-```python
-# Refactored code here
+### Patch
+
+```diff
+- old code
++ new code
 ```
 
-### Changes Made
-- [bullet list of changes]
+### Comments
 
-### Why
-- [brief justification]
+Inline comments explaining non-obvious changes.
+
+### Tests
+
+```python
+def test_refactored_function():
+    """Test key behavior is preserved"""
+    # Arrange
+    # Act
+    # Assert
+```
+
+### Rationale
+
+Brief explanation of why each change improves the code.
+
+### Breaking Changes
+
+- [ ] None
+- [ ] API signature changed: [details]
+- [ ] Return type changed: [details]
+- [ ] Side effects changed: [details]
