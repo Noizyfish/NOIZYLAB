@@ -1,0 +1,60 @@
+{
+  "models": {
+    "claude": {
+      "provider": "claude",
+      "model": "claude-3-5-sonnet",
+      "temperature": 0.1,
+      "apiKey": "${ANTHROPIC_API_KEY}"
+    },
+    "copilot": {
+      "provider": "copilot",
+      "temperature": 0.2
+    },
+    "cursor": {
+      "provider": "cursor",
+      "temperature": 0.2
+    },
+    "opus": {
+      "provider": "anthropic",
+      "model": "claude-opus-4-5-20250929",
+      "temperature": 0.1,
+      "apiKey": "${ANTHROPIC_API_KEY}",
+      "contextLength": 200000
+    }
+  },
+  "contexts": {
+    "packDefault": ["README.md", "docs/**", "src/**", "tests/**"],
+    "noizylab": ["scripts/**", "configs/**", "ai-cockpit/**"]
+  },
+  "commands": {
+    "explain": {
+      "model": "claude",
+      "prompt": "Explain the selected code and risks."
+    },
+    "refactor": {
+      "model": "claude",
+      "prompt": "Refactor for clarity, tests, and security."
+    },
+    "tests": {
+      "model": "claude",
+      "prompt": "Generate robust unit/integration tests."
+    },
+    "noizy": {
+      "model": "opus",
+      "prompt": "You are NOIZY AI - expert in audio production, Python automation, MS365 admin. Help with NOIZYLAB tasks."
+    }
+  },
+  "tabAutocompleteModel": {
+    "title": "Fast Autocomplete",
+    "provider": "anthropic",
+    "model": "claude-3-haiku-20240307"
+  },
+  "contextProviders": [
+    {"name": "code"},
+    {"name": "docs"},
+    {"name": "diff"},
+    {"name": "terminal"},
+    {"name": "problems"},
+    {"name": "codebase"}
+  ]
+}

@@ -1,0 +1,62 @@
+# NOIZYLAB Provenance & Governance
+version: "1.0"
+project: NOIZYLAB
+owner: Rob Plowman
+contact: rp@fishmusicinc.com
+
+# Commit discipline
+commit_rules:
+  require_sign_off: true
+  require_issue_reference: false
+  max_files_per_commit: 50
+  forbidden_patterns:
+    - "*.env"
+    - "*.key"
+    - "credentials.*"
+    - "*.pem"
+    - ".env.local"
+
+# AI provenance tracking
+ai_attribution:
+  enabled: true
+  footer: |
+    Generated with [Claude Code](https://claude.com/claude-code)
+    Co-Authored-By: Claude <noreply@anthropic.com>
+
+# Code review requirements
+review:
+  require_review: false
+  auto_assign: ["Noizyfish"]
+
+# Branch protection
+branches:
+  main:
+    protected: true
+    require_pr: false
+    allow_force_push: true  # For cleanup operations
+
+# Audit log
+audit:
+  enabled: true
+  log_path: "/Users/m2ultra/NOIZYLAB/logs/audit.log"
+  events:
+    - commit
+    - push
+    - deploy
+    - sensitive_file_access
+
+# AI Artifact Provenance Template
+artifact:
+  name: "{{file}}"
+  created_at: "{{timestamp}}"
+  model: "{{model_name}}"
+  prompt_id: "{{prompt_hash}}"
+  checksum: "{{sha256}}"
+  approver: "rob"
+
+# Artifact tracking
+artifacts:
+  track_ai_generated: true
+  require_approval: true
+  metadata_format: yaml
+  storage_path: "/Users/m2ultra/NOIZYLAB/logs/artifacts/"
