@@ -1,60 +1,64 @@
 {
+  "$schema": "https://raw.githubusercontent.com/continuedev/continue/main/configSchema.json",
   "models": {
-    "claude": {
-      "provider": "claude",
+    "careful": {
+      "provider": "anthropic",
       "model": "claude-3-5-sonnet",
       "temperature": 0.1,
       "apiKey": "${ANTHROPIC_API_KEY}"
     },
-    "copilot": {
+    "docs": {
+      "provider": "anthropic",
+      "model": "claude-3-5-sonnet",
+      "temperature": 0.2,
+      "apiKey": "${ANTHROPIC_API_KEY}"
+    },
+    "tests": {
+      "provider": "anthropic",
+      "model": "claude-3-opus",
+      "temperature": 0.1,
+      "apiKey": "${ANTHROPIC_API_KEY}"
+    },
+    "flow": {
       "provider": "copilot",
       "temperature": 0.2
     },
-    "cursor": {
-      "provider": "cursor",
+    "local": {
+      "provider": "ollama",
+      "model": "mistral-large",
       "temperature": 0.2
-    },
-    "opus": {
-      "provider": "anthropic",
-      "model": "claude-opus-4-5-20250929",
-      "temperature": 0.1,
-      "apiKey": "${ANTHROPIC_API_KEY}",
-      "contextLength": 200000
     }
   },
-  "contexts": {
-    "packDefault": ["README.md", "docs/**", "src/**", "tests/**"],
-    "noizylab": ["scripts/**", "configs/**", "ai-cockpit/**"]
+  "context": {
+    "packDefault": [
+      "README.md",
+      "docs/**",
+      "src/**",
+      "tests/**",
+      "configs/context-packs/**"
+    ]
   },
   "commands": {
     "explain": {
-      "model": "claude",
-      "prompt": "Explain the selected code and risks."
+      "model": "careful",
+      "promptPath": "configs/prompts/explain.md"
     },
     "refactor": {
-      "model": "claude",
-      "prompt": "Refactor for clarity, tests, and security."
+      "model": "careful",
+      "promptPath": "configs/prompts/refactor.md"
     },
     "tests": {
-      "model": "claude",
-      "prompt": "Generate robust unit/integration tests."
+      "model": "tests",
+      "promptPath": "configs/prompts/tests.md"
     },
-    "noizy": {
-      "model": "opus",
-      "prompt": "You are NOIZY AI - expert in audio production, Python automation, MS365 admin. Help with NOIZYLAB tasks."
+    "docs": {
+      "model": "docs",
+      "promptPath": "configs/prompts/docs.md"
     }
   },
   "tabAutocompleteModel": {
     "title": "Fast Autocomplete",
     "provider": "anthropic",
     "model": "claude-3-haiku-20240307"
-  },
-  "contextProviders": [
-    {"name": "code"},
-    {"name": "docs"},
-    {"name": "diff"},
-    {"name": "terminal"},
-    {"name": "problems"},
-    {"name": "codebase"}
-  ]
+  }
 }
