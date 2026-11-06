@@ -14,6 +14,7 @@ concurrency: { group: cf-watch, cancel-in-progress: false }
 jobs:
   watch:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -41,14 +42,17 @@ jobs:
           git add -f docs/cloudflare/cf-watch-state.json docs/cloudflare/CF-WATCH-REPORT.md
           git commit -m "CF watch $(date -u +%F)" || exit 0
           git push -f origin cf-watch/state
+      - name: Publish report to the job summary
+        if: always() && hashFiles('docs/cloudflare/CF-WATCH-REPORT.md') != ''
+        run: |
+          { echo "## Cloudflare daily check"; echo; cat docs/cloudflare/CF-WATCH-REPORT.md; } >> "$GITHUB_STEP_SUMMARY"
       - name: Post news to the daily-check issue
         if: steps.watch.outputs.news != '0'
         env: { GH_TOKEN: "${{ github.token }}" }
         run: |
-          # Issues may be disabled on this repo; fall back to the job summary instead of failing.
+          # Issues may be disabled on this repo; the report is already in the job summary and on cf-watch/state.
           if [ "$(gh api "repos/$GITHUB_REPOSITORY" -q .has_issues)" != "true" ]; then
-            echo "::notice::Issues are disabled on $GITHUB_REPOSITORY; publishing the CF watch report to the job summary instead."
-            { echo "## Cloudflare daily check"; echo; cat docs/cloudflare/CF-WATCH-REPORT.md; } >> "$GITHUB_STEP_SUMMARY"
+            echo "::notice::Issues are disabled on $GITHUB_REPOSITORY; skipping the daily-check issue (see the job summary)."
             exit 0
           fi
           n=$(gh issue list --state open --search "Cloudflare daily check in:title" --json number -q '.[0].number')

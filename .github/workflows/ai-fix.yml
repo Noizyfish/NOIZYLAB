@@ -1,0 +1,75 @@
+# AI fix: runs after any watched workflow fails. Reads the failed-step logs, asks a model for the
+# root cause and a minimal patch, and publishes the diagnosis to the job summary. When the patch
+# applies cleanly it opens a pull request on an ai-fix/<run-id> branch. Nothing is merged
+# automatically, nothing runs on a schedule, and it never triggers itself.
+# Model: GitHub Models via GITHUB_TOKEN (free, needs `models: read`). Set ANTHROPIC_API_KEY to use Claude.
+name: ai-fix
+on:
+  workflow_run:
+    workflows: [cf-watch, redteam]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "Run ID of the failed workflow run to analyse"
+        required: true
+permissions:
+  contents: write        # push the ai-fix/<run-id> branch
+  pull-requests: write   # open the fix PR
+  actions: read          # read the failed run's logs
+  models: read           # GitHub Models inference
+concurrency: { group: "ai-fix-${{ github.event.workflow_run.id || inputs.run_id }}", cancel-in-progress: false }
+jobs:
+  fix:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'failure'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      RUN_ID: ${{ github.event.workflow_run.id || inputs.run_id }}
+      GITHUB_TOKEN: ${{ github.token }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: "${{ github.event.repository.default_branch }}", fetch-depth: 0 }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: HALT check (when HALT_URL is set; fails closed)
+        env: { HALT_URL: "${{ secrets.HALT_URL }}" }
+        run: if [ -n "$HALT_URL" ]; then bash scripts/halt/halt_check.sh; else echo "HALT_URL not set — read-only analysis, continuing"; fi
+      - name: Analyse the failed run
+        id: ai
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AI_FIX_MODEL: ${{ vars.AI_FIX_MODEL }}
+        run: node scripts/ai-fix/ai_fix.mjs --run "$RUN_ID"
+      - name: Publish diagnosis to the job summary
+        if: always() && hashFiles('docs/ai-fix/AI-FIX-REPORT.md') != ''
+        run: cat docs/ai-fix/AI-FIX-REPORT.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Open a fix PR (only when the patch applies cleanly)
+        if: steps.ai.outputs.patch == '1'
+        env:
+          TITLE: ${{ steps.ai.outputs.title }}
+          BASE: ${{ github.event.repository.default_branch }}
+        run: |
+          branch="ai-fix/$RUN_ID"
+          if [ -n "$(gh pr list --state open --head "$branch" --json number -q '.[0].number')" ]; then
+            echo "::notice::A PR for $branch is already open; nothing to do."; exit 0
+          fi
+          cp docs/ai-fix/AI-FIX-REPORT.md /tmp/report.md
+          cp docs/ai-fix/ai-fix.patch /tmp/fix.patch
+          rm -rf docs/ai-fix                                   # report goes in the PR body, not the tree
+          git config user.name "noizy-ai-fix"
+          git config user.email "noizy-ai-fix@users.noreply.github.com"
+          git checkout -B "$branch"
+          git apply /tmp/fix.patch
+          git add -A
+          git commit -m "$TITLE" -m "Automated by the ai-fix workflow for run $RUN_ID. Review before merging."
+          git push -f origin "$branch"
+          # "Allow GitHub Actions to create pull requests" may be off in repo settings; never fail the job for that.
+          gh pr create --base "$BASE" --head "$branch" --title "$TITLE" --body-file /tmp/report.md \
+            || echo "::warning::Could not open a PR (Settings → Actions → General → 'Allow GitHub Actions to create and approve pull requests'). Branch $branch is pushed."
+          mkdir -p docs/ai-fix && cp /tmp/report.md docs/ai-fix/AI-FIX-REPORT.md   # restore for the artifact step
+      - name: Keep the report as an artifact
+        if: always() && hashFiles('docs/ai-fix/AI-FIX-REPORT.md') != ''
+        uses: actions/upload-artifact@v4
+        with: { name: "ai-fix-report-${{ github.event.workflow_run.id || inputs.run_id }}", path: docs/ai-fix/, retention-days: 30 }
